@@ -1,0 +1,56 @@
+<flash>
+  <settings>
+    <path>
+      <image width="350" height="220"><![CDATA[assets/images/]]></image>
+      <bgimage width="486" height="292"><![CDATA[assets/images/]]></bgimage>
+      <audio><![CDATA[assets/audio/]]></audio>
+    </path>
+    <navigation>
+      <navigationX><![CDATA[7]]></navigationX>
+      <navigationY><![CDATA[145]]></navigationY>
+      <navigationGap><![CDATA[518]]></navigationGap>
+    </navigation>
+  </settings>
+  <card>
+    <front>
+      <text insert="true"><![CDATA[抽象的,深奥的]]></text>
+      <image insert="false"><![CDATA[]]></image>
+      <bg insert="true"><![CDATA[Flashcard2b.png]]></bg>
+      <audio insert="false"><![CDATA[]]></audio>
+    </front>
+    <back>
+      <text insert="true"><![CDATA[<b>抽象的,深奥的</b><br><br>[ agsda ]<br>adjective<br><br>Complete sentence]]></text>
+      <image insert="false"><![CDATA[]]></image>
+      <bg insert="true"><![CDATA[Flashcard2b.png]]></bg>
+      <audio insert="true"><![CDATA[Able.mp3]]></audio>
+    </back>
+  </card>
+  <card>
+    <front>
+      <text insert="true"><![CDATA[抽象的,深奥的]]></text>
+      <image insert="false"><![CDATA[]]></image>
+      <bg insert="true"><![CDATA[Flashcard2b.png]]></bg>
+      <audio insert="false"><![CDATA[]]></audio>
+    </front>
+    <back>
+      <text insert="true"><![CDATA[<b>a asda</b><br><br>phonetica sda ds<br>function asd asd<br><br>sentence asd asd]]></text>
+      <image insert="false"><![CDATA[]]></image>
+      <bg insert="true"><![CDATA[Flashcard2b.png]]></bg>
+      <audio insert="true"><![CDATA[Advisable.mp3]]></audio>
+    </back>
+  </card>
+  <card>
+    <front>
+      <text insert="true"><![CDATA[asd asd]]></text>
+      <image insert="false"><![CDATA[]]></image>
+      <bg insert="true"><![CDATA[Flashcard2b.png]]></bg>
+      <audio insert="false"><![CDATA[]]></audio>
+    </front>
+    <back>
+      <text insert="true"><![CDATA[<b>word a ads</b><br><br>phonetic asd asd<br>function asda<br><br>sentencedsa sd]]></text>
+      <image insert="false"><![CDATA[]]></image>
+      <bg insert="true"><![CDATA[Flashcard2b.png]]></bg>
+      <audio insert="true"><![CDATA[Afraid.mp3]]></audio>
+    </back>
+  </card>
+</flash>
