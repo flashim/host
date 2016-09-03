@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+
+
+
+	<!-- size settings -->
+	
+	<calendarWidth>280</calendarWidth>
+	<calendarHeight>306</calendarHeight>
+
+
+
+	<!-- days settings -->
+	
+	<prevBtnX>224</prevBtnX>
+	<prevBtnY>29</prevBtnY>
+	
+	<nextBtnX>255</nextBtnX>
+	<nextBtnY>29</nextBtnY>
+	
+	<mainTitleX>18</mainTitleX>
+	<mainTitleY>15</mainTitleY>
+	
+	<dayListX>19</dayListX>
+	<dayListY>59</dayListY>
+	<dayListWidth>245</dayListWidth>
+	
+	<daysHolderX>20</daysHolderX>
+	<daysHolderY>92</daysHolderY>
+	
+	<daysHolderBoxWidth>31</daysHolderBoxWidth>
+	<daysHolderBoxHeight>30</daysHolderBoxHeight>
+	
+	<daysHolderHorizontalSpacing>6</daysHolderHorizontalSpacing>
+	<daysHolderVerticalSpacing>6</daysHolderVerticalSpacing>
+	
+	
+	
+	<!-- events settings -->
+	
+	<eventsCloseBtnX>250</eventsCloseBtnX>
+	<eventsCloseBtnY>29</eventsCloseBtnY>
+	
+	<eventsMainTitleX>18</eventsMainTitleX>
+	<eventsMainTitleY>15</eventsMainTitleY>
+	<eventsMainTitle>Events</eventsMainTitle>
+	
+	<eventsCurrentDayX>19</eventsCurrentDayX>
+	<eventsCurrentDayY>59</eventsCurrentDayY>
+	
+	<eventsHolderX>19</eventsHolderX>
+	<eventsHolderY>90</eventsHolderY>
+	
+	<eventsHolderHeight>185</eventsHolderHeight>
+	
+	<eventsScrollX>235</eventsScrollX>
+	
+	
+	
+	<!-- event details settings -->
+	
+	<eventDetailsCloseBtnX>250</eventDetailsCloseBtnX>
+	<eventDetailsCloseBtnY>29</eventDetailsCloseBtnY>
+	
+	<eventDetailsMainTitleX>18</eventDetailsMainTitleX>
+	<eventDetailsMainTitleY>17</eventDetailsMainTitleY>
+	
+	<eventDetailsTitleX>19</eventDetailsTitleX>
+	<eventDetailsTitleY>59</eventDetailsTitleY>
+	
+	<eventDetailsHolderX>19</eventDetailsHolderX>
+	<eventDetailsHolderY>90</eventDetailsHolderY>
+	
+	<eventDetailsHolderHeight>185</eventDetailsHolderHeight>
+	
+	<eventDetailsScrollX>235</eventDetailsScrollX>
+	
+	
+	
+
+	<!-- color settings -->
+
+	<backgroundColor>0x151515</backgroundColor>
+	<btnColor>0x757575</btnColor>
+	<currentDayOutlineColor>0x757575</currentDayOutlineColor>
+	
+	<scrollBtnColor>0xFFFF66</scrollBtnColor>
+	<scrollTrackColor>0x353535</scrollTrackColor>
+	
+	<dayTextColor>0x999999</dayTextColor>
+	<eventDayTextColor>0xFFFF66</eventDayTextColor>
+	
+	<eventItemTextNormalColor>0x757575</eventItemTextNormalColor>
+	<eventItemTextRollOverColor>0xffffff</eventItemTextRollOverColor>
+	
+	<dayListTextColor>0x757575</dayListTextColor>
+	<mainTitleTextColor>0xBBBBBB</mainTitleTextColor>
+	<subTitleTextColor>0xFFFFCC</subTitleTextColor>
+
+
+	<!-- text sizes -->
+	
+	<dayTextSize>12</dayTextSize>
+	<eventItemTextSize>9</eventItemTextSize>
+	<dayListTextSize>10</dayListTextSize>
+	<mainTitleTextSize>20</mainTitleTextSize>
+	<subTitleTextSize>9</subTitleTextSize>
+
+
+
+
+
+	<styleSheetURL>css/styles.css</styleSheetURL>	
+
+
+
+
+
+	<!-- displayMonthBeforeDay: Boolean, enter 1 for yes, 0 for no.
+	If true, displays date formatted like so: 02.11.2011 (month, day, year). 
+	If false: 11.02.2011 (day, month, year).  -->
+	<displayMonthBeforeDay>1</displayMonthBeforeDay>
+	
+	
+	<!--enter month and day names here in your prefered language (without spaces between names).
+	For months start with January, for days start with Sunday (important). -->
+	<monthNames>January,February,March,April,May,June,July,August,September,October,November,December</monthNames>
+	<dayNames>Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday</dayNames>
+
+	<!-- Keep months and days with '0' in front if they are less than 10! For example: month="03" day="01" -->
+	
+	<event year="2012" month="02" day="11">
+		
+		<event>
+		<time>08:00</time>	
+		<title>LOREM IPSUM DOLOR</title>
+		<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in neque. Vivamus tellus. Donec magna. Donec consequat hendrerit magna. In iaculis neque eget nisi. Maecenas vehicula, leo eu commodo aliquam, sem dolor iaculis eros, vel mollis sem urna ac sapien. <span class='emphasize'>Integer mattis dui ut erat. Phasellus nibh magna, tempor vitae, dictum sed, vehicula sed, mauris.</span> In enim arcu, porta vel, dictum eu, pretium a, ipsum. Donec cursus, lorem ac posuere viverra, sem tellus accumsan dolor, vel accumsan tortor est et est.Praesent molestie. Nunc venenatis sapien ultrices dui. Vivamus dolor. Integer vel ante. Proin felis. Maecenas non nisl <a href="http://www.flashtuning.net">hyperlink</a> eu mi hendrerit fringilla. Mauris et sapien. Quisque risus. Ut laoreet hendrerit mi. Nam vestibulum viverra diam. Nullam eros ipsum, rutrum ut, ultricies sed, congue sed, est. Pellentesque porttitor.
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in neque. Vivamus tellus. Donec magna. Donec consequat hendrerit magna. In iaculis neque eget nisi. Maecenas vehicula, leo eu commodo aliquam, sem dolor iaculis eros, vel mollis sem urna ac sapien. Phasellus nibh magna, tempor vitae, dictum sed, vehicula sed, mauris.</span> In enim arcu, porta vel, dictum eu, pretium a, ipsum. Donec cursus, lorem ac posuere viverra, sem tellus accumsan dolor, vel accumsan tortor est et est. Phasellus nibh magna, tempor vitae, dictum sed, vehicula sed, mauris.</span> In enim arcu, porta vel, dictum eu, pretium a, ipsum. Donec cursus, lorem ac posuere viverra, sem tellus accumsan dolor, vel accumsan tortor est et est.
+		]]></description>
+		</event>
+
+		<event>
+		<time>09:30</time>	
+		<title>SUSPENDISSE IN MAGNA</title>
+		<description><![CDATA[<img src='images/01.jpg' width = '70' height = '70' hspace= '10' vspace = '10'>Duis egestas, quam faucibus interdum tincidunt, enim sem tincidunt tellus, sed condimentum tellus tortor ut mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam sollicitudin, nisi egestas scelerisque pretium, odio enim sodales metus, venenatis vulputate arcu quam eget purus. Fusce convallis mattis nunc. Fusce non nunc. Phasellus nibh magna, tempor vitae, dictum sed, vehicula sed, mauris.</span> In enim arcu, porta vel, dictum eu, pretium a, ipsum. Donec cursus, lorem ac posuere viverra, sem tellus accumsan dolor, vel accumsan tortor est et est.]]></description>
+		</event>
+
+		<event>
+		<time>11:00</time>	
+		<title>BIBENDUM PORTA CURSUS LIBERO</title>
+		<description><![CDATA[Maecenas eu erat condimentum neque molestie tincidunt. Fusce egestas, est ut fringilla facilisis, quam purus blandit dui, eget egestas mauris nibh ut diam. Phasellus volutpat. Sed fringilla tellus in sem.<br><br><a href="http://www.flashtuning.net">hyperlink</a>]]></description>
+		</event>	
+
+	</event>
+
+
+	<event year="2012" month="02" day="22">
+
+		<event>
+		<time>08:00</time>	
+		<title>LOREM IPSUM DOLOR</title>
+		<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in neque. Vivamus tellus. Donec magna. Donec consequat hendrerit magna. In iaculis neque eget nisi. Maecenas vehicula, leo eu commodo aliquam, sem dolor iaculis eros, vel mollis sem urna ac sapien. <font color='#ccccff'>Integer mattis dui ut erat. Phasellus nibh magna, tempor vitae, dictum sed, vehicula sed, mauris.</font> In enim arcu, porta vel, dictum eu, pretium a, ipsum. Donec cursus, lorem ac posuere viverra, sem tellus accumsan dolor, vel accumsan tortor est et est.<br><br><a href="http://www.flashtuning.net">hyperlink</a><br><br>Praesent molestie. Nunc venenatis sapien ultrices dui. Vivamus dolor. Integer vel ante. Proin felis. Maecenas non nisl eu mi hendrerit fringilla. Mauris et sapien. Quisque risus. Ut laoreet hendrerit mi. Nam vestibulum viverra diam. Nullam eros ipsum, rutrum ut, ultricies sed, congue sed, est. Pellentesque porttitor.
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in neque. Vivamus tellus. Donec magna. Donec consequat hendrerit magna. In iaculis neque eget nisi. Maecenas vehicula, leo eu commodo aliquam, sem dolor iaculis eros, vel mollis sem urna ac sapien.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in neque. Vivamus tellus. Donec magna. Donec consequat hendrerit magna. In iaculis neque eget nisi. Maecenas vehicula, leo eu commodo aliquam, sem dolor iaculis eros, vel mollis sem urna ac sapien.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in neque. Vivamus tellus. Donec magna. Donec consequat hendrerit magna. In iaculis neque eget nisi. Maecenas vehicula, leo eu commodo aliquam, sem dolor iaculis eros, vel mollis sem urna ac sapien.]]></description>
+		</event>
+
+		<event>
+		<time>09:30</time>	
+		<title>SUSPENDISSE IN MAGNA</title>
+		<description><![CDATA[<img src='images/01.jpg' width = '70' height = '70' hspace= '10' vspace = '10'>Duis egestas, quam faucibus interdum tincidunt, enim sem tincidunt tellus, sed condimentum tellus tortor ut mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam sollicitudin, nisi egestas scelerisque pretium, odio enim sodales metus, venenatis vulputate arcu quam eget purus. Fusce convallis mattis nunc. Fusce non nunc.]]></description>
+		</event>
+
+		<event>
+		<time>11:00</time>	
+		<title>BIBENDUM PORTA CURSUS LIBERO</title>
+		<description><![CDATA[Maecenas eu erat condimentum neque molestie tincidunt. Fusce egestas, est ut fringilla facilisis, quam purus blandit dui, eget egestas mauris nibh ut diam. Phasellus volutpat. Sed fringilla tellus in sem.<br><br><a href="http://www.flashtuning.net">hyperlink</a>]]></description>
+		</event>
+
+		<event>
+		<time>12:45</time>	
+		<title>NAM VEL LIBERO NULLA</title>
+		<description><![CDATA[Ut porta dolor ut lectus. Quisque non lectus at urna vulputate aliquam. Nullam sit amet lacus sed augue vehicula posuere. Cras at nulla id risus sagittis vestibulum. Aliquam nec urna. Ut ipsum massa, eleifend vel, molestie at, ullamcorper nec, nunc. Sed dignissim, magna eget tristique vulputate, urna augue cursus neque, imperdiet cursus tellus libero quis velit. Nunc enim nisl, tempus vulputate, semper non, facilisis quis, felis. Donec consequat gravida neque. Nullam rutrum urna eleifend turpis. Ut porttitor. Aenean elit sapien, hendrerit vitae, aliquam ut, posuere vel, odio. Phasellus augue. Sed convallis. Sed erat. Duis egestas, quam faucibus interdum tincidunt, enim sem tincidunt tellus, sed condimentum tellus tortor ut mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis egestas, quam faucibus interdum tincidunt, enim sem tincidunt tellus, sed condimentum tellus tortor ut mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.]]></description>
+		</event>
+
+		<event>
+		<time>16:00</time>	
+		<title>LOREM IPSUM DOLOR</title>
+		<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in neque. Vivamus tellus. Donec magna. Donec consequat hendrerit magna. In iaculis neque eget nisi. Maecenas vehicula, leo eu commodo aliquam, sem dolor iaculis eros, vel mollis sem urna ac sapien. <font color='#ccccff'>Integer mattis dui ut erat. Phasellus nibh magna, tempor vitae, dictum sed, vehicula sed, mauris.</font> In enim arcu, porta vel, dictum eu, pretium a, ipsum. Donec cursus, lorem ac posuere viverra, sem tellus accumsan dolor, vel accumsan tortor est et est. <a href="http://www.flashtuning.net">hyperlink</a>Praesent molestie. Nunc venenatis sapien ultrices dui. Vivamus dolor. Integer vel ante. Proin felis. Maecenas non nisl eu mi hendrerit fringilla. Mauris et sapien. Quisque risus. Ut laoreet hendrerit mi. Nam vestibulum viverra diam. Nullam eros ipsum, rutrum ut, ultricies sed, congue sed, est. Pellentesque porttitor.]]></description>
+		</event>
+
+		<event>
+		<time>16:30</time>	
+		<title>SUSPENDISSE IN MAGNA</title>
+		<description><![CDATA[<img src='images/01.jpg' width = '70' height = '70' hspace= '10' vspace = '10'>Duis egestas, quam faucibus interdum tincidunt, enim sem tincidunt tellus, sed condimentum tellus tortor ut mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam sollicitudin, nisi egestas scelerisque pretium, odio enim sodales metus, venenatis vulputate arcu quam eget purus. Fusce convallis mattis nunc. Fusce non nunc.]]></description>
+		</event>
+
+		<event>
+		<time>17:00</time>	
+		<title>BIBENDUM PORTA CURSUS LIBERO</title>
+		<description><![CDATA[Maecenas eu erat condimentum neque molestie tincidunt. Fusce egestas, est ut fringilla facilisis, quam purus blandit dui, eget egestas mauris nibh ut diam. Phasellus volutpat. Sed fringilla tellus in sem.<br><a href="http://www.flashtuning.net">hyperlink</a>]]></description>
+		</event>
+
+		<event>
+		<time>17:45</time>	
+		<title>NAM VEL LIBERO NULLA</title>
+		<description><![CDATA[Ut porta dolor ut lectus. Quisque non lectus at urna vulputate aliquam. Nullam sit amet lacus sed augue vehicula posuere. Cras at nulla id risus sagittis vestibulum. Aliquam nec urna. Ut ipsum massa, eleifend vel, molestie at, ullamcorper nec, nunc. Sed dignissim, magna eget tristique vulputate, urna augue cursus neque, imperdiet cursus tellus libero quis velit. Nunc enim nisl, tempus vulputate, semper non, facilisis quis, felis. Donec consequat gravida neque. Nullam rutrum urna eleifend turpis. Ut porttitor. Aenean elit sapien, hendrerit vitae, aliquam ut, posuere vel, odio. Phasellus augue. Sed convallis. Sed erat.]]></description>
+		</event>
+
+		<event>
+		<time>22:00</time>	
+		<title>LOREM IPSUM DOLOR</title>
+		<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in neque. Vivamus tellus. Donec magna. Donec consequat hendrerit magna. In iaculis neque eget nisi. Maecenas vehicula, leo eu commodo aliquam, sem dolor iaculis eros, vel mollis sem urna ac sapien. Integer mattis dui ut erat. Phasellus nibh magna, tempor vitae, dictum sed, vehicula sed, mauris.In enim arcu, porta vel, dictum eu, pretium a, ipsum. Donec cursus, lorem ac posuere viverra, sem tellus accumsan dolor, vel accumsan tortor est et est.<br><br><a href="http://www.flashtuning.net">hyperlink</a><br><br>Praesent molestie. Nunc venenatis sapien ultrices dui. Vivamus dolor. Integer vel ante. Proin felis. Maecenas non nisl eu mi hendrerit fringilla. Mauris et sapien. Quisque risus. Ut laoreet hendrerit mi. Nam vestibulum viverra diam. Nullam eros ipsum, rutrum ut, ultricies sed, congue sed, est. Pellentesque porttitor.]]></description>
+		</event>
+
+	</event>
+
+	<event year="2012" month="03" day="21">
+
+		<event>
+		<time>12:00</time>	
+		<title>BIBENDUM PORTA CURSUS LIBERO</title>
+		<description><![CDATA[Maecenas eu erat condimentum neque molestie tincidunt. Fusce egestas, est ut fringilla facilisis, quam purus blandit dui, eget egestas mauris nibh ut diam. Phasellus volutpat. Sed fringilla tellus in sem.<br><br><a href="http://www.flashtuning.net">hyperlink</a>]]></description>
+		</event>
+
+		<event>
+		<time>17:45</time>	
+		<title>NAM VEL LIBERO NULLA</title>
+		<description><![CDATA[Ut porta dolor ut lectus. Quisque non lectus at urna vulputate aliquam. Nullam sit amet lacus sed augue vehicula posuere. Cras at nulla id risus sagittis vestibulum. Aliquam nec urna. Ut ipsum massa, eleifend vel, molestie at, ullamcorper nec, nunc. Sed dignissim, magna eget tristique vulputate, urna augue cursus neque, imperdiet cursus tellus libero quis velit. Nunc enim nisl, tempus vulputate, semper non, facilisis quis, felis. Donec consequat gravida neque. Nullam rutrum urna eleifend turpis. Ut porttitor. Aenean elit sapien, hendrerit vitae, aliquam ut, posuere vel, odio. Phasellus augue. Sed convallis. Sed erat. Ut porta dolor ut lectus. Quisque non lectus at urna vulputate aliquam. Nullam sit amet lacus sed augue vehicula posuere. Cras at nulla id risus sagittis vestibulum. Aliquam nec urna. Ut ipsum massa, eleifend vel, molestie at, ullamcorper nec, nunc. Sed dignissim, magna eget tristique vulputate, urna augue cursus neque, imperdiet cursus tellus libero quis velit. Ut porta dolor ut lectus. Quisque non lectus at urna vulputate aliquam. Nullam sit amet lacus sed augue vehicula posuere. Cras at nulla id risus sagittis vestibulum. Aliquam nec urna. Ut ipsum massa, eleifend vel, molestie at, ullamcorper nec, nunc. Sed dignissim, magna eget tristique vulputate, urna augue cursus neque, imperdiet cursus tellus libero quis velit.]]></description>
+		</event>
+
+		<event>
+		<time>20:00</time>	
+		<title>LOREM IPSUM DOLOR</title>
+		<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in neque. Vivamus tellus. Donec magna. Donec consequat hendrerit magna. In iaculis neque eget nisi. Maecenas vehicula, leo eu commodo aliquam, sem dolor iaculis eros, vel mollis sem urna ac sapien. <font color='#ccccff'>Integer mattis dui ut erat. Phasellus nibh magna, tempor vitae, dictum sed, vehicula sed, mauris.</font> In enim arcu, porta vel, dictum eu, pretium a, ipsum. Donec cursus, lorem ac posuere viverra, sem tellus accumsan dolor, vel accumsan tortor est et est.<br><br><a href="http://www.flashtuning.net">hyperlink</a><br><br>Praesent molestie. Nunc venenatis sapien ultrices dui. Vivamus dolor. Integer vel ante. Proin felis. Maecenas non nisl eu mi hendrerit fringilla. Mauris et sapien. Quisque risus. Ut laoreet hendrerit mi. Nam vestibulum viverra diam. Nullam eros ipsum, rutrum ut, ultricies sed, congue sed, est. Pellentesque porttitor.]]></description>
+		</event>
+
+	</event>
+
+	<event year="2012" month="03" day="02">
+		
+		<event>
+		<time>11:30</time>	
+		<title>SUSPENDISSE IN MAGNA</title>
+		<description><![CDATA[<img src='images/01.jpg' width = '70' height = '70' hspace= '10' vspace = '10'>Duis egestas, quam faucibus interdum tincidunt, enim sem tincidunt tellus, sed condimentum tellus tortor ut mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames <a href="http://www.flashtuning.net">hyperlink</a> ac turpis egestas. Fusce aliquet.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam sollicitudin, nisi egestas scelerisque pretium, odio enim sodales metus, venenatis vulputate arcu quam eget purus. Fusce convallis mattis nunc. Fusce non nunc.]]></description>
+		</event>
+
+		<event>
+		<time>16:00</time>	
+		<title>BIBENDUM PORTA CURSUS LIBERO</title>
+		<description><![CDATA[Maecenas eu erat condimentum neque molestie tincidunt. Fusce egestas, est ut fringilla facilisis, quam purus blandit dui, eget egestas mauris nibh ut diam. Phasellus volutpat. Sed fringilla tellus in sem.<br><a href="http://www.flashtuning.net">hyperlink</a>]]></description>
+		</event>
+
+	</event>
+	
+		<event year="2012" month="04" day="10">
+
+		<event>
+		<time>08:00</time>	
+		<title>LOREM IPSUM DOLOR</title>
+		<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in neque. Vivamus tellus. Donec magna. Donec consequat hendrerit magna. In iaculis neque eget nisi. Maecenas vehicula, leo eu commodo aliquam, <span class="emphasize">sem dolor iaculis eros, vel mollis sem urna</span> ac sapien. Integer mattis dui ut erat. Phasellus nibh magna, tempor vitae, dictum sed, vehicula sed, mauris. In enim arcu, porta vel, dictum eu, pretium a, ipsum. Donec cursus, lorem ac posuere viverra, sem tellus <a href="http://www.flashtuning.net">hyperlink</a> accumsan dolor, vel accumsan tortor est et est.Praesent molestie. Nunc venenatis sapien ultrices dui. Vivamus dolor. Integer vel ante. Proin felis. Maecenas non nisl eu mi hendrerit fringilla. Mauris et sapien. Quisque risus. Ut laoreet hendrerit mi. Nam vestibulum viverra diam. Nullam eros ipsum, rutrum ut, ultricies sed, congue sed, est. Pellentesque porttitor. Fusce aliquet.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam sollicitudin, nisi egestas scelerisque pretium, odio enim sodales metus, venenatis vulputate arcu quam eget purus. Fusce convallis mattis nunc. Fusce non nunc. Fusce aliquet.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam sollicitudin, nisi egestas scelerisque pretium, odio enim sodales metus, venenatis vulputate arcu quam eget purus. Fusce convallis mattis nunc. Fusce non nunc. Fusce aliquet.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam sollicitudin, nisi egestas scelerisque pretium, odio enim sodales metus, venenatis vulputate arcu quam eget purus. Fusce convallis mattis nunc. Fusce non nunc.]]></description>
+		</event>
+
+		<event>
+		<time>09:30</time>	
+		<title>SUSPENDISSE IN MAGNA</title>
+		<description><![CDATA[<img src='images/01.jpg' width = '70' height = '70' hspace= '10' vspace = '10'>Duis egestas, quam faucibus interdum tincidunt, enim sem tincidunt tellus, sed condimentum tellus tortor ut mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam sollicitudin, nisi egestas scelerisque pretium, odio enim sodales metus, venenatis vulputate arcu quam eget purus. Fusce convallis mattis nunc. Fusce non nunc. Quisque risus. Ut laoreet hendrerit mi. Nam vestibulum viverra diam. Nullam eros ipsum, rutrum ut, ultricies sed, congue sed, est. Pellentesque porttitor. Fusce aliquet.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam sollicitudin, nisi egestas scelerisque pretium, odio enim sodales metus, venenatis vulputate arcu quam eget purus. Quisque risus. Ut laoreet hendrerit mi. Nam vestibulum viverra diam. Nullam eros ipsum, rutrum ut, ultricies sed, congue sed, est. Pellentesque porttitor. Fusce aliquet.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam sollicitudin, nisi egestas scelerisque pretium, odio enim sodales metus, venenatis vulputate arcu quam eget purus. Quisque risus. Ut laoreet hendrerit mi. Nam vestibulum viverra diam. Nullam eros ipsum, rutrum ut, ultricies sed, congue sed, est. Pellentesque porttitor. Fusce aliquet.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam sollicitudin, nisi egestas scelerisque pretium, odio enim sodales metus, venenatis vulputate arcu quam eget purus.]]></description>
+		</event>
+
+		<event>
+		<time>11:00</time>	
+		<title>BIBENDUM PORTA CURSUS LIBERO</title>
+		<description><![CDATA[Maecenas eu erat condimentum neque molestie tincidunt. Fusce egestas, est ut fringilla facilisis, quam purus blandit dui, eget egestas mauris nibh ut diam. Phasellus volutpat. Sed fringilla tellus in sem.<br><a href="http://www.flashtuning.net">hyperlink</a>]]></description>
+		</event>
+		
+	</event>
+
+	<event year="2012" month="04" day="16">
+		
+		<event>
+		<time>08:00</time>	
+		<title>LOREM IPSUM DOLOR</title>
+		<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in neque. Vivamus tellus. Donec magna. Donec consequat hendrerit magna. In iaculis neque eget nisi. Maecenas vehicula, leo eu commodo aliquam, sem dolor iaculis eros, vel mollis sem urna ac sapien. Integer mattis dui ut erat. Phasellus nibh magna, tempor vitae, dictum sed, vehicula sed, mauris.In enim arcu, porta vel, dictum eu, pretium a, ipsum. Donec cursus, lorem ac posuere viverra, sem tellus accumsan dolor, vel accumsan tortor est et est.<br><a href="http://www.flashtuning.net">hyperlink</a><br>Praesent molestie. Nunc venenatis sapien ultrices dui. Vivamus dolor. Integer vel ante. Proin felis. Maecenas non nisl eu mi hendrerit fringilla. Mauris et sapien. Quisque risus. Ut laoreet hendrerit mi. Nam vestibulum viverra diam. Nullam eros ipsum, rutrum ut, ultricies sed, congue sed, est. Pellentesque porttitor.]]></description>
+		</event>
+
+		<event>
+		<time>09:30</time>	
+		<title>SUSPENDISSE IN MAGNA</title>
+		<description><![CDATA[<img src='images/01.jpg' width = '70' height = '70' hspace= '10' vspace = '10'>Duis egestas, quam faucibus interdum tincidunt, enim sem tincidunt tellus, sed condimentum tellus tortor ut mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam sollicitudin, nisi egestas scelerisque pretium, odio enim sodales metus, venenatis vulputate arcu quam eget purus. Fusce convallis mattis nunc. Fusce non nunc.]]></description>
+		</event>
+
+		<event>
+		<time>11:00</time>	
+		<title>BIBENDUM PORTA CURSUS LIBERO</title>
+		<description><![CDATA[Maecenas eu erat condimentum neque molestie tincidunt. Fusce egestas, est ut fringilla facilisis, quam purus blandit dui, eget egestas mauris nibh ut diam. Phasellus volutpat. Sed fringilla tellus in sem.<br><a href="http://www.flashtuning.net">hyperlink</a>]]></description>
+		</event>
+
+		<event>
+		<time>12:45</time>	
+		<title>NAM VEL LIBERO NULLA</title>
+		<description><![CDATA[Ut porta dolor ut lectus. Quisque non lectus at urna vulputate aliquam. Nullam sit amet lacus sed augue vehicula posuere. Cras at nulla id risus sagittis vestibulum. Aliquam nec urna. Ut ipsum massa, eleifend vel, molestie at, ullamcorper nec, nunc. Sed dignissim, magna eget tristique vulputate, urna augue cursus neque, imperdiet cursus tellus libero quis velit. <span class="emphasize">Nunc enim nisl, tempus vulputate, semper non</span>, facilisis quis, felis. Donec consequat gravida neque. Nullam rutrum urna eleifend turpis. Ut porttitor. Aenean elit sapien, hendrerit vitae, aliquam ut, posuere vel, odio. Phasellus augue. Sed convallis. Sed erat.]]></description>
+		</event>
+
+		<event>
+		<time>15:00</time>	
+		<title>LOREM IPSUM DOLOR</title>
+		<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in neque. Vivamus tellus. Donec magna. Donec consequat hendrerit magna. In iaculis neque eget nisi. Maecenas vehicula, leo eu commodo aliquam, sem dolor iaculis eros, vel mollis sem urna ac sapien. Integer mattis <a href="http://www.flashtuning.net">hyperlink</a> dui ut erat. Phasellus nibh magna, tempor vitae, dictum sed, vehicula sed, mauris. In enim arcu, porta vel, dictum eu, pretium a, ipsum. Donec cursus, lorem ac posuere viverra, sem tellus accumsan dolor, vel accumsan tortor est et est. Praesent molestie. Nunc venenatis sapien ultrices dui. Vivamus dolor. Integer vel ante. Proin felis. Maecenas non nisl eu mi hendrerit fringilla. Mauris et sapien. Quisque risus. Ut laoreet hendrerit mi. Nam vestibulum viverra diam. Nullam eros ipsum, rutrum ut, ultricies sed, congue sed, est. Pellentesque porttitor.]]></description>
+		</event>
+
+		<event>
+		<time>15:30</time>	
+		<title>SUSPENDISSE IN MAGNA</title>
+		<description><![CDATA[<img src='images/01.jpg' width = '70' height = '70' hspace= '10' vspace = '10'>Duis egestas, quam faucibus interdum tincidunt, enim sem tincidunt tellus, sed condimentum tellus tortor ut mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam sollicitudin, nisi egestas scelerisque pretium, odio enim sodales metus, venenatis vulputate arcu quam eget purus. Fusce convallis mattis nunc. Fusce non nunc.]]></description>
+		</event>
+
+		<event>
+		<time>17:00</time>	
+		<title>BIBENDUM PORTA CURSUS LIBERO</title>
+		<description><![CDATA[Maecenas eu erat condimentum neque molestie tincidunt. Fusce egestas, est ut fringilla facilisis, quam purus blandit dui, eget egestas mauris nibh ut diam. Phasellus volutpat. Sed fringilla tellus in sem.<br><a href="http://www.flashtuning.net">hyperlink</a>]]></description>
+		</event>
+
+
+	</event>
+
+	<event year="2012" month="06" day="5">
+		
+		<event>
+		<time>08:00</time>	
+		<title>LOREM IPSUM DOLOR</title>
+		<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in neque. Vivamus tellus. Donec magna. Donec consequat hendrerit magna. In iaculis neque eget nisi. Maecenas vehicula, leo eu commodo aliquam, sem dolor iaculis eros, vel <a href="http://www.flashtuning.net">hyperlink</a> mollis sem urna ac sapien. Integer mattis dui ut erat. Phasellus nibh magna, tempor vitae, dictum sed, vehicula sed, mauris. In enim arcu, porta vel, dictum eu, pretium a, ipsum. Donec cursus, lorem ac posuere viverra, sem tellus accumsan dolor, vel accumsan tortor est et est. Praesent molestie. Nunc venenatis sapien ultrices dui. Vivamus dolor. Integer vel ante. Proin felis. <span class="emphasize">Maecenas non nisl eu mi hendrerit fringilla</span>. Mauris et sapien. Quisque risus. Ut laoreet hendrerit mi. Nam vestibulum viverra diam. Nullam eros ipsum, rutrum ut, ultricies sed, congue sed, est. Pellentesque porttitor. Phasellus nibh magna, tempor vitae, dictum sed, vehicula sed, mauris. In enim arcu, porta vel, dictum eu, pretium a, ipsum. Donec cursus, lorem ac posuere viverra, sem tellus accumsan dolor, vel accumsan tortor est et est. Praesent molestie. Nunc venenatis sapien ultrices dui. Vivamus dolor. Integer vel ante. Proin felis. Maecenas non nisl eu mi hendrerit fringilla. Mauris et sapien. Quisque risus. Ut laoreet hendrerit mi. Nam vestibulum viverra diam. Nullam eros ipsum, rutrum ut, ultricies sed, congue sed, est. Pellentesque porttitor. Phasellus nibh magna, tempor vitae, dictum sed, vehicula sed, mauris. In enim arcu, porta vel, dictum eu, pretium a, ipsum. Donec cursus, lorem ac posuere viverra, sem tellus accumsan dolor, vel accumsan tortor est et est. Praesent molestie. Nunc venenatis sapien ultrices dui. Vivamus dolor. Integer vel ante. Proin felis. Maecenas non nisl eu mi hendrerit fringilla. Mauris et sapien. Quisque risus. Ut laoreet hendrerit mi. Nam vestibulum viverra diam. Nullam eros ipsum, rutrum ut, ultricies sed, congue sed, est. Pellentesque porttitor.]]></description>
+		</event>
+
+		<event>
+		<time>09:30</time>	
+		<title>SUSPENDISSE IN MAGNA</title>
+		<description><![CDATA[<img src='images/01.jpg' width = '70' height = '70' hspace= '10' vspace = '10'>Duis egestas, quam faucibus interdum tincidunt, enim sem tincidunt tellus, sed condimentum tellus tortor ut mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam sollicitudin, nisi egestas scelerisque pretium, odio enim sodales metus, venenatis vulputate arcu quam eget purus. Fusce convallis mattis nunc. Fusce non nunc. Maecenas non nisl eu mi hendrerit fringilla. Mauris et sapien. Quisque risus. Ut laoreet hendrerit mi. Nam vestibulum viverra diam. Nullam eros ipsum, rutrum ut, ultricies sed, congue sed, est. Pellentesque porttitor. Phasellus nibh magna, tempor vitae, dictum sed, vehicula sed, mauris. In enim arcu, porta vel, dictum eu, pretium a, ipsum. Donec cursus, lorem ac posuere viverra, sem tellus accumsan dolor, vel accumsan tortor est et est. Praesent molestie. Nunc venenatis sapien ultrices dui. Vivamus dolor.]]></description>
+		</event>
+
+		<event>
+		<time>11:00</time>	
+		<title>BIBENDUM PORTA CURSUS LIBERO</title>
+		<description><![CDATA[Maecenas eu erat condimentum neque molestie tincidunt. Fusce egestas, est ut fringilla facilisis, quam purus blandit dui, eget egestas mauris nibh ut diam.  Nam vestibulum viverra diam. Nullam eros ipsum, rutrum ut, ultricies sed, congue sed, est. Pellentesque porttitor. Phasellus nibh magna, tempor vitae, dictum sed, vehicula sed, mauris. In enim arcu, porta vel, dictum eu, pretium a, ipsum. Donec cursus, lorem ac posuere viverra, sem tellus accumsan dolor, vel accumsan tortor est et est. Praesent molestie. Nunc venenatis sapien ultrices dui. Vivamus dolor. Phasellus volutpat. Sed fringilla tellus in sem.<br><a href="http://www.flashtuning.net">hyperlink</a>]]></description>
+		</event>
+
+		<event>
+		<time>12:45</time>	
+		<title>NAM VEL LIBERO NULLA</title>
+		<description><![CDATA[Ut porta dolor ut lectus. Quisque non lectus at urna vulputate aliquam. Nullam sit amet lacus sed augue vehicula posuere. Cras at nulla id risus sagittis vestibulum. Aliquam nec urna. Ut ipsum massa, eleifend vel, molestie at, ullamcorper nec, nunc. Sed dignissim, magna eget tristique vulputate, urna augue cursus neque, imperdiet cursus tellus libero quis velit. Nunc enim nisl, tempus vulputate, semper non, facilisis quis, felis. Donec consequat gravida neque. Nullam rutrum urna eleifend turpis. Ut porttitor. Aenean elit sapien, hendrerit vitae, aliquam ut, posuere vel, odio. Phasellus augue. Sed convallis. Sed erat.]]></description>
+		</event>
+
+		<event>
+		<time>14:00</time>	
+		<title>LOREM IPSUM DOLOR</title>
+		<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in neque. Vivamus tellus. Donec magna. Donec consequat hendrerit magna. <span class="emphasize">In iaculis neque eget nisi.</span> Maecenas vehicula, leo eu commodo aliquam, sem dolor iaculis eros, vel mollis sem urna ac sapien. Integer mattis dui ut erat. Phasellus nibh magna, tempor vitae, dictum sed, vehicula sed, mauris. In enim arcu, porta vel, dictum eu, pretium a, ipsum. Donec cursus, lorem ac posuere viverra, sem tellus accumsan dolor, vel accumsan tortor est et est.Praesent molestie. Nunc venenatis sapien <a href="http://www.flashtuning.net">hyperlink</a> ultrices dui. Vivamus dolor. Integer vel ante. Proin felis. Maecenas non nisl eu mi hendrerit fringilla. Mauris et sapien. Quisque risus. Ut laoreet hendrerit mi. Nam vestibulum viverra diam. Nullam eros ipsum, rutrum ut, ultricies sed, congue sed, est. Pellentesque porttitor.]]></description>
+		</event>
+
+		<event>
+		<time>14:30</time>	
+		<title>SUSPENDISSE IN MAGNA</title>
+		<description><![CDATA[<img src='images/01.jpg' width = '70' height = '70' hspace= '10' vspace = '10'>Duis egestas, quam faucibus interdum tincidunt, enim sem tincidunt tellus, sed condimentum tellus tortor ut mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam sollicitudin, nisi egestas scelerisque pretium, odio enim sodales metus, venenatis vulputate arcu quam eget purus. Fusce convallis mattis nunc. Fusce non nunc.]]></description>
+		</event>
+
+		<event>
+		<time>16:00</time>	
+		<title>BIBENDUM PORTA CURSUS LIBERO</title>
+		<description><![CDATA[Maecenas eu erat condimentum neque molestie tincidunt. Fusce egestas, est ut fringilla facilisis, quam purus blandit dui, eget egestas mauris nibh ut diam. Phasellus volutpat. Sed fringilla tellus in sem.<br><a href="http://www.flashtuning.net">hyperlink</a>]]></description>
+		</event>
+
+		<event>
+		<time>17:45</time>	
+		<title>NAM VEL LIBERO NULLA</title>
+		<description><![CDATA[Ut porta dolor ut lectus. Quisque non lectus at urna vulputate aliquam. Nullam sit amet lacus sed augue vehicula posuere. Cras at nulla id risus sagittis vestibulum. Aliquam nec urna. Ut ipsum massa, eleifend vel, molestie at, ullamcorper nec, nunc. Sed dignissim, magna eget tristique vulputate, urna augue cursus neque, imperdiet cursus tellus libero quis velit. Nunc enim nisl, tempus vulputate, semper non, facilisis quis, felis. Donec consequat gravida neque. Nullam rutrum urna eleifend turpis. Ut porttitor. Aenean elit sapien, hendrerit vitae, aliquam ut, posuere vel, odio. Phasellus augue. Sed convallis. Sed erat.]]></description>
+		</event>
+
+		<event>
+		<time>20:00</time>	
+		<title>LOREM IPSUM DOLOR</title>
+		<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in neque. Vivamus tellus. Donec magna. Donec consequat hendrerit magna. In iaculis neque eget nisi. Maecenas vehicula, leo eu commodo aliquam, sem dolor iaculis eros, vel <a href="http://www.flashtuning.net">hyperlink</a> mollis sem urna ac sapien. Integer mattis dui ut erat. Phasellus nibh magna, tempor vitae, dictum sed, vehicula sed, mauris. In enim arcu, porta vel, dictum eu, pretium a, ipsum. Donec cursus, lorem ac posuere viverra, sem tellus accumsan dolor, vel accumsan tortor est et est. Praesent molestie. Nunc venenatis sapien ultrices dui. Vivamus dolor. Integer vel ante. Proin felis. Maecenas non nisl eu mi hendrerit fringilla. Mauris et sapien. Quisque risus. Ut laoreet hendrerit mi. Nam vestibulum viverra diam. Nullam eros ipsum, rutrum ut, ultricies sed, congue sed, est. Pellentesque porttitor.]]></description>
+		</event>
+
+		<event>
+		<time>21:30</time>	
+		<title>SUSPENDISSE IN MAGNA</title>
+		<description><![CDATA[<img src='images/01.jpg' width = '70' height = '70' hspace= '10' vspace = '10'>Duis egestas, quam faucibus interdum tincidunt, enim sem tincidunt tellus, sed condimentum tellus tortor ut mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam sollicitudin, nisi egestas scelerisque pretium, odio enim sodales metus, venenatis vulputate arcu quam eget purus. Fusce convallis mattis nunc. Fusce non nunc.]]></description>
+		</event>
+
+		<event>
+		<time>22:00</time>	
+		<title>BIBENDUM PORTA CURSUS LIBERO</title>
+		<description><![CDATA[Maecenas eu erat condimentum neque molestie tincidunt. Fusce egestas, est ut fringilla facilisis, quam purus blandit dui, eget egestas mauris nibh ut diam. Phasellus volutpat. Sed fringilla tellus in sem.<br><a href="http://www.flashtuning.net">hyperlink</a>]]></description>
+		</event>
+
+
+	</event>
+	
+		<event year="2012" month="02" day="11">
+		
+		<event>
+		<time>08:00</time>	
+		<title>LOREM IPSUM DOLOR</title>
+		<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in neque. Vivamus tellus. Donec magna. Donec consequat hendrerit magna. In iaculis neque eget nisi. Maecenas vehicula, leo eu commodo aliquam, sem dolor iaculis eros, vel mollis sem urna ac sapien. <span class='emphasize'>Integer mattis dui ut erat. Phasellus nibh magna, tempor vitae, dictum sed, vehicula sed, mauris.</span> In enim arcu, porta vel, dictum eu, pretium a, ipsum. Donec cursus, lorem ac posuere viverra, sem tellus accumsan dolor, vel accumsan tortor est et est.Praesent molestie. Nunc venenatis sapien ultrices dui. Vivamus dolor. Integer vel ante. Proin felis. Maecenas non nisl <a href="http://www.flashtuning.net">hyperlink</a> eu mi hendrerit fringilla. Mauris et sapien. Quisque risus. Ut laoreet hendrerit mi. Nam vestibulum viverra diam. Nullam eros ipsum, rutrum ut, ultricies sed, congue sed, est. Pellentesque porttitor.
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in neque. Vivamus tellus. Donec magna. Donec consequat hendrerit magna. In iaculis neque eget nisi. Maecenas vehicula, leo eu commodo aliquam, sem dolor iaculis eros, vel mollis sem urna ac sapien. Phasellus nibh magna, tempor vitae, dictum sed, vehicula sed, mauris.</span> In enim arcu, porta vel, dictum eu, pretium a, ipsum. Donec cursus, lorem ac posuere viverra, sem tellus accumsan dolor, vel accumsan tortor est et est. Phasellus nibh magna, tempor vitae, dictum sed, vehicula sed, mauris.</span> In enim arcu, porta vel, dictum eu, pretium a, ipsum. Donec cursus, lorem ac posuere viverra, sem tellus accumsan dolor, vel accumsan tortor est et est.
+		]]></description>
+		</event>
+
+		<event>
+		<time>09:30</time>	
+		<title>SUSPENDISSE IN MAGNA</title>
+		<description><![CDATA[<img src='images/01.jpg' width = '70' height = '70' hspace= '10' vspace = '10'>Duis egestas, quam faucibus interdum tincidunt, enim sem tincidunt tellus, sed condimentum tellus tortor ut mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam sollicitudin, nisi egestas scelerisque pretium, odio enim sodales metus, venenatis vulputate arcu quam eget purus. Fusce convallis mattis nunc. Fusce non nunc. Phasellus nibh magna, tempor vitae, dictum sed, vehicula sed, mauris.</span> In enim arcu, porta vel, dictum eu, pretium a, ipsum. Donec cursus, lorem ac posuere viverra, sem tellus accumsan dolor, vel accumsan tortor est et est.]]></description>
+		</event>
+
+		<event>
+		<time>11:00</time>	
+		<title>BIBENDUM PORTA CURSUS LIBERO</title>
+		<description><![CDATA[Maecenas eu erat condimentum neque molestie tincidunt. Fusce egestas, est ut fringilla facilisis, quam purus blandit dui, eget egestas mauris nibh ut diam. Phasellus volutpat. Sed fringilla tellus in sem.<br><br><a href="http://www.flashtuning.net">hyperlink</a>]]></description>
+		</event>	
+
+	</event>
+
+
+	<event year="2012" month="06" day="11">
+
+		<event>
+		<time>08:00</time>	
+		<title>LOREM IPSUM DOLOR</title>
+		<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in neque. Vivamus tellus. Donec magna. Donec consequat hendrerit magna. In iaculis neque eget nisi. Maecenas vehicula, leo eu commodo aliquam, sem dolor iaculis eros, vel mollis sem urna ac sapien. <font color='#ccccff'>Integer mattis dui ut erat. Phasellus nibh magna, tempor vitae, dictum sed, vehicula sed, mauris.</font> In enim arcu, porta vel, dictum eu, pretium a, ipsum. Donec cursus, lorem ac posuere viverra, sem tellus accumsan dolor, vel accumsan tortor est et est.<br><br><a href="http://www.flashtuning.net">hyperlink</a><br><br>Praesent molestie. Nunc venenatis sapien ultrices dui. Vivamus dolor. Integer vel ante. Proin felis. Maecenas non nisl eu mi hendrerit fringilla. Mauris et sapien. Quisque risus. Ut laoreet hendrerit mi. Nam vestibulum viverra diam. Nullam eros ipsum, rutrum ut, ultricies sed, congue sed, est. Pellentesque porttitor.
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in neque. Vivamus tellus. Donec magna. Donec consequat hendrerit magna. In iaculis neque eget nisi. Maecenas vehicula, leo eu commodo aliquam, sem dolor iaculis eros, vel mollis sem urna ac sapien.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in neque. Vivamus tellus. Donec magna. Donec consequat hendrerit magna. In iaculis neque eget nisi. Maecenas vehicula, leo eu commodo aliquam, sem dolor iaculis eros, vel mollis sem urna ac sapien.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in neque. Vivamus tellus. Donec magna. Donec consequat hendrerit magna. In iaculis neque eget nisi. Maecenas vehicula, leo eu commodo aliquam, sem dolor iaculis eros, vel mollis sem urna ac sapien.]]></description>
+		</event>
+
+		<event>
+		<time>09:30</time>	
+		<title>SUSPENDISSE IN MAGNA</title>
+		<description><![CDATA[<img src='images/01.jpg' width = '70' height = '70' hspace= '10' vspace = '10'>Duis egestas, quam faucibus interdum tincidunt, enim sem tincidunt tellus, sed condimentum tellus tortor ut mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam sollicitudin, nisi egestas scelerisque pretium, odio enim sodales metus, venenatis vulputate arcu quam eget purus. Fusce convallis mattis nunc. Fusce non nunc.]]></description>
+		</event>
+
+		<event>
+		<time>11:00</time>	
+		<title>BIBENDUM PORTA CURSUS LIBERO</title>
+		<description><![CDATA[Maecenas eu erat condimentum neque molestie tincidunt. Fusce egestas, est ut fringilla facilisis, quam purus blandit dui, eget egestas mauris nibh ut diam. Phasellus volutpat. Sed fringilla tellus in sem.<br><br><a href="http://www.flashtuning.net">hyperlink</a>]]></description>
+		</event>
+
+		<event>
+		<time>12:45</time>	
+		<title>NAM VEL LIBERO NULLA</title>
+		<description><![CDATA[Ut porta dolor ut lectus. Quisque non lectus at urna vulputate aliquam. Nullam sit amet lacus sed augue vehicula posuere. Cras at nulla id risus sagittis vestibulum. Aliquam nec urna. Ut ipsum massa, eleifend vel, molestie at, ullamcorper nec, nunc. Sed dignissim, magna eget tristique vulputate, urna augue cursus neque, imperdiet cursus tellus libero quis velit. Nunc enim nisl, tempus vulputate, semper non, facilisis quis, felis. Donec consequat gravida neque. Nullam rutrum urna eleifend turpis. Ut porttitor. Aenean elit sapien, hendrerit vitae, aliquam ut, posuere vel, odio. Phasellus augue. Sed convallis. Sed erat. Duis egestas, quam faucibus interdum tincidunt, enim sem tincidunt tellus, sed condimentum tellus tortor ut mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis egestas, quam faucibus interdum tincidunt, enim sem tincidunt tellus, sed condimentum tellus tortor ut mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.]]></description>
+		</event>
+
+		<event>
+		<time>16:00</time>	
+		<title>LOREM IPSUM DOLOR</title>
+		<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in neque. Vivamus tellus. Donec magna. Donec consequat hendrerit magna. In iaculis neque eget nisi. Maecenas vehicula, leo eu commodo aliquam, sem dolor iaculis eros, vel mollis sem urna ac sapien. <font color='#ccccff'>Integer mattis dui ut erat. Phasellus nibh magna, tempor vitae, dictum sed, vehicula sed, mauris.</font> In enim arcu, porta vel, dictum eu, pretium a, ipsum. Donec cursus, lorem ac posuere viverra, sem tellus accumsan dolor, vel accumsan tortor est et est. <a href="http://www.flashtuning.net">hyperlink</a>Praesent molestie. Nunc venenatis sapien ultrices dui. Vivamus dolor. Integer vel ante. Proin felis. Maecenas non nisl eu mi hendrerit fringilla. Mauris et sapien. Quisque risus. Ut laoreet hendrerit mi. Nam vestibulum viverra diam. Nullam eros ipsum, rutrum ut, ultricies sed, congue sed, est. Pellentesque porttitor.]]></description>
+		</event>
+
+		<event>
+		<time>16:30</time>	
+		<title>SUSPENDISSE IN MAGNA</title>
+		<description><![CDATA[<img src='images/01.jpg' width = '70' height = '70' hspace= '10' vspace = '10'>Duis egestas, quam faucibus interdum tincidunt, enim sem tincidunt tellus, sed condimentum tellus tortor ut mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam sollicitudin, nisi egestas scelerisque pretium, odio enim sodales metus, venenatis vulputate arcu quam eget purus. Fusce convallis mattis nunc. Fusce non nunc.]]></description>
+		</event>
+
+		<event>
+		<time>17:00</time>	
+		<title>BIBENDUM PORTA CURSUS LIBERO</title>
+		<description><![CDATA[Maecenas eu erat condimentum neque molestie tincidunt. Fusce egestas, est ut fringilla facilisis, quam purus blandit dui, eget egestas mauris nibh ut diam. Phasellus volutpat. Sed fringilla tellus in sem.<br><a href="http://www.flashtuning.net">hyperlink</a>]]></description>
+		</event>
+
+		<event>
+		<time>17:45</time>	
+		<title>NAM VEL LIBERO NULLA</title>
+		<description><![CDATA[Ut porta dolor ut lectus. Quisque non lectus at urna vulputate aliquam. Nullam sit amet lacus sed augue vehicula posuere. Cras at nulla id risus sagittis vestibulum. Aliquam nec urna. Ut ipsum massa, eleifend vel, molestie at, ullamcorper nec, nunc. Sed dignissim, magna eget tristique vulputate, urna augue cursus neque, imperdiet cursus tellus libero quis velit. Nunc enim nisl, tempus vulputate, semper non, facilisis quis, felis. Donec consequat gravida neque. Nullam rutrum urna eleifend turpis. Ut porttitor. Aenean elit sapien, hendrerit vitae, aliquam ut, posuere vel, odio. Phasellus augue. Sed convallis. Sed erat.]]></description>
+		</event>
+
+		<event>
+		<time>22:00</time>	
+		<title>LOREM IPSUM DOLOR</title>
+		<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in neque. Vivamus tellus. Donec magna. Donec consequat hendrerit magna. In iaculis neque eget nisi. Maecenas vehicula, leo eu commodo aliquam, sem dolor iaculis eros, vel mollis sem urna ac sapien. Integer mattis dui ut erat. Phasellus nibh magna, tempor vitae, dictum sed, vehicula sed, mauris.In enim arcu, porta vel, dictum eu, pretium a, ipsum. Donec cursus, lorem ac posuere viverra, sem tellus accumsan dolor, vel accumsan tortor est et est.<br><br><a href="http://www.flashtuning.net">hyperlink</a><br><br>Praesent molestie. Nunc venenatis sapien ultrices dui. Vivamus dolor. Integer vel ante. Proin felis. Maecenas non nisl eu mi hendrerit fringilla. Mauris et sapien. Quisque risus. Ut laoreet hendrerit mi. Nam vestibulum viverra diam. Nullam eros ipsum, rutrum ut, ultricies sed, congue sed, est. Pellentesque porttitor.]]></description>
+		</event>
+
+	</event>
+	
+	<event year="2012" month="07" day="15">
+
+		<event>
+		<time>08:00</time>	
+		<title>LOREM IPSUM DOLOR</title>
+		<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in neque. Vivamus tellus. Donec magna. Donec consequat hendrerit magna. In iaculis neque eget nisi. Maecenas vehicula, leo eu commodo aliquam, sem dolor iaculis eros, vel mollis sem urna ac sapien. <font color='#ccccff'>Integer mattis dui ut erat. Phasellus nibh magna, tempor vitae, dictum sed, vehicula sed, mauris.</font> In enim arcu, porta vel, dictum eu, pretium a, ipsum. Donec cursus, lorem ac posuere viverra, sem tellus accumsan dolor, vel accumsan tortor est et est.<br><br><a href="http://www.flashtuning.net">hyperlink</a><br><br>Praesent molestie. Nunc venenatis sapien ultrices dui. Vivamus dolor. Integer vel ante. Proin felis. Maecenas non nisl eu mi hendrerit fringilla. Mauris et sapien. Quisque risus. Ut laoreet hendrerit mi. Nam vestibulum viverra diam. Nullam eros ipsum, rutrum ut, ultricies sed, congue sed, est. Pellentesque porttitor.
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in neque. Vivamus tellus. Donec magna. Donec consequat hendrerit magna. In iaculis neque eget nisi. Maecenas vehicula, leo eu commodo aliquam, sem dolor iaculis eros, vel mollis sem urna ac sapien.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in neque. Vivamus tellus. Donec magna. Donec consequat hendrerit magna. In iaculis neque eget nisi. Maecenas vehicula, leo eu commodo aliquam, sem dolor iaculis eros, vel mollis sem urna ac sapien.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in neque. Vivamus tellus. Donec magna. Donec consequat hendrerit magna. In iaculis neque eget nisi. Maecenas vehicula, leo eu commodo aliquam, sem dolor iaculis eros, vel mollis sem urna ac sapien.]]></description>
+		</event>
+
+		<event>
+		<time>09:30</time>	
+		<title>SUSPENDISSE IN MAGNA</title>
+		<description><![CDATA[<img src='images/01.jpg' width = '70' height = '70' hspace= '10' vspace = '10'>Duis egestas, quam faucibus interdum tincidunt, enim sem tincidunt tellus, sed condimentum tellus tortor ut mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam sollicitudin, nisi egestas scelerisque pretium, odio enim sodales metus, venenatis vulputate arcu quam eget purus. Fusce convallis mattis nunc. Fusce non nunc.]]></description>
+		</event>
+
+		<event>
+		<time>11:00</time>	
+		<title>BIBENDUM PORTA CURSUS LIBERO</title>
+		<description><![CDATA[Maecenas eu erat condimentum neque molestie tincidunt. Fusce egestas, est ut fringilla facilisis, quam purus blandit dui, eget egestas mauris nibh ut diam. Phasellus volutpat. Sed fringilla tellus in sem.<br><br><a href="http://www.flashtuning.net">hyperlink</a>]]></description>
+		</event>
+
+		<event>
+		<time>12:45</time>	
+		<title>NAM VEL LIBERO NULLA</title>
+		<description><![CDATA[Ut porta dolor ut lectus. Quisque non lectus at urna vulputate aliquam. Nullam sit amet lacus sed augue vehicula posuere. Cras at nulla id risus sagittis vestibulum. Aliquam nec urna. Ut ipsum massa, eleifend vel, molestie at, ullamcorper nec, nunc. Sed dignissim, magna eget tristique vulputate, urna augue cursus neque, imperdiet cursus tellus libero quis velit. Nunc enim nisl, tempus vulputate, semper non, facilisis quis, felis. Donec consequat gravida neque. Nullam rutrum urna eleifend turpis. Ut porttitor. Aenean elit sapien, hendrerit vitae, aliquam ut, posuere vel, odio. Phasellus augue. Sed convallis. Sed erat. Duis egestas, quam faucibus interdum tincidunt, enim sem tincidunt tellus, sed condimentum tellus tortor ut mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis egestas, quam faucibus interdum tincidunt, enim sem tincidunt tellus, sed condimentum tellus tortor ut mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.]]></description>
+		</event>
+
+		<event>
+		<time>16:00</time>	
+		<title>LOREM IPSUM DOLOR</title>
+		<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in neque. Vivamus tellus. Donec magna. Donec consequat hendrerit magna. In iaculis neque eget nisi. Maecenas vehicula, leo eu commodo aliquam, sem dolor iaculis eros, vel mollis sem urna ac sapien. <font color='#ccccff'>Integer mattis dui ut erat. Phasellus nibh magna, tempor vitae, dictum sed, vehicula sed, mauris.</font> In enim arcu, porta vel, dictum eu, pretium a, ipsum. Donec cursus, lorem ac posuere viverra, sem tellus accumsan dolor, vel accumsan tortor est et est. <a href="http://www.flashtuning.net">hyperlink</a>Praesent molestie. Nunc venenatis sapien ultrices dui. Vivamus dolor. Integer vel ante. Proin felis. Maecenas non nisl eu mi hendrerit fringilla. Mauris et sapien. Quisque risus. Ut laoreet hendrerit mi. Nam vestibulum viverra diam. Nullam eros ipsum, rutrum ut, ultricies sed, congue sed, est. Pellentesque porttitor.]]></description>
+		</event>
+
+		<event>
+		<time>16:30</time>	
+		<title>SUSPENDISSE IN MAGNA</title>
+		<description><![CDATA[<img src='images/01.jpg' width = '70' height = '70' hspace= '10' vspace = '10'>Duis egestas, quam faucibus interdum tincidunt, enim sem tincidunt tellus, sed condimentum tellus tortor ut mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam sollicitudin, nisi egestas scelerisque pretium, odio enim sodales metus, venenatis vulputate arcu quam eget purus. Fusce convallis mattis nunc. Fusce non nunc.]]></description>
+		</event>
+
+		<event>
+		<time>17:00</time>	
+		<title>BIBENDUM PORTA CURSUS LIBERO</title>
+		<description><![CDATA[Maecenas eu erat condimentum neque molestie tincidunt. Fusce egestas, est ut fringilla facilisis, quam purus blandit dui, eget egestas mauris nibh ut diam. Phasellus volutpat. Sed fringilla tellus in sem.<br><a href="http://www.flashtuning.net">hyperlink</a>]]></description>
+		</event>
+
+		<event>
+		<time>17:45</time>	
+		<title>NAM VEL LIBERO NULLA</title>
+		<description><![CDATA[Ut porta dolor ut lectus. Quisque non lectus at urna vulputate aliquam. Nullam sit amet lacus sed augue vehicula posuere. Cras at nulla id risus sagittis vestibulum. Aliquam nec urna. Ut ipsum massa, eleifend vel, molestie at, ullamcorper nec, nunc. Sed dignissim, magna eget tristique vulputate, urna augue cursus neque, imperdiet cursus tellus libero quis velit. Nunc enim nisl, tempus vulputate, semper non, facilisis quis, felis. Donec consequat gravida neque. Nullam rutrum urna eleifend turpis. Ut porttitor. Aenean elit sapien, hendrerit vitae, aliquam ut, posuere vel, odio. Phasellus augue. Sed convallis. Sed erat.]]></description>
+		</event>
+
+		<event>
+		<time>22:00</time>	
+		<title>LOREM IPSUM DOLOR</title>
+		<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in neque. Vivamus tellus. Donec magna. Donec consequat hendrerit magna. In iaculis neque eget nisi. Maecenas vehicula, leo eu commodo aliquam, sem dolor iaculis eros, vel mollis sem urna ac sapien. Integer mattis dui ut erat. Phasellus nibh magna, tempor vitae, dictum sed, vehicula sed, mauris.In enim arcu, porta vel, dictum eu, pretium a, ipsum. Donec cursus, lorem ac posuere viverra, sem tellus accumsan dolor, vel accumsan tortor est et est.<br><br><a href="http://www.flashtuning.net">hyperlink</a><br><br>Praesent molestie. Nunc venenatis sapien ultrices dui. Vivamus dolor. Integer vel ante. Proin felis. Maecenas non nisl eu mi hendrerit fringilla. Mauris et sapien. Quisque risus. Ut laoreet hendrerit mi. Nam vestibulum viverra diam. Nullam eros ipsum, rutrum ut, ultricies sed, congue sed, est. Pellentesque porttitor.]]></description>
+		</event>
+
+	</event>
+	
+		<event year="2012" month="08" day="21">
+		
+		<event>
+		<time>08:00</time>	
+		<title>LOREM IPSUM DOLOR</title>
+		<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in neque. Vivamus tellus. Donec magna. Donec consequat hendrerit magna. In iaculis neque eget nisi. Maecenas vehicula, leo eu commodo aliquam, sem dolor iaculis eros, vel mollis sem urna ac sapien. <span class='emphasize'>Integer mattis dui ut erat. Phasellus nibh magna, tempor vitae, dictum sed, vehicula sed, mauris.</span> In enim arcu, porta vel, dictum eu, pretium a, ipsum. Donec cursus, lorem ac posuere viverra, sem tellus accumsan dolor, vel accumsan tortor est et est.Praesent molestie. Nunc venenatis sapien ultrices dui. Vivamus dolor. Integer vel ante. Proin felis. Maecenas non nisl <a href="http://www.flashtuning.net">hyperlink</a> eu mi hendrerit fringilla. Mauris et sapien. Quisque risus. Ut laoreet hendrerit mi. Nam vestibulum viverra diam. Nullam eros ipsum, rutrum ut, ultricies sed, congue sed, est. Pellentesque porttitor.
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in neque. Vivamus tellus. Donec magna. Donec consequat hendrerit magna. In iaculis neque eget nisi. Maecenas vehicula, leo eu commodo aliquam, sem dolor iaculis eros, vel mollis sem urna ac sapien. Phasellus nibh magna, tempor vitae, dictum sed, vehicula sed, mauris.</span> In enim arcu, porta vel, dictum eu, pretium a, ipsum. Donec cursus, lorem ac posuere viverra, sem tellus accumsan dolor, vel accumsan tortor est et est. Phasellus nibh magna, tempor vitae, dictum sed, vehicula sed, mauris.</span> In enim arcu, porta vel, dictum eu, pretium a, ipsum. Donec cursus, lorem ac posuere viverra, sem tellus accumsan dolor, vel accumsan tortor est et est.
+		]]></description>
+		</event>
+
+		<event>
+		<time>09:30</time>	
+		<title>SUSPENDISSE IN MAGNA</title>
+		<description><![CDATA[<img src='images/01.jpg' width = '70' height = '70' hspace= '10' vspace = '10'>Duis egestas, quam faucibus interdum tincidunt, enim sem tincidunt tellus, sed condimentum tellus tortor ut mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam sollicitudin, nisi egestas scelerisque pretium, odio enim sodales metus, venenatis vulputate arcu quam eget purus. Fusce convallis mattis nunc. Fusce non nunc. Phasellus nibh magna, tempor vitae, dictum sed, vehicula sed, mauris.</span> In enim arcu, porta vel, dictum eu, pretium a, ipsum. Donec cursus, lorem ac posuere viverra, sem tellus accumsan dolor, vel accumsan tortor est et est.]]></description>
+		</event>
+
+		<event>
+		<time>11:00</time>	
+		<title>BIBENDUM PORTA CURSUS LIBERO</title>
+		<description><![CDATA[Maecenas eu erat condimentum neque molestie tincidunt. Fusce egestas, est ut fringilla facilisis, quam purus blandit dui, eget egestas mauris nibh ut diam. Phasellus volutpat. Sed fringilla tellus in sem.<br><br><a href="http://www.flashtuning.net">hyperlink</a>]]></description>
+		</event>	
+
+	</event>
+
+
+	<event year="2012" month="08" day="09">
+
+		<event>
+		<time>08:00</time>	
+		<title>LOREM IPSUM DOLOR</title>
+		<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in neque. Vivamus tellus. Donec magna. Donec consequat hendrerit magna. In iaculis neque eget nisi. Maecenas vehicula, leo eu commodo aliquam, sem dolor iaculis eros, vel mollis sem urna ac sapien. <font color='#ccccff'>Integer mattis dui ut erat. Phasellus nibh magna, tempor vitae, dictum sed, vehicula sed, mauris.</font> In enim arcu, porta vel, dictum eu, pretium a, ipsum. Donec cursus, lorem ac posuere viverra, sem tellus accumsan dolor, vel accumsan tortor est et est.<br><br><a href="http://www.flashtuning.net">hyperlink</a><br><br>Praesent molestie. Nunc venenatis sapien ultrices dui. Vivamus dolor. Integer vel ante. Proin felis. Maecenas non nisl eu mi hendrerit fringilla. Mauris et sapien. Quisque risus. Ut laoreet hendrerit mi. Nam vestibulum viverra diam. Nullam eros ipsum, rutrum ut, ultricies sed, congue sed, est. Pellentesque porttitor.
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in neque. Vivamus tellus. Donec magna. Donec consequat hendrerit magna. In iaculis neque eget nisi. Maecenas vehicula, leo eu commodo aliquam, sem dolor iaculis eros, vel mollis sem urna ac sapien.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in neque. Vivamus tellus. Donec magna. Donec consequat hendrerit magna. In iaculis neque eget nisi. Maecenas vehicula, leo eu commodo aliquam, sem dolor iaculis eros, vel mollis sem urna ac sapien.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in neque. Vivamus tellus. Donec magna. Donec consequat hendrerit magna. In iaculis neque eget nisi. Maecenas vehicula, leo eu commodo aliquam, sem dolor iaculis eros, vel mollis sem urna ac sapien.]]></description>
+		</event>
+
+		<event>
+		<time>09:30</time>	
+		<title>SUSPENDISSE IN MAGNA</title>
+		<description><![CDATA[<img src='images/01.jpg' width = '70' height = '70' hspace= '10' vspace = '10'>Duis egestas, quam faucibus interdum tincidunt, enim sem tincidunt tellus, sed condimentum tellus tortor ut mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam sollicitudin, nisi egestas scelerisque pretium, odio enim sodales metus, venenatis vulputate arcu quam eget purus. Fusce convallis mattis nunc. Fusce non nunc.]]></description>
+		</event>
+
+		<event>
+		<time>11:00</time>	
+		<title>BIBENDUM PORTA CURSUS LIBERO</title>
+		<description><![CDATA[Maecenas eu erat condimentum neque molestie tincidunt. Fusce egestas, est ut fringilla facilisis, quam purus blandit dui, eget egestas mauris nibh ut diam. Phasellus volutpat. Sed fringilla tellus in sem.<br><br><a href="http://www.flashtuning.net">hyperlink</a>]]></description>
+		</event>
+
+		<event>
+		<time>12:45</time>	
+		<title>NAM VEL LIBERO NULLA</title>
+		<description><![CDATA[Ut porta dolor ut lectus. Quisque non lectus at urna vulputate aliquam. Nullam sit amet lacus sed augue vehicula posuere. Cras at nulla id risus sagittis vestibulum. Aliquam nec urna. Ut ipsum massa, eleifend vel, molestie at, ullamcorper nec, nunc. Sed dignissim, magna eget tristique vulputate, urna augue cursus neque, imperdiet cursus tellus libero quis velit. Nunc enim nisl, tempus vulputate, semper non, facilisis quis, felis. Donec consequat gravida neque. Nullam rutrum urna eleifend turpis. Ut porttitor. Aenean elit sapien, hendrerit vitae, aliquam ut, posuere vel, odio. Phasellus augue. Sed convallis. Sed erat. Duis egestas, quam faucibus interdum tincidunt, enim sem tincidunt tellus, sed condimentum tellus tortor ut mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis egestas, quam faucibus interdum tincidunt, enim sem tincidunt tellus, sed condimentum tellus tortor ut mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.]]></description>
+		</event>
+
+		<event>
+		<time>16:00</time>	
+		<title>LOREM IPSUM DOLOR</title>
+		<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in neque. Vivamus tellus. Donec magna. Donec consequat hendrerit magna. In iaculis neque eget nisi. Maecenas vehicula, leo eu commodo aliquam, sem dolor iaculis eros, vel mollis sem urna ac sapien. <font color='#ccccff'>Integer mattis dui ut erat. Phasellus nibh magna, tempor vitae, dictum sed, vehicula sed, mauris.</font> In enim arcu, porta vel, dictum eu, pretium a, ipsum. Donec cursus, lorem ac posuere viverra, sem tellus accumsan dolor, vel accumsan tortor est et est. <a href="http://www.flashtuning.net">hyperlink</a>Praesent molestie. Nunc venenatis sapien ultrices dui. Vivamus dolor. Integer vel ante. Proin felis. Maecenas non nisl eu mi hendrerit fringilla. Mauris et sapien. Quisque risus. Ut laoreet hendrerit mi. Nam vestibulum viverra diam. Nullam eros ipsum, rutrum ut, ultricies sed, congue sed, est. Pellentesque porttitor.]]></description>
+		</event>
+
+		<event>
+		<time>16:30</time>	
+		<title>SUSPENDISSE IN MAGNA</title>
+		<description><![CDATA[<img src='images/01.jpg' width = '70' height = '70' hspace= '10' vspace = '10'>Duis egestas, quam faucibus interdum tincidunt, enim sem tincidunt tellus, sed condimentum tellus tortor ut mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam sollicitudin, nisi egestas scelerisque pretium, odio enim sodales metus, venenatis vulputate arcu quam eget purus. Fusce convallis mattis nunc. Fusce non nunc.]]></description>
+		</event>
+
+		<event>
+		<time>17:00</time>	
+		<title>BIBENDUM PORTA CURSUS LIBERO</title>
+		<description><![CDATA[Maecenas eu erat condimentum neque molestie tincidunt. Fusce egestas, est ut fringilla facilisis, quam purus blandit dui, eget egestas mauris nibh ut diam. Phasellus volutpat. Sed fringilla tellus in sem.<br><a href="http://www.flashtuning.net">hyperlink</a>]]></description>
+		</event>
+
+		<event>
+		<time>17:45</time>	
+		<title>NAM VEL LIBERO NULLA</title>
+		<description><![CDATA[Ut porta dolor ut lectus. Quisque non lectus at urna vulputate aliquam. Nullam sit amet lacus sed augue vehicula posuere. Cras at nulla id risus sagittis vestibulum. Aliquam nec urna. Ut ipsum massa, eleifend vel, molestie at, ullamcorper nec, nunc. Sed dignissim, magna eget tristique vulputate, urna augue cursus neque, imperdiet cursus tellus libero quis velit. Nunc enim nisl, tempus vulputate, semper non, facilisis quis, felis. Donec consequat gravida neque. Nullam rutrum urna eleifend turpis. Ut porttitor. Aenean elit sapien, hendrerit vitae, aliquam ut, posuere vel, odio. Phasellus augue. Sed convallis. Sed erat.]]></description>
+		</event>
+
+		<event>
+		<time>22:00</time>	
+		<title>LOREM IPSUM DOLOR</title>
+		<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in neque. Vivamus tellus. Donec magna. Donec consequat hendrerit magna. In iaculis neque eget nisi. Maecenas vehicula, leo eu commodo aliquam, sem dolor iaculis eros, vel mollis sem urna ac sapien. Integer mattis dui ut erat. Phasellus nibh magna, tempor vitae, dictum sed, vehicula sed, mauris.In enim arcu, porta vel, dictum eu, pretium a, ipsum. Donec cursus, lorem ac posuere viverra, sem tellus accumsan dolor, vel accumsan tortor est et est.<br><br><a href="http://www.flashtuning.net">hyperlink</a><br><br>Praesent molestie. Nunc venenatis sapien ultrices dui. Vivamus dolor. Integer vel ante. Proin felis. Maecenas non nisl eu mi hendrerit fringilla. Mauris et sapien. Quisque risus. Ut laoreet hendrerit mi. Nam vestibulum viverra diam. Nullam eros ipsum, rutrum ut, ultricies sed, congue sed, est. Pellentesque porttitor.]]></description>
+		</event>
+
+	</event>
+</data>

@@ -1,0 +1,22 @@
+/* Supported stylesheet properties in actionscript:
+http://livedocs.adobe.com/flash/9.0/ActionScriptLangRefV3/flash/text/StyleSheet.html */
+
+
+
+
+a {
+	color:#ccccff;
+	text-decoration:none;
+}
+a:hover {
+	color:#ffffff;
+	text-decoration:underline;
+}
+
+
+
+.emphasize {
+	font-size: 11px;
+	color: #ccccff;
+}
+

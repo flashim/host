@@ -1,0 +1,30 @@
+<HTML>
+<HEAD>
+<meta http-equiv=Content-Type content="text/html;  charset=ISO-8859-1">
+<TITLE>KPMG</TITLE>
+<script language="javascript">
+var x=0,y=0
+if(window.screen.width>=1024 && window.screen.height>=768 ){
+x =parseInt((window.screen.width-780)/2); //parseInt(window.screen.width) / 2-508
+y = parseInt((window.screen.height-580)/2); // / 2-356
+}
+function MM_openBrWindow(theURL,winName,features) {
+ var wo= window.open(theURL,winName,features);
+ wo.moveTo(x,y);
+ wo.focus();
+}
+
+function fnShowWindow(){
+	var w=1024;
+	var h=679;
+	var l = (screen.width/2)-(w/2);
+	var t = (screen.height/2)-(h/2);
+
+	MM_openBrWindow('course/index.html','KPMG','width='+w+',height='+h+',scrollbars=No,top='+t+',left='+l+'');
+}
+</script>
+</HEAD>
+<BODY bgcolor="#ffffff" onLoad="fnShowWindow()">
+
+</BODY>
+</HTML>

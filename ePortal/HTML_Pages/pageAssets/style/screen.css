@@ -1,0 +1,455 @@
+body {
+	margin:0;
+	padding:0;
+	border:0;			/* This removes the border around the viewport in old versions of IE */
+	width:100%;
+	background:#f3f4f8;
+	min-width:980px;    	/* Minimum width of layout - remove line if not required */
+					/* The min-width property does not work in old versions of Internet Explorer */
+	font-size:100%;
+}
+
+.main {
+	width: 980px ;
+	margin-left: auto ;
+	margin-right: auto ;
+	overflow:hidden;
+	-moz-box-shadow: 0px 0px 15px 1px #ccc;
+	-webkit-box-shadow: 0px 0px 15px 1px #ccc;
+}
+
+.shadow {
+	-moz-box-shadow: 0 0 30px 5px #999;
+	-webkit-box-shadow: 0 0 30px 5px #999;
+}
+
+a {
+	color:#000;
+	font-family:"Arial";
+}
+a:hover {
+	color:#000;
+}
+h1, h2, h3 {
+	margin:.8em 0 .2em 0;
+	padding:0;
+	font-family:"Arial";
+}
+
+p {
+	margin:.4em 0 .8em 0;
+	padding:0;
+	font-family:"Arial";
+}
+
+img {
+	margin:0px 0px 0px;
+}
+
+.div img_center {
+	vertical-align:middle;
+	text-align:center;	
+}
+
+.topicHeading p {
+	color:#061592;
+	font-weight:bold;
+}
+
+#links {
+	display:block;
+	padding-top:10px;
+	position:relative;
+	clear:both;
+	float:right;
+	top:30px;
+	color:#FFF;
+}
+
+.redbox {
+	display:block;
+	background:#9e3039;	/* left column background colour */
+	border-bottom:1px solid #6e2228;
+	color:#FFF;
+	font-weight:bold;
+	font-family:"Arial";
+	font-size:12px;
+	text-decoration:none;
+	position:relative;
+	padding:3px 10px;
+}
+
+.bluebox {
+	display:block;
+	background:#e0eef9;	/* left column background colour */
+	border-bottom:1px solid #b0cce2;
+	color:#061592;
+	font-weight:bold;
+	font-family:"Arial";
+	font-size:12px;
+	text-decoration:none;
+	position:relative;
+	padding:3px 10px;
+}
+
+.box {
+	display:block;
+	background:#f8f9fd;
+	padding:10px;
+}
+
+.togglebox {
+	background:#e3ebf4;
+	padding:10px;
+}
+
+.greybox {
+	padding:5px;
+	margin:0px;
+	background:#f2f2f2;
+	border-width: 1px; 
+	border-style: dotted; 
+	border-color: black;
+}
+
+.bigbluebutton {
+	padding:0px;
+	margin:0px;
+	width:186px;
+	height:46px;
+	/*cursor:pointer;*/
+	float:left;
+}
+
+.floatRightDiv {
+	margin:0px;
+	padding:0px 50px 0px 0px;
+	float:right;
+	width:460px;
+}
+
+
+.emptyDiv {
+	padding:0px;
+}
+
+.toggleDiv {
+	cursor:pointer;
+	position:relative;
+	width:15px;
+	height:14px;
+
+}
+
+.toggleDiv_old {
+	cursor:pointer;
+	color:#007c92;
+	font-family:"Arial";
+	font-size:12px;
+	text-decoration:underline;
+}
+
+ul {
+	font-family:"Arial";
+	font-size:12px;
+	text-decoration:none;
+}
+
+ul li {
+	list-style-type: square;
+	vertical-align:middle;
+}
+
+ol {
+	font-family:"Arial";
+	font-size:12px;
+	text-decoration:none;
+}
+
+ol li{
+	list-style-type:decimal;
+}
+
+.container {
+	padding:0px 20px;
+	float:right;
+}
+
+.nav { 
+	margin:0px;
+	padding:0px 3px;
+	width: 25px; 
+	position:relative;
+	float: right;
+	color:#061592;
+}
+
+.clear { clear: both;}
+
+.backlink {
+	margin:0px;
+	padding:0px 25px 0px 0px;
+	position:relative;
+	clear:both;
+	float:right;
+	color:#061592;
+}
+
+.nav a {
+	color:#007c92;
+	font-family:"Arial";
+	font-size:12px;
+	font-weight:normal;
+}
+
+
+
+.externalLink {
+	color:#007c92;
+	font-family:"Arial";
+	font-size:12px;
+	font-weight:normal;
+	text-decoration: underline;
+}
+
+.hidden { display: none; }
+.unhidden { display: block; }
+
+.question {
+	position:relative;
+	padding:1px;
+	margin: 0px 0px 2px 0px;
+}
+
+.question a {
+	text-decoration:none;
+	font-family:"Arial";
+	font-size:12px;
+	color:#061592; 
+	font-weight:bold;
+}
+
+.answer {
+	font-family:"Arial";
+	font-size:12px;
+	text-decoration:none;
+	position:relative;
+	color:#000000; 
+	font-weight:normal;
+	background:#fBfBfB;
+	padding:1px;
+	margin: 0px 0px 10px 0px;
+}
+
+table, th, td{
+	font-family:"Arial";
+	font-size:12px;
+	text-decoration:none;
+	color:#000; 
+	font-weight:normal;
+	border: 1px solid grey;
+	border-spacing:1px;
+	list-style-position:outside;
+	padding:0px;
+}
+
+th {
+	text-align:center;
+	font-weight:bold;
+	font-size:14px;
+	background-color:#EDEDED;
+	color:#333;	
+	height:22px;
+}
+
+td {
+	vertical-align:text-top;
+	padding: 3px 3px 3px 5px;
+}
+
+
+/* Header styles */
+#header {
+	clear:both;
+	float:left;
+	width:100%;
+	border-bottom:1px solid #E8ECF8;
+}
+
+#header p,
+#header h1,
+#header h2 {
+	padding:.4em 15px 0 15px;
+	margin:0;
+}
+
+#links a {
+	text-align:center;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFF;
+	text-decoration:none;
+	position:relative;
+}
+#links a:hover {
+	color:#fa9a00;
+}
+#links a.active,
+#links a.active:hover {
+	color:#fa9a00;
+	font-weight:bold;
+}
+
+/* 'widths' sub menu */
+#layoutdims {
+	clear:both;
+	background:#eee;
+	border-top:4px solid #000;
+	margin:0;
+	padding:6px 6px !important;
+	text-align:right;
+}
+/* column container */
+.colmask {
+	position:relative;	/* This fixes the IE7 overflow hidden bug */
+	clear:both;
+	float:left;
+	width:100%;			/* width of whole page */
+	overflow:hidden;		/* This chops off any overhanging divs */
+	
+}
+/* common column settings */
+.colright,
+.colmid,
+.colleft {
+	float:left;
+	width:100%;
+	position:relative;
+}
+
+.col1,
+.col2,
+.col3 {
+	float:left;
+	position:relative;
+	padding:0 0 1em 0;
+	overflow:hidden;
+	font-size:12px;
+}
+/* 2 Column (left menu) settings */
+.leftmenu {
+	background:#fff;		/* right column background colour */
+}
+
+.header_text {
+	display:block;
+	
+	margin:0 0 0 1px;
+	padding:0px 0px 10px 15px;
+	
+	left:0px;
+	line-height:1.3em;
+	
+	color:#061592;
+	font-weight:bold;
+	text-decoration:none;
+	position:relative;
+}
+
+
+.leftmenu .colleft {
+	right:750px;			/* right column width */
+	background:#F8F9FD;	/* left column background colour */
+	border-top:1px solid #E8ECF8;
+	border-right:1px solid #E8ECF8;
+}
+.leftmenu .col1 {
+	width:72%;			 /*right column content width */
+	left:102%;		/*	 100% plus left column left padding */
+}
+.leftmenu .col2 {
+	width:21%;			/* left column content width (column width minus left and right padding) */
+	left:6%;			/* (right column left and right padding) plus (left column left padding) */
+}
+/* Footer styles */
+#footer {
+	clear:both;
+	float:left;
+	width:100%;
+	border-top:1px solid #E8ECF8;
+	color:#cccccc;
+}
+#footer p {
+	padding:10px;
+	margin:0;
+}
+
+#footer a {
+	text-align:center;
+	font-size:11px;
+	color:#919191;
+	text-decoration:none;
+	position:relative;
+}
+#footer a:hover {
+	color:#919191;
+	text-decoration:underline;
+}
+#footer a.active,
+#footer a.active:hover {
+	color:#919191;
+	font-weight:bold;
+}
+
+/* Menu links */
+
+#navcontainer {
+	
+}
+
+
+#navcontainer ul{
+	margin: 0;
+	padding:0px;
+	list-style-type: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+#navcontainer li { 
+	margin: 0px; 
+}
+
+#navcontainer a
+{
+	display: block;
+	padding: 6px 6px 6px 10px;
+	border-bottom:1px solid #e7ecf8;
+	background-color: #FFF;
+	font-weight:normal;
+}
+
+#navcontainer a:link, #navlist a:visited {
+	color: #007c92;
+	font-weight:normal;
+	text-decoration: none;
+}
+
+#navcontainer a:hover{
+	text-decoration:underline;
+	background-color: #f6f6f6;
+	font-weight:normal;
+	color: #007c92;
+}
+
+#active a:link, #active a:visited, #active a:hover { 
+	background-color: #f6f6f6;
+	text-decoration:none;
+	font-weight:bold;
+	color: #061592;
+	cursor: default;
+}
+
+/* menu link ends */
+
+
