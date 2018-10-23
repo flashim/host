@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="cv">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Ashim S - Resume</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Theme CSS -->
+    <link href="css/freelancer.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery/jquery.easing.min.js"></script>
+
+
+    <!-- AngularJS -->
+    <script src="vendor/angular/angular.min.js"></script>
+    <script src="vendor/angular/angular-route.min.js"></script>
+    <script src="vendor/angular/angular-animate.min.js"></script>
+    <script src="vendor/angular/angular-modal-service.js"></script>
+
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+
+
+    <!-- Theme JavaScript -->
+    <script src="js/freelancer.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+
+    <!-- load angular js -->
+    <script>
+        var app = angular.module('cv', ['angularModalService', 'ngRoute', 'ngAnimate']); //
+
+        app.factory('Scopes', function() {
+            var mem = {};
+            return {
+                store: function(key, value) {
+                    mem[key] = value;
+                },
+                get: function(key) {
+                    return mem[key];
+                }
+            };
+        });
+
+        app.factory("ProjectService", function() {
+            var projects = [{
+                label: 'Flash to HTML5 conversion',
+                link: 'https://db.tt/zHYp0a2t',
+                thumbnail: 'img/portfolio/cabin.png',
+                client: 'Upwork',
+                date: '2015',
+                tech: 'HTML5'
+            }, {
+                label: 'Flash to HTML5 conversion',
+                link: 'https://db.tt/MNr2u6nT',
+                thumbnail: 'img/portfolio/cabin.png',
+                client: 'Upwork',
+                date: '2015',
+                tech: 'HTML5'
+            }, {
+                label: 'HTML5 banner',
+                link: 'https://db.tt/r8UCMLHY',
+                thumbnail: 'img/portfolio/cabin.png',
+                client: 'Upwork',
+                date: '2015',
+                tech: 'HTML5'
+            }, {
+                label: 'Elearning Activity',
+                link: 'https://db.tt/YLADhGeh',
+                thumbnail: 'img/portfolio/cabin.png',
+                client: 'NeuroPath Learning',
+                date: '2015',
+                tech: 'HTML5 / Canvas'
+            }, {
+                label: 'Elearning Activity',
+                link: 'https://db.tt/3Aww3hEU',
+                thumbnail: 'img/portfolio/cabin.png',
+                client: 'NeuroPath Learning',
+                date: '2015',
+                tech: 'HTML5 / Canvas'
+            }, {
+                label: 'Elearning Activity',
+                link: 'https://db.tt/nfLy05Jw',
+                thumbnail: 'img/portfolio/cabin.png',
+                client: 'NeuroPath Learning',
+                date: '2015',
+                tech: 'HTML5 / Canvas'
+            }, {
+                label: 'Mobile Splash Screen Design',
+                link: 'https://dl.dropboxusercontent.com/u/62473210/profile_projects/mobile_app_design/SplashScreen_v2.jpg',
+                thumbnail: 'img/portfolio/cabin.png',
+                client: 'NA',
+                date: '2014',
+                tech: 'UI/UX Design'
+            }, {
+                label: 'Mobile Splash Screen Design',
+                link: 'https://dl.dropboxusercontent.com/u/62473210/profile_projects/mobile_app_design/SplashScreen_v5.jpg',
+                thumbnail: 'img/portfolio/cabin.png',
+                client: 'NA',
+                date: '2014',
+                tech: 'UI/UX Design'
+            }, {
+                label: 'Mobile Design',
+                link: 'https://dl.dropboxusercontent.com/u/62473210/profile_projects/mobile_app_design/mobile-app-designs.jpg',
+                thumbnail: 'img/portfolio/cabin.png',
+                client: 'NA',
+                date: '2014',
+                tech: 'UI/UX Design'
+            }];
+
+            var selectedID = null;
+
+            return {
+                allProjects: function() {
+                    return projects;
+                },
+
+                setSelectedID: function(id) {
+                    selectedID = id;
+                },
+
+                getSelectedID: function() {
+                    return selectedID + 1;
+                },
+
+                getSelectedProject: function() {
+                    return projects[selectedID];
+                }
+            };
+        });
+
+
+        app.controller('pfController', ['$scope', 'ProjectService', 'ModalService', 'Scopes', function($scope, ProjectService, ModalService, Scopes) {
+
+            $scope.pfList = ProjectService.allProjects();
+
+
+            $scope.show = function(id) {
+
+                console.log(id);
+                //.. set the selected variable in factory 
+                ProjectService.setSelectedID(id);
+
+                //Scopes.store('myCtrl', $scope);
+
+                ModalService.showModal({
+                    templateUrl: 'modal.html',
+                    controller: "ModalController"
+                }).then(function(modal) {
+                    modal.element.modal();
+                    modal.close.then(function(result) {
+                        $scope.message = "You said " + result;
+                    });
+                });
+            };
+
+        }]);
+
+        app.controller('ModalController', ['$scope', 'ProjectService', 'ModalService', 'Scopes', 'close', function($scope, ProjectService, ModalService, Scopes, close) {
+
+            $scope.selectedItem = ProjectService.getSelectedProject();
+            $scope.id = ProjectService.getSelectedID();
+
+            //console.log($scope.id + " ModalController called " + $scope.selectedItem.link);
+
+            $scope.close = function(result) {
+                close(result, 500); // close, but give 500ms for bootstrap to animate
+            };
+
+        }]);
+
+
+        app.controller('ContactController', ['$scope', function($scope) {
+
+            $scope.contact = "flashim@gmail.com";
+
+            $scope.onContactClick = function(val) {
+                $scope.contact = val;
+            }
+
+        }]);
+
+        app.directive('myContact', function() {
+            return {
+                template: '<br><p>{{contact}}</p>'
+            };
+        });
+
+        /*
+        app.directive('openDialog', function() {
+            return {
+                restrict: 'A',
+                link: function(scope, elem, attr, ctrl) {
+                    var dialogId = '#' + attr.openDialog;
+                    elem.bind('click', function(e) {
+                        $(dialogId).dialog('open');
+                    });
+                }
+            };
+        });
+        */
+
+    </script>
+
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#page-top">RESUME</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#tools">Tools</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive img-circle" src="img/profile.jpg" alt="">
+                    <div class="intro-text">
+                        <span class="name">Ashim Saha</span>
+                        <hr class="star-light">
+                        <span class="skills">Freelance UI/UX Developer | Elearning Specialist</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About Myself</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-left">
+                    <p>A passionate UI/UX developer trying to bring the best of 2 worlds; Design and Technology together. With over 15+ years in Frontend Platform development integrating graphics, media and technology, I have successfully developed solutions for e-learning, web and mobile applications. Whatever been achieved professionally, confidence and commitment were the key factors. The journey has been enriching in terms of professional growth, along with varied industry knowledge and acquisition of soft skills. With a variety of responsibilities such as being a team player developing with co-developers, managing development as well as communicating to clients, taking steps to upgrade and automate processes, at times redefining them and coordinating so as to keep the process streamlined. Not only in programming but in designing, UX, requirement analysis, flow process in content development, communication, I have managed to enrich myself on every domain till date. </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid Section -->
+    <section class="success" id="portfolio" ng-controller="pfController">
+        <div class="container">
+            <div class="row">
+                <div class="text-center">
+                    <h2>Portfolio</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+
+
+
+                <div class="col-md-4 portfolio-item" ng-repeat="pf in pfList">
+                    <a href class="portfolio-link" ng-click="show($index)">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <div class="portfolio-inner">
+                            <h2>{{$index + 1}}</h2>
+
+                            <h4>{{pf.label}}</h4>
+                        </div>
+
+                        <!--<img ng-src="{{pf.thumbnail}}" class="img-responsive" alt="">-->
+
+                        <!--<div>
+                            <object type="text/html" data="{{pf.link}}" width="100%" height="225px">
+                            </object>
+                        </div>-->
+
+                    </a>
+                </div>
+
+
+
+
+            </div>
+
+            <div class="row">
+
+                <!-- The actual modal template, just a bit o bootstrap -->
+                <script type="text/ng-template" id="modal.html">
+                    <div class="modal fade">
+                        <div class="modal-dialog modal-lg">
+
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" ng-click="close('Cancel')" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h4 class="modal-title">{{id}}. {{selectedItem.label}}</h4>
+                                    <!--hr class="star-primary"><span></span-->
+                                </div>
+                                <div class="modal-body">
+                                    <div>
+                                        <object type="text/html" data="{{selectedItem.link}}" width="100%" height="680px" style="overflow:auto;border:1px grey"></object>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <!--button type="button" ng-click="close('No')" class="btn btn-default" data-dismiss="modal">No</button>
+                                    <button type="button" ng-click="close('Yes')" class="btn btn-primary" data-dismiss="modal">Yes</button-->
+                                    <ul class="list-inline item-details">
+                                        <li>Client: <strong>{{selectedItem.client}}</strong></li>
+                                        <li>Date:<strong>{{selectedItem.date}}</strong></li>
+                                        <li>Service:<strong>{{selectedItem.tech}}</strong></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </script>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Tools -->
+    <section id="tools">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>My Tools and Skills</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 centered">
+                    <div class="toolbox">HTML5</div>
+                    <div class="toolbox">Javascript</div>
+                    <div class="toolbox">Canvas Programming</div>
+                    <div class="toolbox">CreateJS</div>
+                    <div class="toolbox">CSS3</div>
+                    <div class="toolbox">Bootstrap3</div>
+                    <div class="toolbox">AngularJS</div>
+                    <div class="toolbox">Node/npm</div>
+                    <div class="toolbox">Photoshop</div>
+                    <div class="toolbox">GIT</div>
+                    <div class="toolbox">Audio and Video editing</div>
+                    <div class="toolbox">Elearning</div>
+                    <div class="toolbox">SCORM</div>
+                    <div class="toolbox">AICC</div>
+                    <div class="toolbox">Haxe</div>
+                    <div class="toolbox">Flex</div>
+                    <div class="toolbox">Flash</div>
+                    <div class="toolbox">Actionscript</div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="success" id="contact" ng-controller="ContactController">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Contact Me</h2>
+                    <hr class="star-light">
+                    <ul class="list-inline">
+                        <li>
+                            <a href class="btn-social btn-outline" ng-click="onContactClick('https://facebook.com/flashim')"><i class="fa fa-fw fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href class="btn-social btn-outline" ng-click="onContactClick('flashim@gmail.com')"><i class="fa fa-fw fa-google-plus"></i></a>
+                        </li>
+                        <li>
+                            <a href class="btn-social btn-outline" ng-click="onContactClick('flashim@gmail.com')"><i class="fa fa-fw fa-envelope-o"></i></a>
+                        </li>
+                        <li>
+                            <a href class="btn-social btn-outline" ng-click="onContactClick('twitter.com/flashim')"><i class="fa fa-fw fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href class="btn-social btn-outline" ng-click="onContactClick('https://in.linkedin.com/in/flashim')"><i class="fa fa-fw fa-linkedin"></i></a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="contact" my-contact>hello</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Work Location</h3>
+
+                        <p>Pune 411060, India</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        &copy; 2016
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+
+
+
+</body>
+
+</html>
