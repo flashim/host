@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+:root {
+    --progress: 0;
+}
+
+.progress {
+    background: rgba(114, 186, 94, 0.3);
+    position: fixed;
+    width: 0%;
+    height: 20px;
+    z-index: 3;
+}
+
+.centered {
+    position: absolute;
+    width: 993px;
+    height: 610px;
+    left: 50%;
+    top: 50%;
+    margin-left: -496.5px;
+    margin-top: -305px;
+}
+
+
+/* ------------------------------------------------- */
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 250px auto;
+    padding: 0;
+    width: 360px;
+    height: auto;
+
+    border-radius: 2%;
+    /* border-top: 45px solid #c4dbec;
+    border-bottom: 45px solid #c4dbec; */
+}
+
+.top-panel {
+    background: #c4dbec;
+    padding: 10px;
+    border-radius: 7px 7px 0 0;
+}
+
+.bottom-panel {
+    background: #c4dbec;
+    padding: 10px;
+    border-radius: 0px 0px 7px 7px;
+}
+
+.modal-content h4 {
+    margin: -14% 0% 0% -2%;
+    color: #555555;
+}
+
+.modal-content p {
+    margin: 8% 0% 5% 0;
+    text-align: center;
+    color: #929292;
+    font-weight: 600;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+table td {
+    width: 70%;
+    padding: 4% 4% 5% 4%;
+    color: #555555;
+
+}
+
+#modal-plygame-btn {
+    text-align: right;
+    padding: 4px 0 0;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    text-align: right;
+    font-size: 28px;
+    font-weight: bold;
+    display: block;
+    float: right;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

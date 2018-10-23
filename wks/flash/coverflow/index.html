@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<title>'3D Cover Flow'</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<script type="text/javascript" src="js/swfobject.js"></script>
+		<script type="text/javascript" src="js/swfaddress.js"></script>
+		<script type="text/javascript" src="js/swffit.js"></script>
+
+		<script type="text/javascript">
+			var flashvars = {};
+			flashvars.setupXML="assets/xml/cover-settings.xml";
+			var params = {};
+			params.menu = "false";
+			params.quality = "best";
+			params.scale = "noscale";
+			params.salign = "tl";
+			params.wmode = "window";
+			params.bgcolor = "#999999";
+			params.allowfullscreen = "true";
+			var attributes = {};
+			attributes.align = "middle";
+			swfobject.embedSWF("coverFlow.swf", "componentDiv", "590", "450", "9.0.0", "expressInstall.swf", flashvars, params, attributes);
+			/*swffit.fit('componentDiv', 1024, 600);*/
+
+		</script>
+		
+		<style type="text/css" media="screen">
+		  html, body, #containerA, #containerB { height:100%; }
+		  body { margin:0; padding:0; display:block; background-color:#000000; background: url(img/back2.jpg);}
+		  
+		  #holder{ padding: 0px 0px 0px 0px; }
+		  
+		</style>
+		
+	</head>
+	<body>
+		<div id="holder">
+				<div id="componentDiv">
+					<a href="http://www.adobe.com/go/getflashplayer">
+						<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+					</a>				
+			</div>
+		</div>
+		
+	</body>
+</html>

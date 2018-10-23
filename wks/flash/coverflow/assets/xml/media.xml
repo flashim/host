@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+		<item thumbURL="assets/media/previewVideo.jpg" videoURL="assets/media/music.flv">
+			<description><![CDATA[ Enter text video here ]]></description>
+		</item>
+		<item thumbURL="assets/media/images/demo1/w1.jpg" link="http://www.flashtuning.net" target="_blank">
+			<description><![CDATA[ Enter text 1 here ]]></description>
+		</item>
+		<item thumbURL="assets/media/images/demo1/w2.jpg" link="http://www.flashtuning.net" target="_blank">
+			<description><![CDATA[ Enter text 2 here ]]></description>
+		</item>
+		<item thumbURL="assets/media/images/demo1/w3.jpg" link="http://www.flashtuning.net" target="_blank">
+			<description><![CDATA[ Enter text 3 here ]]></description>
+		</item>
+		<item thumbURL="assets/media/images/demo1/w4.jpg" link="http://www.flashtuning.net" target="_blank">
+			<description><![CDATA[ Enter text 4 here ]]></description>
+		</item>
+		<item thumbURL="assets/media/images/demo1/w5.jpg" link="http://www.flashtuning.net" target="_blank">
+			<description><![CDATA[ Enter text 5 here ]]></description>
+		</item>		
+		<item thumbURL="assets/media/images/demo1/w6.jpg" link="http://www.flashtuning.net" target="_blank">
+			<description><![CDATA[ Enter text 6 here ]]></description>
+		</item>
+		<item thumbURL="assets/media/images/demo1/w7.jpg" link="http://www.flashtuning.net" target="_blank">
+			<description><![CDATA[ Enter text 7 here ]]></description>
+		</item>
+</data>

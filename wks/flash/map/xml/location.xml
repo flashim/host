@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<flash>
+	<map>
+		<county name="atlantic">
+			<link><![CDATA[http://www.autoinsuranceinjersey.com/atlantic-county]]></link>
+		</county>
+		<county name="bergen">
+			<link><![CDATA[http://www.autoinsuranceinjersey.com/bergen-county]]></link>
+		</county>
+		<county name="burlington">
+			<link><![CDATA[http://www.autoinsuranceinjersey.com/burlington-county]]></link>
+		</county>
+		<county name="camden">
+			<link><![CDATA[http://www.autoinsuranceinjersey.com/camden-county]]></link>
+		</county>
+		<county name="capemay">
+			<link><![CDATA[http://www.autoinsuranceinjersey.com/capemay-county]]></link>
+		</county>
+		<county name="cumberland">
+			<link><![CDATA[http://www.autoinsuranceinjersey.com/cumberland-county]]></link>
+		</county>
+		<county name="essex">
+			<link><![CDATA[http://www.autoinsuranceinjersey.com/essex-county]]></link>
+		</county>
+		<county name="gloucester">
+			<link><![CDATA[http://www.autoinsuranceinjersey.com/gloucester-county]]></link>
+		</county>
+		<county name="hunterdon">
+			<link><![CDATA[http://www.autoinsuranceinjersey.com/hunterdon-county]]></link>
+		</county>
+		<county name="hudson">
+			<link><![CDATA[http://www.autoinsuranceinjersey.com/hudson-county]]></link>
+		</county>
+		<county name="mercer">
+			<link><![CDATA[http://www.autoinsuranceinjersey.com/mercer-county]]></link>
+		</county>
+		<county name="middlesex">
+			<link><![CDATA[http://www.autoinsuranceinjersey.com/middlesex-county]]></link>
+		</county>
+		<county name="monmouth">
+			<link><![CDATA[http://www.autoinsuranceinjersey.com/monmouth-county]]></link>
+		</county>
+		<county name="morris">
+			<link><![CDATA[http://www.autoinsuranceinjersey.com/morris-county]]></link>
+		</county>
+		<county name="ocean">
+			<link><![CDATA[http://www.autoinsuranceinjersey.com/ocean-county]]></link>
+		</county>
+		<county name="passaic">
+			<link><![CDATA[http://www.autoinsuranceinjersey.com/passaic-county]]></link>
+		</county>
+		<county name="salem">
+			<link><![CDATA[http://www.autoinsuranceinjersey.com/salem-county]]></link>
+		</county>
+		<county name="somerset">
+			<link><![CDATA[http://www.autoinsuranceinjersey.com/somerset-county]]></link>
+		</county>
+		<county name="sussex">
+			<link><![CDATA[http://www.autoinsuranceinjersey.com/sussex-county]]></link>
+		</county> 
+		<county name="union">
+			<link><![CDATA[http://www.autoinsuranceinjersey.com/union-county]]></link>
+		</county>
+		<county name="warren">
+			<link><![CDATA[http://www.autoinsuranceinjersey.com/warren-county]]></link>
+		</county>
+	</map>
+</flash>

@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>airmaster_large_rectangle</title>
+
+<style type= "text/css" media="screen">
+	html, body { height:100%; background-color: #ffffff;}
+	body { margin:0; padding:0; overflow:hidden; }
+	#flashContent { width:100%; height:100%; }
+</style>
+		
+
+
+<script src="libs/easeljs-0.6.0.min.js"></script>
+<script src="libs/tweenjs-0.4.0.min.js"></script>
+<script src="libs/movieclip-0.6.0.min.js"></script>
+<script src="libs/preloadjs-0.3.0.min.js"></script>
+<script src="airmaster_large_rectangle.js"></script>
+
+<script>
+var canvas, stage, exportRoot;
+
+function init() {
+	canvas = document.getElementById("canvas");
+	images = images||{};
+
+	var manifest = [
+		{src:"images/airmaster_animation_1.jpg", id:"airmaster_animation_1"},
+		{src:"images/airmaster_animation_2.jpg", id:"airmaster_animation_2"},
+		{src:"images/airmaster_animation_3.jpg", id:"airmaster_animation_3"},
+		{src:"images/airmaster_animation_4.jpg", id:"airmaster_animation_4"},
+		{src:"images/airmaster_animation_5.jpg", id:"airmaster_animation_5"},
+		{src:"images/airmaster_animation_6.jpg", id:"airmaster_animation_6"},
+		{src:"images/airmaster_animation_7.jpg", id:"airmaster_animation_7"},
+		{src:"images/desson_button.jpg", id:"desson_button"},
+		{src:"images/hout5.jpg", id:"hout5"},
+		{src:"images/smotion4.jpg", id:"smotion4"},
+		{src:"images/text_one_line.png", id:"text_one_line"},
+		{src:"images/text_one_title.png", id:"text_one_title"},
+		{src:"images/text_two_line.png", id:"text_two_line"},
+		{src:"images/text_two_title.png", id:"text_two_title"},
+		{src:"images/wood_animation_1.jpg", id:"wood_animation_1"},
+		{src:"images/wood_animation_2.jpg", id:"wood_animation_2"},
+		{src:"images/wood_animation_3.jpg", id:"wood_animation_3"},
+		{src:"images/wood_animation_4.jpg", id:"wood_animation_4"},
+		{src:"images/wood_animation_5.jpg", id:"wood_animation_5"},
+		{src:"images/wood_animation_6.jpg", id:"wood_animation_6"},
+		{src:"images/wood_animation_7.jpg", id:"wood_animation_7"}
+	];
+
+	var loader = new createjs.LoadQueue(false);
+	loader.addEventListener("fileload", handleFileLoad);
+	loader.addEventListener("complete", handleComplete);
+	loader.loadManifest(manifest);
+}
+
+function handleFileLoad(evt) {
+	if (evt.item.type == "image") { images[evt.item.id] = evt.result; }
+}
+
+function handleComplete() {
+	exportRoot = new lib.airmaster_large_rectangle();
+
+	stage = new createjs.Stage(canvas);
+	stage.addChild(exportRoot);
+	stage.update();
+
+	createjs.Ticker.setFPS(24);
+	createjs.Ticker.addEventListener("tick", stage);
+}
+</script>
+</head>
+
+<body onload="init();" align="center">
+	
+	<div><h1>Flash to HTML5 Conversion Demo - Ashim S</h1> [flashim@gmail.com] </div>
+	
+	<div>
+		<canvas id="canvas" width="336" height="280" style="background-color:#000000"></canvas>
+	</div>
+
+	<div id="flashContent">
+			<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="336" height="280" id="main" align="middle">
+				<param name="movie" value="main.swf" />
+				<param name="quality" value="high" />
+				<param name="bgcolor" value="#ffffff" />
+				<param name="play" value="true" />
+				<param name="loop" value="true" />
+				<param name="wmode" value="window" />
+				<param name="scale" value="showall" />
+				<param name="menu" value="true" />
+				<param name="devicefont" value="false" />
+				<param name="salign" value="" />
+				<param name="allowScriptAccess" value="sameDomain" />
+				<!--[if !IE]>-->
+				<object type="application/x-shockwave-flash" data="main.swf" width="336" height="280">
+					<param name="movie" value="main.swf" />
+					<param name="quality" value="high" />
+					<param name="bgcolor" value="#ffffff" />
+					<param name="play" value="true" />
+					<param name="loop" value="true" />
+					<param name="wmode" value="window" />
+					<param name="scale" value="showall" />
+					<param name="menu" value="true" />
+					<param name="devicefont" value="false" />
+					<param name="salign" value="" />
+					<param name="allowScriptAccess" value="sameDomain" />
+				<!--<![endif]-->
+					<a href="http://www.adobe.com/go/getflash">
+						<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+					</a>
+				<!--[if !IE]>-->
+				</object>
+				<!--<![endif]-->
+			</object>
+		</div>
+	
+</body>
+</html>

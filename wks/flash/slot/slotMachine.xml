@@ -1,0 +1,56 @@
+<!--Slot Machine XML Data archive-->
+<!--Created by DealerDesign-->
+
+<gameData>
+
+	<!--Stores the graphics on the reels, must be 8 symbols-->
+	<reelSymbol>xml_images/symbol_6.png</reelSymbol><!--This is the top Symbol, must be the Sixth symbol, fixes the visuals on reel's top-->
+
+	<reelSymbol>xml_images/symbol_1.png</reelSymbol><!-- 1º symbol - Cherry -->
+	<reelSymbol>xml_images/symbol_2.png</reelSymbol><!-- 2º symbol - Grape-->
+	<reelSymbol>xml_images/symbol_3.png</reelSymbol><!-- 3º symbol - Bell -->
+	<reelSymbol>xml_images/symbol_4.png</reelSymbol><!-- 4º symbol - Bar -->
+	<reelSymbol>xml_images/symbol_5.png</reelSymbol><!-- 5º symbol - Orange -->
+	<reelSymbol>xml_images/symbol_6.png</reelSymbol><!-- 6º symbol - Seven -->  
+	
+	<reelSymbol>xml_images/symbol_1.png</reelSymbol><!--This is the bottom Symbol, must be the First symbol, fixes visual on reel's bottom-->
+
+	
+	<!--Stores the posible combinations of symbols and related price, first number on 'symbols' tag represents first reel and so on-->
+	<combination symbols="111" price="25"></combination> <!--Example: this is a combination of three Cherry's-->
+	<combination symbols="222" price="50"></combination>
+	<combination symbols="333" price="75"></combination>
+	<combination symbols="444" price="100"></combination>
+	<combination symbols="555" price="125"></combination>
+	<combination symbols="666" price="150"></combination>
+	<combination symbols="123" price="175"></combination>
+	<combination symbols="456" price="200"></combination>
+	<combination symbols="654" price="225"></combination>
+	<combination symbols="321" price="250"></combination>
+	<combination symbols="132" price="275"></combination>
+	<combination symbols="623" price="300"></combination>
+	
+	
+	<!--Store the top logo image and link, left blank the tag 'link' if you dont want the link-->
+	<logoImage>
+		<image>xml_images/logo.png</image>
+		<urlLink>http://www.activeden.net</urlLink>
+	</logoImage>
+	
+	<!--Stores the graphic file that show the combinations and prices, left blank the tag 'image' if you don't want one-->
+	<pricesImage>
+		<image>xml_images/pay_table.png</image>
+	</pricesImage>
+	
+	<totalPlayerCredits>100</totalPlayerCredits><!--Initial Player Credits-->
+	
+	<saveCredits>true</saveCredits>
+	<!--set to true if you want to save "Credits" to a Shared Object, 
+	this value will load if the user play again the game, or set to false if you don't want to save credits player-->
+	
+
+	
+</gameData>
+
+
+

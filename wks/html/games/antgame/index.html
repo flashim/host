@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ant Game</title>
+
+<script src="createjsLib/easeljs/easeljs-0.7.1.min.js"></script>
+<script src="createjsLib/tweenjs/tweenjs-0.5.1.min.js"></script>
+<script src="createjsLib/easeljs/movieclip-0.7.1.min.js"></script>
+<script src="createjsLib/preloadjs/preloadjs-0.4.1.min.js"></script>
+<script src="createjsLib/soundjs/soundjs-0.5.2.min.js"></script>
+
+<script src="assets.js"></script>
+
+</head>
+
+<body onload="init();" style="background-color:#D4D4D4">
+	
+	<div><h1>Flash Ant Game</h1></div>
+
+	<div id="flashContent">
+			<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="1024" height="768" id="main" align="middle">
+				<param name="movie" value="Template_01.swf" />
+				<param name="quality" value="high" />
+				<param name="bgcolor" value="#ffffff" />
+				<param name="play" value="true" />
+				<param name="loop" value="true" />
+				<param name="wmode" value="window" />
+				<param name="scale" value="showall" />
+				<param name="menu" value="true" />
+				<param name="devicefont" value="false" />
+				<param name="salign" value="" />
+				<param name="allowScriptAccess" value="sameDomain" />
+				<!--[if !IE]>-->
+				<object type="application/x-shockwave-flash" data="Template_01.swf" width="1024" height="768">
+					<param name="movie" value="Template_01.swf" />
+					<param name="quality" value="high" />
+					<param name="bgcolor" value="#ffffff" />
+					<param name="play" value="true" />
+					<param name="loop" value="true" />
+					<param name="wmode" value="window" />
+					<param name="scale" value="showall" />
+					<param name="menu" value="true" />
+					<param name="devicefont" value="false" />
+					<param name="salign" value="" />
+					<param name="allowScriptAccess" value="sameDomain" />
+				<!--<![endif]-->
+					<a href="http://www.adobe.com/go/getflash">
+						<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+					</a>
+				<!--[if !IE]>-->
+				</object>
+				<!--<![endif]-->
+			</object>
+		</div>
+
+		<div><h1>Converted to HTML5</h1></div>
+
+		<div>
+			<canvas id="canvas" width="1024" height="768" style="background-color:#fff"></canvas>
+			<script src="Main.min.js"></script>
+		</div>
+
+</body>
+</html>

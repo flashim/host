@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<imageUrl>
+		<url value="assets/xml/media.xml"/> 		<!-- path to the media XML file -->
+	</imageUrl>
+	
+	<generalProperties>
+		<componentWidth value="590"/>				<!-- component width -->
+		<componentHeight value="450"/>      		<!-- component height -->
+		<backgroundColor value="0x669933"/> 		<!-- component background color -->
+		<backgroundAlpha value="1"/>				<!-- component background alpha -->
+		<autoPlay value="false"/>					<!-- auto play active or inactive -->
+		<autoPlayTime value="3"/>					<!-- auto play time in seconds -->
+		<startSlideIndex value="4"/>				<!-- the plane(image) to start from -->
+		<enterEffect value="move"/> 				<!-- enter effect animation; accepted values: none, rotate, move -->
+		<enterEffectDuration value="1.3"/>  		<!-- the duration for enter effect -->
+		<planeRotationAngle value="45"/>			<!-- rotation of the non-selected planes(images) -->
+		<planePadding value="230"/>					<!-- padding between planes(images)  -->
+	</generalProperties>
+	<cameraProperties>
+		<cameraX value ="0"/>						<!-- camera position X -->
+		<cameraY value ="0"/>						<!-- camera position Y -->
+		<cameraZ value ="-200"/>					<!-- camera position Z -->
+		<cameraRotationX value="0"/>				<!-- camera rotation X -->
+		<cameraRotationY value="0"/>				<!-- camera rotation Y -->
+		<cameraRotationZ value="0"/>				<!-- camera rotation Z -->
+		<cameraFocus value="8"/>					<!-- camera focus on items -->
+		<cameraZoom value="80"/>					<!-- camera zoom on items -->
+	</cameraProperties>
+	<reflectionProperties>
+		<reflectionActive value="true"/>			<!-- reflection active or inactive -->
+		<reflectionAlpha value=".5"/>				<!-- reflection alpha -->		
+		<reflectionRatio value="50"/>				<!-- reflection raio (the size of the reflection) -->		
+	</reflectionProperties>
+	<tooltipProperties>
+		<tooltipActive value="true"/>				<!-- tooltip active or inactive -->
+		<tooltipBorderColor value="0x0c0c0c"/>		<!-- tooltip border color -->
+		<tooltipBackgroundColor value="0x1f1f1f"/>	<!-- tooltip background color -->
+		<tooltipBackgroundAlpha value="1"/>			<!-- tooltip background alpha -->
+		<tooltipFont value="Verdana"/>				<!-- tooltip font family -->
+		<tooltipFontSize value="12"/>				<!-- tooltip font size -->
+		<tooltipFontColor value="0xffffff"/>		<!-- tooltip font color -->
+		<tooltipAnchorHeight value="10"/>			<!-- tooltip anchor height -->
+		<tooltipAnchorDistance value="16"/>			<!-- tooltip anchor distance (in width) -->
+	</tooltipProperties>
+	<scrollbarProperties>
+		<scrollbarPositionY value="435"/>			<!-- scrollbar position on Y -->
+		<scrollbarSize value="590"/>				<!-- scrollbar size in width -->
+		<scrollbarThickness value="15"/>			<!-- scrollbar thickness -->
+		<scrollbarCornerRadius value="0"/>			<!-- scrollbar corner radius -->
+		<scrollbarBackgroundColor value="0x0c0c0c"/><!-- scrollbar background color -->
+		<scrollbarBackgroundAlpha value="1"/>		<!-- scrollbar background alpha -->
+		<scrollbarHandleOutColor value="0x909090"/>	<!-- scrollbar handle out color -->
+		<scrollbarHandleOverColor value="0x444444"/><!-- scrollbar handle over color -->
+		<scrollbarHandleAlpha value="1"/>			<!-- scrollbar handle alpha -->
+	</scrollbarProperties>
+	<buttonsProperties>
+		<buttonsSize value="20"/> 					<!-- the size of the left and right arrows and the close button -->
+		<buttonsColor value="0xeeeeee"/> 			<!-- the color of the buttons -->
+		<buttonsAlpha value="1"/> 					<!-- the alpha of the buttons -->
+		<buttonsOverColor value="0xffffff"/> 		<!-- the color of the buttons when over -->
+		<buttonsGlowColor value="0xcccccc"/>		<!-- the color of the glow effect -->
+		<buttonsGlowAlpha value="1"/> 				<!-- the alpha of the glow effect -->
+		<buttonsHolderColor value="0x0c0c0c"/> 		<!-- the color of the button holder -->
+		<buttonsHolderAlpha value="1"/> 			<!-- the alpha of the button holder -->
+		<buttonsHolderPadding value="10"/> 			<!-- the vertical and horizontal padding of the button holder -->
+		<timerDisplayThickness value="2"/> 			<!-- the thickness of the timer display -->
+		<buttonsPosition value="top-right"/> 		<!-- the position of the button holder; accepted: top-left, top-center, top-right, bottom-left, bottom-center && bottom-right -->
+		<showButtons value="true"/> 				<!-- if true the control buttons will apear -->
+	  </buttonsProperties>
+	  <videoProperties>
+		<playBtnWidth value="40"/>					<!-- play button width -->
+		<playBtnHeight value="40"/>					<!-- play button height -->
+		<playBtnBckgColor value="0x0c0c0c"/>		<!-- play button background color -->
+		<playBtnSignColor value="0xFFFFFF"/>		<!-- play button sign background color -->	
+		<scrubBackColor value="0x040404"/>			<!-- scrubber background color -->
+		<scrubFillColor value="0x4c4c4c"/>			<!-- scrubber fill color -->
+		<scrubProgColor value="0xFF0000"/>			<!-- scrubber progress color -->
+	  </videoProperties>
+</data>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framexml>
+  <totalnum>30</totalnum>
+  <data>
+
+<text><![CDATA[Go from 'Start' to 'Finish' without moving on the same line again. You can move from one number to the next only if the next number is obtained by adding 9 to the preceding number or subtracting 6 from the preceding number. Clicking on the number attached to 'start', move from one correct number to the next, to reach the finishing point.]]></text>
+
+<!-- <text><![CDATA[Go from 'Start' to 'Finish' without moving on the same line again. You can move from one number to the next only if the next number is obtained by adding 9 to the preceding number or subtracting 6 from the preceding number. Clicking on 'Start', move from one correct number to the next to reach the finishing point.]]></text> -->
+
+<!--Commented digits are the movieclip sequence in the fla file-->
+<!--1-->
+     <value>
+	 <number>40</number>
+	 <answer>right</answer>
+	 <sequence>1</sequence>
+	 </value>
+
+<!--2-->
+	 <value>
+	 <number>67</number>
+	 <answer>wrong</answer>
+	 </value>
+
+<!--3-->
+	 <value>
+	 <number>49</number>
+	 <answer>right</answer>
+	 <sequence>2</sequence>
+	 </value>
+
+<!--4-->
+     <value>
+	 <number>46</number>
+	 <answer>wrong</answer>
+	 </value>
+
+<!--5-->
+	 <value>
+	 <number>63</number>
+	 <answer>wrong</answer>
+   	</value>
+
+<!--6-->
+	<value>
+	 <number>52</number>
+	 <answer>right</answer>
+	 <sequence>4</sequence>
+	</value>
+
+<!--7--> 
+	 <value>
+	 <number>43</number>
+ 	 <answer>right</answer>
+	 <sequence>3</sequence>
+	</value>
+
+<!--8-->
+	 <value>
+	 <number>34</number>
+     <answer>wrong</answer>
+	</value>
+
+<!--9-->
+	 <value>
+	 <number>85</number>
+	<answer>wrong</answer>
+	 </value>
+
+<!--10-->
+     <value>
+	 <number>55</number>
+	  <answer>right</answer>
+	 <sequence>6</sequence>
+	 </value>
+
+<!--11-->
+	 <value>
+	  <number>61</number>
+	 <answer>right</answer>
+	 <sequence>5</sequence>
+	 </value>
+
+<!--12-->
+	 <value>
+	 <number>66</number>
+	 <answer>wrong</answer>
+  	 </value>
+
+<!--13-->
+	 <value>
+	  <number>73</number>
+	 <answer>wrong</answer>
+	 </value>
+
+<!--14-->
+	 <value>
+	 <number>79</number>
+	 <answer>wrong</answer>
+	 </value>
+
+ <!--15-->
+	 <value>
+	 <number>58</number>
+	 <answer>wrong</answer>
+     </value>
+
+<!--16-->
+	 <value>
+	  <number>64</number>
+	 <answer>right</answer>
+	 <sequence>7</sequence>
+	 </value>
+
+<!--17-->
+     <value>
+	 <number>58</number>
+	<answer>right</answer>
+	 <sequence>8</sequence>
+	 </value>
+
+<!--18-->
+	 <value>
+	 <number>67</number>
+	<answer>right</answer>
+	 <sequence>9</sequence>
+	 </value>
+
+<!--19-->
+	 <value>
+	 <number>52</number>
+	<answer>wrong</answer>
+	 </value>
+
+	<!--20-->
+	 <value>
+	 <number>50</number>
+	 <answer>wrong</answer>
+	 </value>
+
+<!--21-->
+     <value>
+	 <number>79</number>
+	 <answer>right</answer>
+	 <sequence>12</sequence>
+	 </value>
+
+<!--22-->
+     <value>
+	 <number>85</number>
+	  <answer>right</answer>
+	 <sequence>11</sequence>
+	 </value>
+
+<!--23-->
+     <value>
+	 <number>76</number>
+	 <answer>right</answer>
+	 <sequence>10</sequence>
+	 </value>
+
+<!--24-->
+     <value>
+	 <number>82</number>
+	 <answer>wrong</answer>
+	 </value>
+
+	<!--25-->
+     <value>
+	 <number>88</number>
+	 <answer>right</answer>
+	 <sequence>13</sequence>
+	</value>
+
+<!--26-->
+     <value>
+	 <number>97</number>
+    <answer>right</answer>
+	 <sequence>14</sequence>
+ 	 </value>
+
+	<!--27-->
+	 <value>
+	 <number>91</number>
+	 <answer>right</answer>
+	 <sequence>15</sequence>
+	 </value>
+
+<!--28-->
+	 <value>
+	 <number>79</number>
+	 <answer>wrong</answer>
+	 </value>
+
+<!--29-->
+	 <value>
+	 <number>89</number>
+	 <answer>wrong</answer>
+	 </value>
+
+<!--30-->
+<value>
+	 <number>100</number>
+	 <answer>right</answer>
+	 <sequence>16</sequence>
+     </value>
+
+<lable><![CDATA[Start]]></lable>
+<lable><![CDATA[Finish]]></lable>
+
+
+
+ </data>
+</framexml>
