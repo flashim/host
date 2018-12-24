@@ -3,21 +3,11 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
   <meta name="theme-color" content="#000000">
   <link href="./assets/css/fontStyle.css" rel="stylesheet">
   <link href="./assets/css/pageStyle.css" rel="stylesheet">
-
-  <!-- <link rel="stylesheet" href="./assets/fonts/stylesheet.css" type="text/css" charset="utf-8" /> -->
-  <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
   <title>Cricket Game</title>
 </head>
 
@@ -25,60 +15,75 @@
   <noscript>
     You need to enable JavaScript to run this app.
   </noscript>
+
+  <div id="wrapper_parent">
+    <div id="wrapper">
+      <canvas id="canvas" width="993px" height="610px"></canvas>
+      
+      <div id="myModal" class="modal">
+        <div class="modal-main">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="top-panel">
+              <span>Cricket Challenge</span> <!-- <span class="close">&times;</span> -->
+            </div>
+
+            <p id="modal-title">Select Game Options</p>
+            <table>
+              <tr>
+                <td>Number Of Teams:</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td>Number of Innings:</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <td>Time Per Team:</td>
+                <td><select id="timer">
+                    <option value="0">No Timer</option>
+                    <option value="20" selected>20</option>
+                    <option value="30">30</option>
+                    <option value="40">40</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>Randomize Question:</td>
+                <td><input id="randomizeCheckbox" type="checkbox" checked></td>
+              </tr>
+            </table>
+            <div class="bottom-panel">
+              <div id="modal-plygame-btn"><img src="./assets/images/ply_game.png" alt="play game image" /></div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+
+
+
+  </div>
+
   <div id="progress" class="progress">
   </div>
-  <div class="centered">
-    <div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:993px; height:610px">
-      <canvas id="canvas" width="993" height="610" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
-      <div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:993px; height:610px; position: absolute; left: 0px; top: 0px; display: block;">
-      </div>
-    </div>
-  </div>
-  <div id="myModal" class="modal">
-    <!-- Modal content -->
-    <div class="modal-content">
-      <div class="top-panel">
-        <span>Cricket Challenge</span> <span class="close">&times;</span>
-      </div>
 
-      <p id="modal-title">Select Game Options</p>
-      <table>
-        <tr>
-          <td>Number Of Teams:</td>
-          <td>2</td>
-        </tr>
-        <tr>
-          <td>Number of Innings:</td>
-          <td>2</td>
-        </tr>
-        <tr>
-          <td>Time Per Team:</td>
-          <td><select id="timer">
-              <option value="0">No Timer</option>
-              <option value="20" selected>20</option>
-              <option value="30">30</option>
-              <option value="40">40</option>
-            </select>
-          </td>
-        </tr>
-        <tr>
-          <td>Randomize Question:</td>
-          <td><input id="randomizeCheckbox" type="checkbox"></td>
-        </tr>
-      </table>
-      <div class="bottom-panel">
-        <div id="modal-plygame-btn"><img src="./assets/images/ply_game.png" alt="play game image" /></div>
-      </div>
-
-    </div>
-  </div>
-
-  <script src="./lib/createjs-2015.11.26.min.js"></script>
+  <!-- <script src="./lib/createjs-2015.11.26.min.js"></script> -->
+  <script src="./lib/jquery.slim.min.js"></script>
+  <script src="./lib/scaling.js"></script>
+  <script src="./lib/createjs.min.js"></script>
   <script src="./lib/xml2json.js"></script>
   <script src="./assets/js/fl_assets.js"></script>
   <script src="./assets/js/bundle.js"></script>
 
   <script>
+    var scalingAPI = new ScalingAPI();
+
     function playSound(id, loop) {
       return createjs.Sound.play(id, createjs.Sound.INTERRUPT_EARLY, 0, 0, loop);
     }
@@ -91,12 +96,6 @@
       // Get the button that opens the modal
       var playBtn = document.getElementById("modal-plygame-btn");
       playBtn.onclick = playFunc;
-
-
-      // Get the <span> element that closes the modal
-      var closeBtn = document.getElementsByClassName("close")[0];
-      // When the user clicks on <span> (x), close the modal
-      closeBtn.onclick = playFunc;
 
       function playFunc() {
         modal.style.display = "none";
