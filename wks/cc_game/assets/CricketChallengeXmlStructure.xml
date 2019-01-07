@@ -1,0 +1,250 @@
+<GameContent id="game-498c6f09-fa75-474b-99d0-9bbfe97c78d6" gameTemplateId="GT-cc001-en" skinId="bb001">
+	<metadata>
+		<keywords>Algebraic expressions, polynomials, operations on polynomials, binomial, degree, product, coefficient, expansion, zero</keywords>
+		<title>Figures of Speech - Level 5</title>
+		<description>Completing sentences</description>
+		<language>English</language>	
+		<gameRules teamMode="true" timerMode="true" passMode="false" randamizeQmode="false"/>
+		<dependent>
+		<file src=""/>
+		</dependent>
+	</metadata>		
+	<Gamedata>	
+		<GameEdge>
+		
+			<descriptionTxt><![CDATA[Score the maximum number of runs as quickly as you can to win the cricket championship!
+			
+You need to play two innings. Simply choose the correct option from the ones given and click Strike.
+			
+For a correct response, you score runs. The faster you respond, the more runs you score. For an incorrect response, you lose a wicket.
+			
+Are you a cricket star? Let's find out!]]></descriptionTxt>
+			<game template="" variation="addbubbles">
+				<templatesettings>
+				</templatesettings>	
+				<questions>
+				<!-- Begin of Questions -->
+									
+					<question skill="Choose the correct figure of speech from the options given.">
+						<qtag><![CDATA[Her cakes turned out as soft as cotton.]]></qtag>
+						<option><![CDATA[Metaphor]]></option>
+						<option><![CDATA[Personification]]></option>
+						<option correctans="true"><![CDATA[Simile]]></option>
+						<option><![CDATA[Hyperbole]]></option>
+					</question>
+
+					<!-- ************************************************************************** -->
+					<question skill="Choose the correct figure of speech from the options given.">
+						<qtag><![CDATA[I slip, I slide, I gloom, I glance, among my skimming swallows.]]></qtag>
+						<option correctans="true"><![CDATA[Alliteration]]></option>
+						<option><![CDATA[Metaphor]]></option>
+						<option><![CDATA[Antithesis]]></option>
+						<option><![CDATA[Hyperbole ]]></option>
+					</question>
+					
+					<!-- ************************************************************************** -->
+					<question skill="Choose the correct figure of speech from the options given.">
+						<qtag><![CDATA[Life is a stage and we are mere puppets.]]></qtag>
+						<option><![CDATA[Personification]]></option>
+						<option correctans="true"><![CDATA[Metaphor]]></option>
+						<option><![CDATA[Euphemism]]></option>
+						<option ><![CDATA[Antithesis]]></option>
+					</question>
+
+					<!-- ************************************************************************** -->
+					<question skill="Choose the correct figure of speech from the options given.">
+						<qtag><![CDATA[He could hear the forests shout and the deserts cry.]]></qtag>
+						<option><![CDATA[Irony]]></option>
+						<option><![CDATA[Hyperbole]]></option>
+						<option><![CDATA[Metaphor]]></option>
+						<option correctans="true"><![CDATA[Personification]]></option>
+					</question>
+					
+					<!-- ************************************************************************** -->
+					<question skill="Choose the correct figure of speech from the options given.">
+						<qtag><![CDATA[Bright star, would I were steadfast as thou art.]]></qtag>
+						<option><![CDATA[Personification]]></option>
+						<option><![CDATA[Alliteration]]></option>
+						<option><![CDATA[Metaphor]]></option>
+						<option correctans="true"><![CDATA[Apostrophe]]></option>
+					</question>
+
+					<!-- ************************************************************************** -->
+					<question skill="Choose the correct figure of speech from the options given.">
+						<qtag><![CDATA[The bitter sweet memories of his childhood flooded his mind.]]></qtag>
+						<option correctans="true"><![CDATA[Oxymoron]]></option>
+						<option><![CDATA[Irony]]></option>
+						<option><![CDATA[Personification]]></option>
+						<option><![CDATA[Metaphor]]></option>
+						
+					</question>
+
+					<!-- ************************************************************************** -->
+					<question skill="Choose the correct figure of speech from the options given.">
+						<qtag><![CDATA[Man proposes, God disposes.]]></qtag>
+						<option><![CDATA[Irony]]></option>
+						<option correctans="true"><![CDATA[Antithesis]]></option>
+						<option><![CDATA[Onomatopoeia]]></option>
+						<option><![CDATA[Oxymoron]]></option>
+					</question>
+
+					<!-- ************************************************************************** -->
+					<question skill="Choose the correct figure of speech from the options given.">
+						<qtag><![CDATA[The horse carried the king to his palace as fast as wind.]]></qtag>
+						<option><![CDATA[Metaphor]]></option>
+						<option><![CDATA[Personification]]></option>
+						<option correctans="true"><![CDATA[Simile]]></option>
+						<option><![CDATA[Antithesis]]></option>
+					</question>
+
+					<!-- ************************************************************************** -->
+					<question skill="Choose the correct figure of speech from the options given.">
+						<qtag><![CDATA[I gazed… and gazed… but little thought.]]></qtag>
+						<option><![CDATA[Apostrophe]]></option>
+						<option><![CDATA[Irony]]></option>
+						<option><![CDATA[Antithesis]]></option>
+						<option correctans="true"><![CDATA[Repetition ]]></option>
+					</question>
+
+					<!-- ************************************************************************** -->
+					<question skill="Choose the correct figure of speech from the options given.">
+						<qtag><![CDATA[Pitter, patter, falls the rain dropping down my window pane.]]></qtag>
+						<option><![CDATA[Repetition]]></option>
+						<option correctans="true"><![CDATA[Onomatopoeia]]></option>
+						<option><![CDATA[Personification]]></option>
+						<option><![CDATA[Metaphor]]></option>
+					</question>
+
+					<!-- ************************************************************************** -->
+					<question skill="Choose the correct figure of speech from the options given.">
+						<qtag><![CDATA[Then come, sweet death, and rid me of this grief.]]></qtag>
+						<option correctans="true"><![CDATA[Apostrophe]]></option>
+						<option><![CDATA[Irony]]></option>
+						<option><![CDATA[Oxymoron]]></option>
+						<option><![CDATA[Personification]]></option>
+					</question>
+
+					<!-- ************************************************************************** -->
+					<question skill="Choose the correct figure of speech from the options given.">
+						<qtag><![CDATA[Fear knocked on the door. Faith answered. No one answered.]]></qtag>
+						<option><![CDATA[Metaphor]]></option>
+						<option><![CDATA[Irony]]></option>
+						<option><![CDATA[Apostrophe]]></option>
+						<option correctans="true"><![CDATA[Personification]]></option>
+					</question>
+
+					<!-- ************************************************************************** -->
+					<question skill="Choose the correct figure of speech from the options given.">
+						<qtag><![CDATA[His jokes were seriously funny.]]></qtag>
+						<option><![CDATA[Hyperbole]]></option>
+						<option><![CDATA[Antithesis]]></option>
+						<option correctans="true"><![CDATA[Oxymoron]]></option>
+						<option><![CDATA[Alliteration]]></option>
+					</question>
+
+					<!-- ************************************************************************** -->
+					<question skill="Choose the correct figure of speech from the options given.">
+						<qtag><![CDATA[Many are called but few are chosen.]]></qtag>
+						<option><![CDATA[Personification]]></option>
+						<option correctans="true"><![CDATA[Antithesis]]></option>
+						<option><![CDATA[Alliteration]]></option>
+						<option><![CDATA[Irony]]></option>
+					</question>
+
+					<!-- ************************************************************************** -->
+					<question skill="Choose the correct figure of speech from the options given.">
+						<qtag><![CDATA[My mother has warned me ten thousand times to be wary of strangers.]]></qtag>
+						<option><![CDATA[Apostrophe]]></option>
+						<option><![CDATA[Irony]]></option>
+						<option><![CDATA[Repetition]]></option>
+						<option correctans="true"><![CDATA[Hyperbole]]></option>
+					</question>
+
+					<!-- ************************************************************************** -->
+					<question skill="Choose the correct figure of speech from the options given.">
+						<qtag><![CDATA[I'm nobody! Who are you? Are you nobody too?]]></qtag>
+						<option><![CDATA[Metaphor]]></option>
+						<option><![CDATA[Irony]]></option>
+						<option><![CDATA[Onomatopoeia]]></option>
+						<option correctans="true"><![CDATA[Repetition]]></option>
+					</question>
+
+					<!-- ************************************************************************** -->
+					<question skill="Choose the correct figure of speech from the options given.">
+						<qtag><![CDATA[The poet was writing his poem titled "Life" when he died.]]></qtag>
+						<option><![CDATA[Antithesis]]></option>
+						<option correctans="true"><![CDATA[Irony]]></option>
+						<option><![CDATA[Oxymoron]]></option>
+						<option><![CDATA[Metaphor]]></option>
+					</question>
+
+					<!-- ************************************************************************** -->
+					<question skill="Choose the correct figure of speech from the options given.">
+						<qtag><![CDATA[Rita lent rock solid support to her husband during their crisis.]]></qtag>
+						<option><![CDATA[Repetition]]></option>
+						<option><![CDATA[Simile]]></option>
+						<option><![CDATA[Onomatopoeia]]></option>
+						<option correctans="true"><![CDATA[Metaphor ]]></option>
+					</question>
+
+					<!-- ************************************************************************** -->
+					<question skill="Choose the correct figure of speech from the options given.">
+						<qtag><![CDATA[Science! True daughter of Old time thou art!]]></qtag>
+						<option correctans="true"><![CDATA[Apostrophe]]></option>
+						<option><![CDATA[Personification]]></option>
+						<option><![CDATA[Hyperbole]]></option>
+						<option><![CDATA[Inversion]]></option>
+					</question>
+
+					<!-- ************************************************************************** -->
+					<question skill="Choose the correct figure of speech from the options given.">
+						<qtag><![CDATA[Boom, boom, went the gun and the man fell with a thud.]]></qtag>
+						<option><![CDATA[Personification]]></option>
+						<option correctans="true"><![CDATA[Onomatopoeia]]></option>
+						<option><![CDATA[Metaphor]]></option>
+						<option><![CDATA[Irony]]></option>
+					</question>
+
+					<!-- ************************************************************************** -->
+					<question skill="Choose the correct figure of speech from the options given.">
+						<qtag><![CDATA[A sensation of shock and a shiver went down his spine.]]></qtag>
+						<option><![CDATA[Antithesis]]></option>
+						<option><![CDATA[Simile]]></option>
+						<option><![CDATA[Hyperbole]]></option>
+						<option correctans="true"><![CDATA[Alliteration]]></option>
+					</question>
+
+					<!-- ************************************************************************** -->
+					<question skill="Choose the correct figure of speech from the options given.">
+						<qtag><![CDATA[The 'unsinkable' Titanic sank on its maiden voyage.]]></qtag>
+						<option><![CDATA[Personification]]></option>
+						<option correctans="true"><![CDATA[Irony]]></option>
+						<option><![CDATA[Metaphor]]></option>
+						<option><![CDATA[Alliteration]]></option>
+					</question>
+
+					<!-- ************************************************************************** -->
+					<question skill="Choose the correct figure of speech from the options given.">
+						<qtag><![CDATA[It took me ages to learn the art of fine dining.]]></qtag>
+						<option><![CDATA[Personification]]></option>
+						<option correctans="true"><![CDATA[Hyperbole]]></option>
+						<option><![CDATA[Metaphor]]></option>
+						<option><![CDATA[Oxymoron]]></option>
+					</question>
+
+					
+					<!-- ************************************************************************** -->
+					<question skill="Choose the correct figure of speech from the options given.">
+						<qtag><![CDATA[America is a melting pot.]]></qtag>
+						<option correctans="true"><![CDATA[Metaphor]]></option>
+						<option><![CDATA[Repetition]]></option>
+						<option><![CDATA[Irony]]></option>
+						<option><![CDATA[Antithesis ]]></option>
+					</question>
+
+				<!-- End of Questions -->
+				</questions> 
+			 </game>		
+		</GameEdge>
+	</Gamedata>
+</GameContent>
