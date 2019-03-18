@@ -17,7 +17,7 @@ body {
     background: rgba(0, 0, 0, 0);
     position: fixed;
     width: 0%;
-    height: 20px;
+    height: 40px;
     z-index: 3;
     padding-top: -20px;
     text-align: center;
@@ -193,16 +193,19 @@ screen and (max-height: 480px) {
         max-width: 280px;
     }
 } */
-select#timer, select#timer option{
+select#timer,
+select#timer option {
     font-family: 'TISClassEdge_Regular', Fallback, sans-serif;
     color: #555555;
     font-size: 14px;
     font-weight: 700;
 }
-input#randomizeCheckbox{
+
+input#randomizeCheckbox {
     margin-left: 0;
 }
-#progress{
+
+#progress {
     position: absolute;
     top: 45%;
     bottom: 0;
