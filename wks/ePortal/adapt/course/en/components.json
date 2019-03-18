@@ -1,0 +1,4214 @@
+[{
+		"_id": "c-455",
+		"_parentId": "b-440",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Your Experience of Biomarkers – Pre-Assessment",
+		"displayTitle": "",
+		"body": "As an oncology nurse, you may have used biomarkers at your clinic in the treatment of lung cancer. Based on your experience, please answer these questions on biomarkers and lung cancer.",
+		"instruction": ""
+	},
+	{
+		"_id": "c-460",
+		"_parentId": "b-445",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "",
+		"_layout": "full",
+		"_attempts": 1,
+		"_shouldDisplayAttempts": false,
+		"_questionWeight": 1,
+		"_isRandom": false,
+		"_selectable": 7,
+		"_canShowModelAnswer": false,
+		"_canShowFeedback": false,
+		"_canShowMarking": true,
+		"_recordInteraction": true,
+		"title": "MCQ",
+		"displayTitle": "",
+		"questionTitle": "Dummy testing display for SCORM",
+		"body": "Treatment with targeted therapies is associated with specific side effects. Which <strong>specific</strong> side effects do you monitor closely in patients being treated with EGFR inhibitors?",
+		"instruction": "<b></b>",
+		"_items": [{
+				"text": "Liver function",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Heart Rate",
+				"_shouldBeSelected": false,
+				"feedback": "Option two incorrect feedback"
+			},
+			{
+				"text": "Blood pressure",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Cough",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Fever",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Eye problems",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Breathlessness",
+				"_shouldBeSelected": true
+			}
+		],
+		"_feedback": {
+			"title": " ",
+			"correct": "Yes, you are monitoring the correct side effects. Patients being treated with EGFR inhibitors have to be specifically monitored for cough, fever, eye problems and breathlessness.",
+			"_incorrect": {
+				"final": "Sorry, that’s not it. But, later in this module, you will identify the specific side effects of EGFR inhibitors that you need to monitor closely."
+			},
+			"_partlyCorrect": {
+				"final": "You got some of them right. Later in this module, you will identify the specific side effects of EGFR inhibitors that you need to monitor closely."
+			}
+		},
+		"_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-465",
+		"_parentId": "b-450",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "transparent-background-block",
+		"_layout": "full",
+		"_attempts": 1,
+		"_shouldDisplayAttempts": false,
+		"_questionWeight": 1,
+		"_isRandom": false,
+		"_selectable": 8,
+		"_canShowModelAnswer": false,
+		"_canShowFeedback": false,
+		"_canShowMarking": true,
+		"_recordInteraction": true,
+		"title": "MCQ",
+		"displayTitle": "",
+		"questionTitle": "Dummy testing display for SCORM",
+		"body": "Which <strong>common</strong> side effects do you currently advise your patients to look out for when they are being treated with EGFR inhibitors?",
+		"instruction": "<b></b>",
+		"_items": [{
+				"text": "Dry skin",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Constipation",
+				"_shouldBeSelected": false,
+				"feedback": "Option two incorrect feedback"
+			},
+			{
+				"text": "Abdominal pain",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Paronychia",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Low-grade diarrhoea",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Vomiting",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Rash",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Nausea",
+				"_shouldBeSelected": true
+			}
+		],
+		"_feedback": {
+			"title": " ",
+			"correct": "Yes, the most common side effects of EGFR inhibitors are dry skin, paronychia and rash.",
+			"_incorrect": {
+				"final": "Sorry, that’s not it. But, later in this module, you will identify the common side effects of EGFR inhibitors, ALK inhibitors and nintedanib."
+			},
+			"_partlyCorrect": {
+				"final": "You got some of them right. Later in this module, you will identify the common side effects of EGFR inhibitors, ALK inhibitors and nintedanib."
+			}
+		},
+		"_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+
+	},
+	{
+		"_id": "c-470",
+		"_parentId": "b-455",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "",
+		"_layout": "full",
+		"_attempts": 1,
+		"_shouldDisplayAttempts": false,
+		"_questionWeight": 1,
+		"_isRandom": false,
+		"_selectable": 5,
+		"_canShowModelAnswer": false,
+		"_canShowFeedback": false,
+		"_canShowMarking": true,
+		"_recordInteraction": true,
+		"title": "MCQ",
+		"displayTitle": "",
+		"questionTitle": "Dummy testing display for SCORM",
+		"body": "What management or prevention advice do you give to your patients who develop cutaneous side effects following treatment with a targeted therapy?",
+		"instruction": "<b></b>",
+		"_items": [{
+				"text": "Moisturise the skin intensely with regular use of an emollient",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Moisturise the skin intensely with regular use of moisturising oils",
+				"_shouldBeSelected": false,
+				"feedback": "Option two incorrect feedback"
+			},
+			{
+				"text": "Take oral antibiotics",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Protect the skin against excessive exposure to sunlight",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Use an SPF 30 UVA and UVB",
+				"_shouldBeSelected": true
+			}
+		],
+		"_feedback": {
+			"title": " ",
+			"correct": "Yes, patients who develop cutaneous side effects after treatment with a targeted therapy should moisturise their skin intensely with regular use of an emollient, protect the skin against excessive exposure to sunlight and use SPF 30 UVA and UVB.",
+			"_incorrect": {
+				"final": "Sorry, that’s not it. But, later in this module, we will discuss in detail the management or prevention advice that you should give patients who develop cutaneous side effects after treatment with a targeted therapy."
+			},
+			"_partlyCorrect": {
+				"final": "You got some of them right. In this module, we will discuss in detail the management or prevention advice that you should give patients who develop cutaneous side effects after treatment with a targeted therapy."
+			}
+		},
+		"_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-475",
+		"_parentId": "b-460",
+		"_type": "component",
+		"_component": "slider",
+		"_classes": "transparent-background-block",
+		"_layout": "full",
+		"title": "Slider type component",
+		"displayTitle": "",
+		"questionTitle": "Dummy testing display for SCORM",
+		"body": "On a scale of 1–10, with 1 being not very confident and 10 being very confident, how confident do you feel recognising and distinguishing the different side effects associated with different targeted therapies?",
+		"instruction": "",
+		"_attempts": 1,
+		"_shouldDisplayAttempts": false,
+		"_questionWeight": 1,
+		"_canShowModelAnswer": false,
+		"_canShowFeedback": false,
+		"_canShowMarking": true,
+		"_recordInteraction": true,
+		"_showNumber": true,
+		"_showScaleIndicator": true,
+		"_showScale": true,
+		"_showScaleNumbers": true,
+		"labelStart": "not very confident",
+		"labelEnd": "very confident",
+		"_scaleStart": 1,
+		"_scaleEnd": 10,
+		"_scaleStep": 1,
+		"_correctAnswer": "",
+		"_correctRange": {
+			"_bottom": 7,
+			"_top": 10
+		},
+		"_feedback": {
+			"title": "Feedback",
+			"correct": "",
+			"_incorrect": {
+				"notFinal": "",
+				"final": ""
+			},
+			"_partlyCorrect": {
+				"notFinal": "",
+				"final": ""
+			}
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-477",
+		"_parentId": "b-463",
+		"_type": "component",
+		"_component": "assessmentResults",
+		"_classes": "",
+		"_layout": "full",
+		"_isVisibleBeforeCompletion": false,
+		"_assessmentId": "a-03",
+		"title": "",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_home": {
+			"button": "Review Module"
+		},
+		"_retry": {
+			"button": "Retry Quiz",
+			"_comment": "use {{attempts}}, {{attemptsSpent}} and {{attemptsLeft}} to display attempts",
+			"feedback": ""
+		},
+		"_comment": "use {{score}}, {{maxScore}} and {{scoreAsPercent}} to display score and percentage",
+		"_completionBody": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		},
+		"_bands": [{
+				"_score": 0,
+				"feedback": "Sorry, but you did not answer any of those questions correctly. You may find this foundation module on Biomarkers and their Emerging Role in Lung Cancer really helpful when treating lung cancer patients with different targeted therapies. It describes the side effects associated with the therapies and identifies the safety measures that you should have in place when administering these therapies. It also helps you communicate these measures with your patients and carers.",
+				"_allowRetry": true
+			},
+			{
+				"_score": 25,
+				"feedback": "You correctly answered 1 out of the 3 questions. You may find this foundation module on Biomarkers and their Emerging Role in Lung Cancer very helpful when treating lung cancer patients with different targeted therapies. It describes the side effects associated with the therapies and identifies the safety measures that you should have in place when administering these therapies. It also helps you communicate these measures with your patients and carers.",
+				"_allowRetry": true
+			},
+			{
+				"_score": 50,
+				"feedback": "Good job! You correctly answered 2 out of 3 questions. You seem to be very familiar with biomarkers. This foundation module on Biomarkers and their Emerging Role in Lung Cancer may help you sharpen your skills even further.",
+				"_allowRetry": true
+			},
+			{
+				"_score": 75,
+				"feedback": "Excellent! You answered all three questions correctly. You seem to be already good with biomarkers. This foundation module on Biomarkers and their Emerging Role in Lung Cancer may help you sharpen your skills even further.",
+				"_allowRetry": true
+			}
+		]
+	},
+	{
+		"_id": "c-480",
+		"_parentId": "b-465",
+		"_type": "component",
+		"_component": "navigate",
+		"_classes": "",
+		"_layout": "full",
+		"title": "",
+		"displayTitle": "",
+		"body": "&nbsp;",
+		"align": "right",
+		"instruction": "",
+		"_items": [{
+			"navigateTo": "co-05",
+			"_graphic": {
+				"alt": "",
+				"title": "",
+				"large": "",
+				"medium": "",
+				"small": ""
+			},
+			"NavigateTitle": "Next Topic",
+			"moduleTitle": "Lung Cancer Overview"
+		}],
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+
+
+
+
+	{
+		"_id": "c-05",
+		"_parentId": "b-05",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "",
+		"displayTitle": "",
+		"body": "Let’s begin with a quick look at the epidemiology of lung cancer, differentiate between what is and what are not lung cancers, and examine the different cells in the lung.",
+		"instruction": ""
+	},
+	{
+		"_id": "c-10",
+		"_parentId": "b-10",
+		"_type": "component",
+		"_component": "media",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Video",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_setCompletionOn": "inview",
+		"_useClosedCaptions": false,
+		"_startLanguage": "en",
+		"_allowFullScreen": true,
+		"_showVolumeControl": true,
+		"_startVolume": "80%",
+		"_playsinline": false,
+		"_media": {
+			"mp4": "course/en/video/lung_cancer.mp4",
+			"poster": "course/en/video/Video01_Poster_image.jpg",
+			"cc": [{
+				"srclang": "en",
+				"src": ""
+			}]
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-11",
+		"_parentId": "b-10",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Text",
+		"displayTitle": "",
+		"body": "<br><span data-title='Zamay TN, Zamay GS, Kolovskaya OS, et al. Current and Prospective Protein Biomarkers of Lung Cancer. Cancers 2017;9(11):155.' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 1 ]</sup></span>&nbsp;&nbsp;&nbsp;<span data-title='Cancer Research UK. Cancer incidence for common cancers: www.cancerresearchuk.org/health-professional/cancer-statistics/incidence/common-cancers-compared#heading-Zero (accessed Sept 2018)' data-link='https://www.cancerresearchuk.org/health-professional/cancer-statistics/incidence/common-cancers-compared#heading-Zero' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 2 ]</sup></span>",
+		"instruction": ""
+	},
+	{
+		"_id": "c-15",
+		"_parentId": "b-15",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "transparent-background-block",
+		"_layout": "full",
+		"title": "Text",
+		"displayTitle": "",
+		"body": "Based on the appearance of the tumour cells under a microscope, lung cancers are broadly classified into two types.",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+
+	{
+		"_id": "c-25",
+		"_parentId": "b-25",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Graphic",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_graphic": {
+			"large": "course/en/images/lung_cancer_types.jpg",
+			"small": "course/en/images/lung_cancer_types.jpg",
+			"alt": "Placeholder graphic.",
+			"attribution": ""
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-26",
+		"_parentId": "b-25",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "component-body-modify",
+		"_layout": "full",
+		"title": "Text",
+		"displayTitle": "",
+		"body": "<br><span data-title='Cancer Research UK. Lung cancer incidence statistics: www.cancerresearchuk.org/health-professional/cancer-statistics/statistics-by-cancer-type/lung-cancer/incidence#heading-Four (accessed Sept 2018)' data-link=' http://www.cancerresearchuk.org/health-professional/cancer-statistics/statistics-by-cancer-type/lung-cancer/incidence#heading-Four' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 3 ]</sup></span>",
+		"instruction": ""
+	},
+	{
+		"_id": "c-30",
+		"_parentId": "b-30",
+		"_type": "component",
+		"_component": "accordion",
+		"_classes": "transparent-background-block",
+		"_layout": "full",
+		"title": "Accordion",
+		"displayTitle": "",
+		"body": "<span>Non-small cell lung cancer is further divided into five histological subtypes. These subtypes arise from <br/> different respiratory cells.</span>",
+		"instruction": "<p>Click or tap on each subtype to learn more about it.</p>",
+		"_setCompletionOn": "inview",
+		"_shouldCollapseItems": false,
+		"_items": [{
+				"title": "Adenocarcinoma",
+				"body": "<p align='center'>Adenocarcinoma is the dominant subtype of NSCLC. It arises from bronchial mucosa glandular cells.<span data-title='Zamay TN, Zamay GS, Kolovskaya OS, et al. Current and Prospective Protein Biomarkers of Lung Cancer. Cancers 2017;9(11):155.' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 1 ]</sup></span></p>",
+				"_graphic": {
+					"src": "course/en/images/adenocarcinoma.png",
+					"alt": "accordion item 1 graphic alt text here.",
+					"attribution": ""
+				},
+				"_classes": "image-left"
+			},
+			{
+				"title": "Squamous cell carcinoma",
+				"body": "<p align='center'>Squamous cell carcinoma arises from modified bronchial epithelial cells.<span data-title='Zamay TN, Zamay GS, Kolovskaya OS, et al. Current and Prospective Protein Biomarkers of Lung Cancer. Cancers 2017;9(11):155.' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 1 ]</sup></span></p>",
+				"_graphic": {
+					"src": "course/en/images/squamous_cell_carcinoma.png",
+					"alt": "accordion item 2 graphic alt text here.",
+					"attribution": ""
+				},
+				"_classes": ""
+			},
+			{
+				"title": "Adenosquamous carcinoma",
+				"body": "<p align='center'>Adenosquamous carcinoma contains squamous cells (which line certain organs) and gland-like cells.<span data-title='Zamay TN, Zamay GS, Kolovskaya OS, et al. Current and Prospective Protein Biomarkers of Lung Cancer. Cancers 2017;9(11):155.' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 1 ]</sup></span></p>",
+				"_graphic": {
+					"src": "",
+					"alt": "accordion item 3 graphic alt text here.",
+					"attribution": ""
+				},
+				"_classes": "image-right"
+			},
+			{
+				"title": "Large cell neuroendocrine carcinoma",
+				"body": "<p align='left'>Large cell neuroendocrine carcinoma arises from neuroendocrine epithelial cells. There are several subtypes of large cell neuroendocrine carcinoma. <span data-title='Zamay TN, Zamay GS, Kolovskaya OS, et al. Current and Prospective Protein Biomarkers of Lung Cancer. Cancers 2017;9(11):155.' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 1 ]</sup></span></p>",
+				"_graphic": {
+					"src": "course/en/images/large_cell_neuroendocrine_carcinoma.png",
+					"alt": "accordion item 4 graphic alt text here.",
+					"attribution": ""
+				},
+				"_classes": ""
+			},
+			{
+				"title": "Large cell carcinoma",
+				"body": "<p align='center'>Large cell carcinomas are undifferentiated carcinomas that arise from epithelial cells.<span data-title='Zamay TN, Zamay GS, Kolovskaya OS, et al. Current and Prospective Protein Biomarkers of Lung Cancer. Cancers 2017;9(11):155.' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 1 ]</sup></span></p>",
+				"_graphic": {
+					"src": "",
+					"alt": "accordion item 5 graphic alt text here.",
+					"attribution": ""
+				},
+				"_classes": "image-right"
+			}
+		],
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-35",
+		"_parentId": "b-35",
+		"_type": "component",
+		"_component": "media",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Video",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_setCompletionOn": "inview",
+		"_useClosedCaptions": false,
+		"_startLanguage": "en",
+		"_allowFullScreen": true,
+		"_showVolumeControl": true,
+		"_startVolume": "80%",
+		"_playsinline": false,
+		"_media": {
+			"mp4": "course/en/video/significance_of_the_histological_subtype_of_lung_cancer.mp4",
+			"poster": "course/en/video/Video02_Poster_image.jpg",
+			"cc": [{
+				"srclang": "en",
+				"src": ""
+			}]
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-40",
+		"_parentId": "b-40",
+		"_type": "component",
+		"_component": "tabs",
+		"_classes": "transparent-background",
+		"_layout": "full",
+		"title": "Tabs",
+		"displayTitle": "",
+		"body": "<p>Non-small cell lung cancer has several risk factors - external and internal.</p>",
+		"instruction": "<p>Click or tap on each type of risk factor to learn more about it.</p>",
+		"_setCompletionOn": "inview",
+		"_tabLayout": "top",
+		"_items": [{
+				"tabTitle": "External risk factors",
+				"title": "",
+				"body": "<p>The external risk factors for NSCLC include:</p><ul><li>Smoking</li><li>Air pollution</li><li>Radiation (e.g., X-rays or radon)</li><li>Occupational exposure (e.g., asbestos)</li></ul>",
+				"_graphic": {
+					"alt": "alt text",
+					"src": "course/en/images/topic_01_collage.png"
+				}
+			},
+			{
+				"tabTitle": "Internal risk factors",
+				"title": "",
+				"body": "<p>The internal risk factors for NSCLC include:</p><ul><li>Family history</li><li>Old age</li><li>Sex</li><li>Respiratory disease (e.g., chronic obstructive respiratory disease, pneumonia)</li></ul>",
+				"_graphic": {
+					"alt": "alt text",
+					"src": "course/en/images/topic01_collage02.png"
+				}
+			}
+		],
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-41",
+		"_parentId": "b-40",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "component-body-modify",
+		"_layout": "full",
+		"title": "Text",
+		"displayTitle": "",
+		"body": "<span data-title='Cancer Research UK. Lung cancer risk factors: http://www.cancerresearchuk.org/health-professional/cancer-statistics/statistics-by-cancer-type/lung-cancer/risk-factors (accessed Sept 2018)' data-link=' http://www.cancerresearchuk.org/health-professional/cancer-statistics/statistics-by-cancer-type/lung-cancer/risk-factors' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 4 ]</sup></span>&nbsp;&nbsp;&nbsp;<span  data-title='Novello S, Barlesi F, Califano R, et al. Metastatic non-small-cell lung cancer: ESMO Clinical Practice Guidelines for diagnosis, treatment and follow-up. Ann Oncol. 2016;27(suppl 5):v1-v27.' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 5 ]</sup></span>&nbsp;&nbsp;&nbsp;<span data-title='Tumour biomarkers. www.nature.com/subjects/tumour-biomarkers (accessed Sept 2018)' data-link=' https://www.nature.com/subjects/tumour-biomarkers' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 6 ]</sup></span>",
+		"instruction": ""
+	},
+	{
+		"_id": "c-45",
+		"_parentId": "b-45",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "component-body-modify",
+		"_layout": "left",
+		"title": "Text",
+		"displayTitle": "",
+		"body": "A mix of external and internal factors influence the occurrence and development of cancer in each person. Lung cancer, like other tumour types, may be heterogeneous, composed of cells that are all slightly different from each other. In addition to many different histological subtypes, lung cancer also shows different distinct molecular and genetic expression profiles, some of which can help us direct treatment. <span data-title='Zamay TN, Zamay GS, Kolovskaya OS, et al. Current and Prospective Protein Biomarkers of Lung Cancer. Cancers 2017;9(11):155.' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 1 ]</sup></span>",
+		"instruction": ""
+	},
+	{
+		"_id": "c-46",
+		"_parentId": "b-45",
+		"_type": "component",
+		"_component": "flippableCard",
+		"_classes": "body-flipcard",
+		"_layout": "right",
+		"title": "Component title",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_setCompletionOn": "inview",
+		"_columns": {
+			"_large": 1,
+			"_medium": 1,
+			"_small": 1
+		},
+		"_width": 500,
+		"_height": 350,
+		"_items": [{
+			"title": "",
+			"body": "Some genetic expression profiles are more common in certain types of patients. Activating EGFR (epidermal growth factor receptor) mutations are more frequently found in never smokers, females and patients of East Asian ethnicity. <span data-title='Cancer Research UK. Lung cancer incidence statistics: www.cancerresearchuk.org/health-professional/cancer-statistics/statistics-by-cancer-type/lung-cancer/incidence#heading-Four (accessed Sept 2018)' data-link='http://www.cancerresearchuk.org/health-professional/cancer-statistics/statistics-by-cancer-type/lung-cancer/incidence#heading-Four' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 3 ]</sup></span>",
+			"moreButton": "show more",
+			"_graphic": {
+				"_src": "course/en/images/Topic1_Flip card.png",
+				"alt": "alt"
+			}
+		}]
+	},
+	{
+		"_id": "c-49",
+		"_parentId": "b-49",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "transparent-background-block",
+		"_layout": "full",
+		"title": "Text",
+		"displayTitle": "",
+		"body": "This brings us to biomarkers. A biomarker is simply an objective measurable indicator of a normal or pathologic biological state.",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-50",
+		"_parentId": "b-50",
+		"_type": "component",
+		"_component": "flippableCard",
+		"_classes": "body-flipcard",
+		"_layout": "full",
+		"title": "Component title",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_setCompletionOn": "inview",
+		"_columns": {
+			"_large": 1,
+			"_medium": 1,
+			"_small": 1
+		},
+		"_width": 500,
+		"_height": 350,
+		"_items": [{
+			"title": "",
+			"body": "Tumour biomarkers is a term used to describe anything that can be measured in the tumour that is going to help with diagnosing and treating the disease. Ideally it should be found in the cancer cells, but not in the normal cells surrounding it.<span style='font-size:14px;'data-title='Strimbu K, Tavel JA. What are biomarkers? Curr Opin HIV AIDS. 2010;5(6):463–466.' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 7 ]</sup></span>",
+			"moreButton": "show more",
+			"_graphic": {
+				"_src": "course/en/images/topic1_flip_card1.png",
+				"alt": "alt"
+			}
+		}]
+	},
+	{
+		"_id": "c-55",
+		"_parentId": "b-55",
+		"_type": "component",
+		"_component": "media",
+		"_classes": "transparent-background",
+		"_layout": "full",
+		"title": "Video",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_setCompletionOn": "inview",
+		"_useClosedCaptions": false,
+		"_startLanguage": "en",
+		"_allowFullScreen": true,
+		"_showVolumeControl": true,
+		"_startVolume": "80%",
+		"_playsinline": false,
+		"_media": {
+			"mp4": "course/en/video/sandra-what-is-a-biomarker.mp4",
+			"poster": "course/en/video/sandra-what-is-a-biomarker.jpg",
+			"cc": [{
+				"srclang": "en",
+				"src": ""
+			}]
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-60",
+		"_parentId": "b-60",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "",
+		"displayTitle": "",
+		"body": "Several tumour biomarkers have been identified for lung cancer. Some of these biomarkers can be used to predict whether a tumour will respond to a specific therapy, e.g., a targeted therapy. Targeted therapies, in many cases, are also designed to target tumour cells that contain specific biomarkers. <span data-title='Zamay TN, Zamay GS, Kolovskaya OS, et al. Current and Prospective Protein Biomarkers of Lung Cancer. Cancers 2017;9(11):155.' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 1 ]</sup></span>&nbsp;&nbsp;&nbsp;<span data-title='Strimbu K, Tavel JA. What are biomarkers? Curr Opin HIV AIDS. 2010; 5(6): 463–466.' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 7 ]</sup></span>",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-65",
+		"_parentId": "b-65",
+		"_classes": "transparent-background",
+		"_layout": "full",
+		"_type": "component",
+		"_component": "matching",
+		"_attempts": 2,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": false,
+		"_canShowModelAnswer": true,
+		"_canShowFeedback": true,
+		"_canShowMarking": true,
+		"_recordInteraction": true,
+		"_questionWeight": 3,
+		"title": "Matching",
+		"displayTitle": "",
+		"questionTitle": "Dummy testing display for SCORM",
+		"body": "<img src='course/en/images/check.png'><br><br><p>Can you identify the correct histological subtype of NSCLC?</p>",
+		"instruction": "",
+		"placeholder": "select an option",
+		"_items": [{
+				"text": "This dominant subtype of NSCLC arises from bronchial mucosa glandular cells.",
+				"_options": [{
+						"text": "Adenocarcinoma",
+						"_isCorrect": true
+					},
+					{
+						"text": "Adenosquamous carcinoma",
+						"_isCorrect": false
+					},
+					{
+						"text": "Large cell carcinoma",
+						"_isCorrect": false
+					},
+					{
+						"text": "Large cell neuroendocrine carcinoma",
+						"_isCorrect": false
+					},
+					{
+						"text": "Squamous cell carcinoma",
+						"_isCorrect": false
+					}
+				]
+			},
+			{
+				"text": "This carcinoma arises from modified bronchial epithelial cells.",
+				"_options": [{
+						"text": "Adenocarcinoma",
+						"_isCorrect": false
+					},
+					{
+						"text": "Adenosquamous carcinoma",
+						"_isCorrect": false
+					},
+					{
+						"text": "Large cell carcinoma",
+						"_isCorrect": false
+					},
+					{
+						"text": "Large cell neuroendocrine carcinoma",
+						"_isCorrect": false
+					},
+					{
+						"text": "Squamous cell carcinoma",
+						"_isCorrect": true
+					}
+				]
+			},
+			{
+				"text": "These undifferentiated carcinomas arise from epithelial cells.",
+				"_options": [{
+						"text": "Adenocarcinoma",
+						"_isCorrect": false
+					},
+					{
+						"text": "Adenosquamous carcinoma",
+						"_isCorrect": false
+					},
+					{
+						"text": "Large cell carcinoma",
+						"_isCorrect": true
+					},
+					{
+						"text": "Large cell neuroendocrine carcinoma",
+						"_isCorrect": false
+					},
+					{
+						"text": "Squamous cell carcinoma",
+						"_isCorrect": false
+					}
+				]
+			}
+		],
+		"_feedback": {
+			"title": " ",
+			"correct": "Yes. Adenocarcinoma, the dominant subtype of NSCLC, arises from bronchial mucosa glandular cells. Squamous cell carcinoma arises from modified bronchial epithelial cells. Large cell carcinomas are undifferentiated carcinomas arising from epithelial cells.",
+			"_incorrect": {
+				"notFinal": "Sorry. Why don't you try again?",
+				"final": "Sorry. Adenocarcinoma, the dominant subtype of NSCLC, arises from bronchial mucosa glandular cells. Squamous cell carcinoma arises from modified bronchial epithelial cells. Large cell carcinomas are undifferentiated carcinomas arising from epithelial cells."
+			},
+			"_partlyCorrect": {
+				"notFinal": "Sorry. Why don't you try again?",
+				"final": "Sorry. Adenocarcinoma, the dominant subtype of NSCLC, arises from bronchial mucosa glandular cells. Squamous cell carcinoma arises from modified bronchial epithelial cells. Large cell carcinomas are undifferentiated carcinomas arising from epithelial cells."
+			}
+		},
+		"_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-70",
+		"_parentId": "b-70",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "",
+		"_layout": "full",
+		"_attempts": 2,
+		"_shouldDisplayAttempts": false,
+		"_questionWeight": 1,
+		"_isRandom": false,
+		"_selectable": 4,
+		"_canShowModelAnswer": true,
+		"_canShowFeedback": true,
+		"_canShowMarking": true,
+		"_recordInteraction": true,
+		"title": "MCQ",
+		"displayTitle": "",
+		"questionTitle": "Dummy testing display for SCORM",
+		"body": "<p>Which of these can be considered a biomarker?</p>",
+		"instruction": "<b>Select all that apply.</b>",
+
+		"_items": [{
+				"text": "Elevated temperature",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Feeling tired",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Inability to catch breath",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "EGFR protein overexpression",
+				"_shouldBeSelected": true
+			}
+		],
+		"_feedback": {
+			"title": " ",
+			"correct": "Yes. A biomarker is simply an objective measurable indicator of a normal or pathologic biological state. Elevated temperature and EGFR protein overexpression are both biomarkers.",
+			"_incorrect": {
+				"notFinal": "Sorry. A biomarker is simply an objective measurable indicator of a normal or pathologic biological state. Would you like to try again?",
+				"final": "Sorry. A biomarker is simply an objective measurable indicator of a normal or pathologic biological state. Elevated temperature and EGFR protein overexpression are both biomarkers."
+			},
+			"_partlyCorrect": {
+				"notFinal": "Sorry. A biomarker is simply an objective measurable indicator of a normal or pathologic biological state. Would you like to try again?",
+				"final": "Sorry. A biomarker is simply an objective measurable indicator of a normal or pathologic biological state. Elevated temperature and EGFR protein overexpression are both biomarkers."
+			}
+		},
+		"_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-71",
+		"_parentId": "b-71",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "transparent-background",
+		"_layout": "full",
+		"title": "",
+		"displayTitle": "References",
+		"body": "<ol class='reference-block' style='margin-left:14px;'><li>Zamay TN, Zamay GS, Kolovskaya OS, et al. Current and Prospective Protein Biomarkers of Lung Cancer. <em>Cancers</em> 2017;9(11):155.</li><li>Cancer Research UK. Cancer incidence for common cancers: <a href='https://www.cancerresearchuk.org/health-professional/cancer-statistics/incidence/common-cancers-compared#heading-Zero'target='_blank'> www.cancerresearchuk.org/health-professional/cancer-statistics/incidence/common-cancers-compared#heading-Zero</a> (accessed Sept 2018)</li><li>Cancer Research UK. Lung cancer incidence statistics: <a href='http://www.cancerresearchuk.org/health-professional/cancer-statistics/statistics-by-cancer-type/lung-cancer/incidence#heading-Four' target='_blank'>www.cancerresearchuk.org/health-professional/cancer-statistics/statistics-by-cancer-type/lung-cancer/incidence#heading-Four</a> (accessed Sept 2018)</li><li>Cancer Research UK. Lung cancer risk factors: <a href='http://www.cancerresearchuk.org/health-professional/cancer-statistics/statistics-by-cancer-type/lung-cancer/risk-factors' target='_blank'>http://www.cancerresearchuk.org/health-professional/cancer-statistics/statistics-by-cancer-type/lung-cancer/risk-factors</a> (accessed Sept 2018)</li><li>Novello S, Barlesi F, Califano R, et al. Metastatic non-small-cell lung cancer: ESMO Clinical Practice Guidelines for diagnosis, treatment and follow-up. <em>Ann Oncol</em>. 2016;27(suppl 5):v1-v27.</li><li>Tumour biomarkers. <a href='https://www.nature.com/subjects/tumour-biomarkers'target='_blank'> www.nature.com/subjects/tumour-biomarkers</a> (accessed Sept 2018)</li><li>Strimbu K, Tavel JA. What are biomarkers? <em>Curr Opin HIV AIDS</em>. 2010;5(6):463–466.</li></ol>",
+		"instruction": "",
+		"_triggered": {
+			"_isEnabled": false,
+			"showButton": {
+				"_top": "40%",
+				"_left": "15%",
+				"_right": "auto",
+				"_bottom": "auto",
+				"buttonText": "Click me to show"
+			},
+			"hideButton": {
+				"_top": "-2%",
+				"_left": "auto",
+				"_right": "0%",
+				"_bottom": "auto",
+				"buttonText": "Click me to hide"
+			}
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-75",
+		"_parentId": "b-75",
+		"_type": "component",
+		"_component": "navigate",
+		"_classes": "",
+		"_layout": "full",
+		"title": "",
+		"displayTitle": "",
+		"body": "&nbsp;",
+		"align": "right",
+		"instruction": "",
+		"_items": [{
+			"navigateTo": "co-10",
+			"_graphic": {
+				"alt": "",
+				"title": "",
+				"large": "",
+				"medium": "",
+				"small": ""
+			},
+			"NavigateTitle": "Next Topic",
+			"moduleTitle": "Biomarkers in Cancer"
+		}],
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+
+
+
+	{
+		"_id": "c-85",
+		"_parentId": "b-85",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Biomarkers in Cancer",
+		"displayTitle": "",
+		"body": "In cancer, many biomarkers are a result of gene corruption in the tumour cells: mutation, fusion with another gene or the spurious appearance of increased copies (amplification).",
+		"instruction": ""
+	},
+	{
+		"_id": "c-90",
+		"_parentId": "b-90",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "p0",
+		"_layout": "left",
+		"_setCompletionOn": "inview",
+		"title": "",
+		"displayTitle": "",
+		"body": "Gene corruption can often result in overexpression or overproduction of a particular protein.",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-91",
+		"_parentId": "b-90",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "p0",
+		"_layout": "right",
+		"_setCompletionOn": "inview",
+		"title": "",
+		"displayTitle": "",
+		"body": "Gene corruption can also result in expression of an aberrant form of a particular protein.",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-95",
+		"_parentId": "b-95",
+		"_type": "component",
+		"_component": "accordion",
+		"_classes": "transparent-background",
+		"_layout": "full",
+		"title": "Accordion",
+		"displayTitle": "",
+		"body": "Each type of gene corruption drives a particular set of biomarkers.<br>",
+		"instruction": "<p>Click or tap on each driver to view the biomarkers associated with it.</p>",
+		"_setCompletionOn": "inview",
+		"_shouldCollapseItems": false,
+		"_items": [{
+				"title": "Gene mutation",
+				"body": "<p align='left'>A gene mutation is a change in the DNA sequence of a gene of the cancer cell, such that the sequence differs from what is found in normal cells.<br><br><b>EGFR:</b> This human gene encodes a protein called the epidermal growth factor receptor. This protein is found on the surface of some cells to which the epidermal growth factor binds, stimulating cell growth.<br><br><b>BRAF:</b> This human gene encodes a protein called B-Raf that is involved in sending chemical signals that tell cells to grow.<br><br><b>KRAS:</b> This gene makes a protein that acts as an on/off switch in cell signalling. It controls cell growth. When mutated, negative signalling is disrupted and cells can grow uncontrollably.<br><br><b>MET:</b> This gene encodes a protein that also is found on the surface of some cells, and when it binds to its ligand, it can regulate cell growth. However, dysregulation of MET signalling can lead to uncontrolled cell growth.</p>"
+			},
+			{
+				"title": "Gene fusion",
+				"body": "<p align='left'>A fusion gene is a hybrid gene formed when two separate genes are accidentally combined together.<br><br><b>ALK:</b> The anaplastic lymphoma kinase gene makes a protein called the ALK receptor tyrosine kinase. The ALK gene undergoes a rearrangement, called a translocation, within the chromosome to create a fusion between ALK and another gene.<br><br><b>ROS1:</b> The gene ROS1 encodes the receptor tyrosine kinase ROS1. Approximately 2% of lung tumours harbour fusions between ROS1 and other genes, like ALK.</p>"
+			},
+			{
+				"title": "Gene amplification",
+				"body": "<p align='left'>Gene amplification is an increase in the number of copies of a gene without a proportional increase in other genes.</p>"
+			},
+			{
+				"title": "No known drivers",
+				"body": "<p align='left'><b>PD-L1:</b> Programmed death-ligand 1 is a protein that attaches to the PD-1 and B7.1 receptors on T cells, both of which can inactivate the T cell. Blocking PD-L1 can prevent cancer cells from inactivating T cells.<br><br><b>VEGF:</b> Vascular endothelial growth factor is a protein that stimulates the growth and formation of blood vessels. Solid cancers cannot grow beyond a limited size without an adequate blood supply; cancers that can express VEGF are able to grow and metastasise.<br><br><b>CTLA-4:</b> Cytotoxic T lymphocyte-associated antigen 4 is a protein receptor that functions as an immune checkpoint by down-regulating immune responses. CTLA-4 is constitutively expressed only in regulatory T cells. In conventional T cells, it is found only after activation – notably in cancers.</p>"
+			}
+		],
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-96",
+		"_parentId": "b-95",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "p0",
+		"_layout": "full",
+		"title": "",
+		"displayTitle": "",
+		"body": "<span data-title='NICE. First-line systemic anticancer treatment for advanced or metastatic non-small-cell lung cancer. pathways.nice.org.uk/pathways/lung-cancer/managing-lung-cancer#path=view%3A/pathways/lung-cancer/first-line-systemic-anticancer-treatment-for-advanced-or-metastatic-non-small-cell-lung-cancer.xml&content=view-index (accessed Sept 2018)' data-link='https://pathways.nice.org.uk/pathways/lung-cancer/managing-lung-cancer#path=view%3A/pathways/lung-cancer/first-line-systemic-anticancer-treatment-for-advanced-or-metastatic-non-small-cell-lung-cancer.xml&content=view-index' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 1 ]</sup></span>&nbsp;&nbsp;&nbsp;<span data-title='NICE. Systemic anticancer treatment for previously treated advanced or metastatic non-small-cell lung cancer. pathways.nice.org.uk/pathways/lung-cancer#path=view%3A/pathways/lung-cancer/systemic-anticancer-treatment-for-previously-treated-advanced-or-metastatic-non-small-cell-lung-cancer.xml&content=view-index  (accessed Sept 2018)' data-link='https://pathways.nice.org.uk/pathways/lung-cancer#path=view%3A/pathways/lung-cancer/systemic-anticancer-treatment-for-previously-treated-advanced-or-metastatic-non-small-cell-lung-cancer.xml&content=view-index (accessed Sept 2018)' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 2 ]</sup></span>&nbsp;&nbsp;&nbsp;<span data-title='Novello S, Barlesi F, Califano R, et al. Metastatic non-small-cell lung cancer: ESMO Clinical Practice guidelines for diagnosis, treatment and follow up. Ann Oncol. 2016;27(suppl5):v1–v27.' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 3 ]</sup></span>&nbsp;&nbsp;&nbsp;<span data-title='Villalobos P, Wistuba II. Lung Cancer Biomarkers. Hematol Oncol Clin North Am. 2017;31(1):13–29.' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 4 ]</sup></span>&nbsp;&nbsp;&nbsp;<span data-title='Wang J, Chen J, Guo Y, et al, Immune-Related Adverse Events Associated with Anti-PD-1/PD-L1 Treatment for Malignancies: A Meta-Analysis. Oncotarget. 2017;8(32):53854–53872.' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 5 ]</sup></span>",
+		"instruction": ""
+	},
+	{
+		"_id": "c-100",
+		"_parentId": "b-100",
+		"_type": "component",
+		"_component": "media",
+		"_classes": "",
+		"_layout": "left",
+		"title": "Video",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_setCompletionOn": "inview",
+		"_useClosedCaptions": false,
+		"_startLanguage": "en",
+		"_allowFullScreen": true,
+		"_showVolumeControl": true,
+		"_startVolume": "80%",
+		"_playsinline": false,
+		"_media": {
+			"mp4": "course/en/video/jackie_types_of_mutations.mp4",
+			"poster": "course/en/video/jackietypes-of-mutations.jpg",
+			"cc": [{
+				"srclang": "en",
+				"src": ""
+			}]
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-105",
+		"_parentId": "b-100",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "transparent-background-block",
+		"_layout": "right",
+		"title": "",
+		"displayTitle": "",
+
+		"body": "In the USA, crizotinib is approved for use as a ROS1 inhibitor in NSCLC, but, as of June 2018, it is not approved as a ROS1 inhibitor in the UK.",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-106",
+		"_parentId": "b-106",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "transparent-background-block",
+		"_layout": "full",
+		"title": "",
+		"displayTitle": "",
+		"body": "The National Institute for Health and Care Excellence (NICE) and European Society of Molecular Oncology (ESMO) recommend taking a tumour biopsy and testing for the biomarkers EGFR and ALK before treatment decision-making in patients with advanced NSCLC.",
+		"instruction": ""
+	},
+	{
+		"_id": "c-110",
+		"_parentId": "b-110",
+		"_type": "component",
+		"_component": "flippableCard",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Component title",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_setCompletionOn": "inview",
+		"_columns": {
+			"_large": 2,
+			"_medium": 1,
+			"_small": 1
+		},
+		"_width": 500,
+		"_height": 350,
+		"_items": [{
+				"title": "",
+				"body": "Molecular testing for mutations of EGFR by validated methods is recommended by both NICE and ESMO. <span data-title='Novello S, Barlesi F, Califano R, et al. Metastatic non-small-cell lung cancer: ESMO Clinical Practice guidelines for diagnosis, treatment and follow up. Ann Oncol. 2016;27(suppl5):v1–v27.' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 3 ]</sup></span> &nbsp;&nbsp;<span data-title='NICE. EGFR‑TK mutation testing in adults with locally advanced or metastatic non-small-cell lung cancer. www.nice.org.uk/guidance/dg9/chapter/3-Clinical-need-and-practice (accessed Sept 2018)' data-link='https://www.nice.org.uk/guidance/dg9/chapter/3-Clinical-need-and-practice' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 7 ]</sup></span>",
+				"moreButton": "show more",
+				"_graphic": {
+					"_src": "course/en/images/topic2_flip_card2.png",
+					"alt": "alt"
+				}
+			},
+			{
+				"title": "",
+				"body": "ESMO states that fluorescence <em>in situ</em> hybridisation (FISH) remains the standard test for ALK, but immunohistochemistry (IHC) with high-performance ALK antibodies may be considered. &nbsp;&nbsp;<span data-title='Novello S, Barlesi F, Califano R, et al. Metastatic non-small-cell lung cancer: ESMO Clinical Practice guidelines for diagnosis, treatment and follow up. Ann Oncol. 2016;27(suppl5):v1–v27.' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 3 ]</sup></span>&nbsp;&nbsp; <span data-title='NICE. Diagnosis and staging of cancer. pathways.nice.org.uk/pathways/lung-cancer/diagnosis-and-staging-of-lung-cancer#content=view-node%3Anodes-further-tests-before-treatment-with-curative-intent (accessed Sept 2018)' data-link=' https://pathways.nice.org.uk/pathways/lung-cancer/diagnosis-and-staging-of-lung-cancer#content=view-node%3Anodes-further-tests-before-treatment-with-curative-intent' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 6 ]</sup></span>",
+				"moreButton": "show more",
+				"_graphic": {
+					"_src": "course/en/images/Topic2_Flip card3.png",
+					"alt": "alt"
+				}
+			}
+		]
+	},
+	{
+		"_id": "c-114",
+		"_parentId": "b-114",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "transparent-background-block",
+		"_layout": "full",
+		"title": "",
+		"displayTitle": "When should we test for biomarkers?",
+		"body": "NICE and ESMO state testing for EGFR and ALK should be performed before initial treatment at patient screening.<span data-title='NICE. EGFR‑TK mutation testing in adults with locally advanced or metastatic non-small-cell lung cancer. www.nice.org.uk/guidance/dg9/chapter/3-Clinical-need-and-practice (accessed Sept 2018)' data-link='https://www.nice.org.uk/guidance/dg9/chapter/3-Clinical-need-and-practice' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 7 ]</sup></span><br><br>ESMO states retesting at progression should be considered, especially in patients where this may affect additional treatment, e.g., if mutation-dependent resistance may be overcome by administering a next-generation drug. <span data-title='Novello S, Barlesi F, Califano R, et al. Metastatic non-small-cell lung cancer: ESMO Clinical Practice guidelines for diagnosis, treatment and follow up. Ann Oncol. 2016;27(suppl5):v1–v27.' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 3 ]</sup></span>",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-115",
+		"_parentId": "b-115",
+		"_type": "component",
+		"_component": "multiDragAndDrop",
+		"_classes": "",
+		"_layout": "full",
+		"_attempts": 2,
+		"_questionWeight": 1,
+		"_isDraggableRandom": true,
+		"_isDroppableRandom": false,
+		"title": "",
+		"displayTitle": "",
+		"questionTitle": "Dummy testing display for SCORM",
+		"body": "<img src='course/en/images/check.png'><br><br>Match each biomarker with its driver.",
+		"instruction": "<p>Drag each biomarker and drop it at its driver.</p>",
+		"_defaultMaxWidth": 150,
+		"_defaultHeight": 40,
+		"_droppableWidth": 250,
+		"_droppableHeight": 250,
+		"_canShowModelAnswer": true,
+		"_canShowFeedback": true,
+		"_canShowMarking": true,
+		"_maxDropLimit": 4,
+		"_draggableItems": [{
+				"id": "drag-01",
+				"body": "EGFR"
+			}, {
+				"id": "drag-02",
+				"body": "BRAF"
+			}, {
+				"id": "drag-03",
+				"body": "KRAS"
+			}, {
+				"id": "drag-04",
+				"body": "MET"
+			}, {
+				"id": "drag-05",
+				"body": "ALK"
+			}, {
+				"id": "drag-06",
+				"body": "ROS1"
+			}, {
+				"id": "drag-07",
+				"body": "PD-L1"
+			}, {
+				"id": "drag-08",
+				"body": "VEGF"
+			},
+			{
+				"id": "drag-09",
+				"body": "CTLA-4"
+			}
+		],
+		"_droppableItems": [{
+			"id": "drop-01",
+			"body": "Gene mutation",
+			"correctItemId": ["drag-01", "drag-02", "drag-03", "drag-04"]
+		}, {
+			"id": "drop-02",
+			"body": "Gene fusion",
+			"correctItemId": ["drag-05", "drag-06"]
+		}, {
+			"id": "drop-03",
+			"body": "No known drivers",
+			"correctItemId": ["drag-07", "drag-08", "drag-09"]
+		}],
+		"_feedback": {
+			"correct": "Congratulations. EGFR, BRAF, KRAS and MET are driven by gene mutation; ALK and ROS1 by gene fusion; and there are no known drivers of PD-L1, VEGF and CTLA-4.",
+			"_incorrect": {
+				"notFinal": "Sorry. That’s not it. Why don’t you try again?",
+				"final": "Sorry. That’s not it. EGFR, BRAF, KRAS and MET are driven by gene mutation; ALK and ROS1 by gene fusion; and there are no known drivers of PD-L1, VEGF and CTLA-4."
+			},
+			"_partlyCorrect": {
+				"notFinal": "You got some of them right. Why don’t you try again?",
+				"final": "You got some of them right. EGFR, BRAF, KRAS and MET are driven by gene mutation; ALK and ROS1 by gene fusion; and there are no known drivers of PD-L1, VEGF and CTLA-4."
+			}
+
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-116",
+		"_parentId": "b-116",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "",
+		"displayTitle": "References",
+		"body": "<ol class='reference-block'><li>NICE. First-line systemic anticancer treatment for advanced or metastatic non-small-cell lung cancer. <a target='_blank' href='https://pathways.nice.org.uk/pathways/lung-cancer/managing-lung-cancer#path=view%3A/pathways/lung-cancer/first-line-systemic-anticancer-treatment-for-advanced-or-metastatic-non-small-cell-lung-cancer.xml&content=view-index'> pathways.nice.org.uk/pathways/lung-cancer/managing-lung-cancer#path=view%3A/pathways/lung-cancer/first-line-systemic-anticancer-treatment-for-advanced-or-metastatic-non-small-cell-lung-cancer.xml&content=view-index</a> (accessed Sept 2018)</li><li>NICE. Systemic anticancer treatment for previously treated advanced or metastatic non-small-cell lung cancer. <a href='https://pathways.nice.org.uk/pathways/lung-cancer#path=view%3A/pathways/lung-cancer/systemic-anticancer-treatment-for-previously-treated-advanced-or-metastatic-non-small-cell-lung-cancer.xml&content=view-index'target='_blank'> pathways.nice.org.uk/pathways/lung-cancer#path=view%3A/pathways/lung-cancer/systemic-anticancer-treatment-for-previously-treated-advanced-or-metastatic-non-small-cell-lung-cancer.xml&content=view-index</a> (accessed Sept 2018)</li><li>Novello S, Barlesi F, Califano R, et al. Metastatic non-small-cell lung cancer: ESMO Clinical Practice guidelines for diagnosis, treatment and follow up. <em>Ann Oncol</em>. 2016;27(suppl5):v1–v27.</li><li>Villalobos P, Wistuba II. Lung Cancer Biomarkers. <em>Hematol Oncol Clin North Am</em>. 2017;31(1):13–29.</li><li>Wang J, Chen J, Guo Y, et al, Immune-Related Adverse Events Associated with Anti-PD-1/PD-L1 Treatment for Malignancies: A Meta-Analysis. <em>Oncotarget</em>. 2017;8(32):53854–53872.</li><li>NICE. Diagnosis and staging of cancer. <a href='https://pathways.nice.org.uk/pathways/lung-cancer/diagnosis-and-staging-of-lung-cancer#content=view-node%3Anodes-further-tests-before-treatment-with-curative-intent' target='_blank'> pathways.nice.org.uk/pathways/lung-cancer/diagnosis-and-staging-of-lung-cancer#content=view-node%3Anodes-further-tests-before-treatment-with-curative-intent</a> (accessed Sept 2018)</li><li>NICE. EGFR‑TK mutation testing in adults with locally advanced or metastatic non-small-cell lung cancer. <a href='https://www.nice.org.uk/guidance/dg9/chapter/3-Clinical-need-and-practice' target='_blank'> www.nice.org.uk/guidance/dg9/chapter/3-Clinical-need-and-practice</a> (accessed Sept 2018)</li></ol>",
+		"instruction": "",
+		"_triggered": {
+			"_isEnabled": false,
+			"showButton": {
+				"_top": "40%",
+				"_left": "15%",
+				"_right": "auto",
+				"_bottom": "auto",
+				"buttonText": "Click me to show"
+			},
+			"hideButton": {
+				"_top": "-2%",
+				"_left": "auto",
+				"_right": "0%",
+				"_bottom": "auto",
+				"buttonText": "Click me to hide"
+			}
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-120",
+		"_parentId": "b-120",
+		"_type": "component",
+		"_component": "navigate",
+		"_classes": "",
+		"_layout": "full",
+		"title": "",
+		"displayTitle": "",
+		"body": "&nbsp;",
+		"align": "right",
+		"instruction": "",
+		"_items": [{
+			"navigateTo": "co-15",
+			"_graphic": {
+				"alt": "",
+				"title": "",
+				"large": "",
+				"medium": "",
+				"small": ""
+			},
+			"NavigateTitle": "Next Topic",
+			"moduleTitle": "Treatment Overview"
+		}]
+	},
+
+
+
+
+	{
+		"_id": "c-130",
+		"_parentId": "b-130",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "p0",
+		"_layout": "full",
+		"title": "Treatment Overview",
+		"displayTitle": "",
+		"body": "",
+		"instruction": ""
+	},
+	{
+		"_id": "c-135",
+		"_parentId": "b-135",
+		"_type": "component",
+		"_component": "accordion",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Accordion",
+		"displayTitle": "",
+		"body": "There are several systemic therapies to treat patients with NSCLC. These can be used singly or<br> in combination with each other, as appropriate.",
+		"instruction": "<p>Click or tap on each systemic therapy.</p>",
+		"_setCompletionOn": "inview",
+		"_shouldCollapseItems": false,
+		"_items": [{
+				"title": "Chemotherapy",
+				"body": "<p align='left'>Chemotherapies act by non-selectively targeting cell division or cell suicide pathways to promote cancer cell death. Chemotherapy is a first-line and recurrent treatment for many patients with advanced or metastatic NSCLC in the UK and the rest of Europe.<br><br>Common agents include docetaxel, gemcitabine, paclitaxel or vinorelbine, platinum compounds (cisplatin or carboplatin) and pemetrexed. Most first-line chemotherapy regimens consist of a platinum-containing doublet, with docetaxel frequently being used as second-line therapy. <br><br>Pemetrexed should be used in combination with cisplatin only if the histology is adenocarcinoma or large-cell carcinoma. Pemetrexed is also a consideration as maintenance therapy in some circumstances in patients with non-squamous cell carcinoma. <br><br><span data-title='Davies M. New modalities of cancer treatment for NSCLC: focus on immunotherapy. Cancer Manag Res. 2014;6:63–75' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 1 ]</sup></span>&nbsp;&nbsp;&nbsp;<span data-title='Rangachari D, Brahmer JR. Targeting the immune system in the treatment of non-small-cell lung cancer. Curr Treat Options Oncol. 2013;14(4):580-94.' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 2 ]</sup></span>&nbsp;&nbsp;&nbsp;<span data-title='NICE. First-line systemic anticancer treatment for advanced or metastatic non-small-cell lung cancer. pathways.nice.org.uk/pathways/lung-cancer#path=view%3A/pathways/lung-cancer/first-line-systemic-anticancer-treatment-for-advanced-or-metastatic-non-small-cell-lung-cancer.xml&content=view-index (accessed Sept 2018)' data-link='https://pathways.nice.org.uk/pathways/lung-cancer#path=view%3A/pathways/lung-cancer/first-line-systemic-anticancer-treatment-for-advanced-or-metastatic-non-small-cell-lung-cancer.xml&content=view-index' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 3 ]</sup></span>&nbsp;&nbsp;&nbsp;<span data-title='NICE. Systemic anticancer treatment for previously treated advanced or metastatic non-small-cell lung cancer.    pathways.nice.org.uk/pathways/lung-cancer#path=view%3A/pathways/lung-cancer/systemic-anticancer-treatment-for-previously-treated-advanced-or-metastatic-non-small-cell-lung-cancer.xml&content=view-index (accessed Sept 2018)' data-link='https://pathways.nice.org.uk/pathways/lung-cancer#path=view%3A/pathways/lung-cancer/systemic-anticancer-treatment-for-previously-treated-advanced-or-metastatic-non-small-cell-lung-cancer.xml&content=view-index' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 4 ]</sup></span>&nbsp;&nbsp;&nbsp;<span data-title='Novello S, Barlesi F, Califano R, et al. Metastatic non-small-cell lung cancer: ESMO Clinical Practice Guidelines for diagnosis, treatment and follow-up. Ann Oncol. 2016 Sep;27(suppl 5):v1–v27.' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 5 ]</sup></span> </p>",
+				"_graphic": {
+					"src": "",
+					"alt": "accordion item 1 graphic alt text here.",
+					"attribution": ""
+				},
+				"_classes": "image-left"
+			},
+			{
+				"title": "Immunotherapy",
+				"body": "<section align='left'>Immunotherapy agents act by stimulating the immune system to target cancer cells. Recently approved immunotherapies work by inhibiting immune checkpoints. <br><br>Currently, immunotherapies have been studied as consolidation therapy after chemoradiation, as first-line therapy and as recurrent therapy. <br><br> Common agents include:<ul><li>Nivolumab and pembrolizumab (checkpoint inhibitors anti-PD-1 agents)</li><li>Durvalumab (anti-PD-L1 compound)</li><li>Tremelimumab (anti-CTLA-4 agent)</li></ul><br><span data-title='Derman BA, Mileham KF, Bonomi PD, et al. Treatment of advanced squamous cell carcinoma of the lung: a review. Transl Lung Cancer Res. 2015;4(5):524–532.' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 6 ]</sup></span>&nbsp;&nbsp;&nbsp;<span data-title='Silva AP, Coelho PV, Anazetti M, et al. Targeted therapies for the treatment of non-small-cell lung cancer: Monoclonal antibodies and biological inhibitors. Hum Vaccin Immunother. 2017;3;13(4):843–853.' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 7 ]</sup></span>&nbsp;&nbsp;&nbsp;<span data-title='Teixidó C, Vilariño N, Reyes R, et al. PD-L1 expression testing in non-small cell lung cancer. Ther Adv Med Oncol. 2018;11;10:17.' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 8 ]</sup></span></section>",
+				"_graphic": {
+					"src": "course/en/images/topic03_asset01_immunotherapy.png",
+					"alt": "accordion item 2 graphic alt text here.",
+					"attribution": ""
+				},
+				"_classes": ""
+			},
+			{
+				"title": "Targeted monoclonal antibodies",
+				"body": "<section align='left'>Targeted monoclonal antibodies work by inactivating proteins essential for tumour growth and survival. Some of these – like bevacizumab – bind and inactivate VEGF (vascular endothelial growth factor), inhibiting its ability to bind receptors and stimulate the growth of blood vessels to the tumour. Ramucirumab, conversely, binds to a VEGF receptor to achieve the same result.<br><br> <span data-title='Davies M. New modalities of cancer treatment for NSCLC: focus on immunotherapy. Cancer Manag Res. 2014;6:63–75' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 1 ]</sup></span>&nbsp;&nbsp;&nbsp;<span data-title='Manzo A, Montanino A, Carillio G, et al. Angiogenesis Inhibitors in NSCLC. Int J Mol Sci. 2017;18(10):2021.' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 9 ]</sup></span> </section>",
+				"_graphic": {
+					"src": "course/en/images/topic_3_targeted_monoclonal_antibodies.gif",
+					"alt": "accordion item 2 graphic alt text here.",
+					"attribution": ""
+				},
+				"_classes": "image-right"
+			},
+			{
+				"title": "Targeted small molecule inhibitors",
+				"body": "<section align='left'>Targeted small molecule inhibitors also block signalling. <br><br> Gefitinib, erlotinib and afatinib inhibit the tyrosine kinase on the intracellular region of the EGFR receptor. Osimertinib, an irreversible EGFR inhibitor, targets EGFR molecules that have EGFR sensitising mutations as well as T790M resistance mutations. <br><br> Crizotinib, ceritinib and alectinib inhibit the kinase activity of ALK. <br><br> Nintedanib inhibits blood vessel formation in tumours by blocking VEGFR, platelet-derived growth factor receptors (PDGFR), fibroblast growth factor receptors (FGFR) and intracellular messengers of the Src family. <br><br> <span data-title='Davies M. New modalities of cancer treatment for NSCLC: focus on immunotherapy. Cancer Manag Res. 2014;6:63–75' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 1 ]</sup></span> <span data-title='Manzo A, Montanino A, Carillio G, et al. Angiogenesis Inhibitors in NSCLC. Int J Mol Sci. 2017;18(10):2021.' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 9 ]</sup></span> <span data-title='Singh M, Jadhav HR. Targeting non-small cell lung cancer with small-molecule EGFR tyrosine kinase inhibitors. Drug Discov Today. 2018;23(3):745–753.' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 10 ]</sup></span></section>",
+				"_graphic": {
+					"src": "course/en/images/topic_3_targeted_small_molecule_inhibitors.gif",
+					"alt": "accordion item 4 graphic alt text here.",
+					"attribution": ""
+				},
+				"_classes": ""
+			}
+		],
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-140",
+		"_parentId": "b-140",
+		"_type": "component",
+		"_component": "media",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Video",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_setCompletionOn": "inview",
+		"_useClosedCaptions": false,
+		"_startLanguage": "en",
+		"_allowFullScreen": true,
+		"_showVolumeControl": true,
+		"_startVolume": "80%",
+		"_playsinline": false,
+		"_media": {
+			"mp4": "course/en/video/sandra-what-looking-for-in-tests.mp4",
+			"poster": "course/en/video/sandra-what-looking-for-in-tests.jpg",
+			"cc": [{
+				"srclang": "en",
+				"src": ""
+			}]
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-145",
+		"_parentId": "b-145",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "",
+		"displayTitle": "",
+		"body": "The National Institute for Health and Care Excellence (NICE) has not approved some biomarker targeted agents for use in the United Kingdom.",
+		"instruction": ""
+	},
+	{
+		"_id": "c-155",
+		"_parentId": "b-150",
+		"_type": "component",
+		"_component": "tabs",
+		"_classes": "transparent-background-block",
+		"_layout": "full",
+		"title": "Tabs",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_setCompletionOn": "inview",
+		"_tabLayout": "top",
+		"_items": [{
+				"tabTitle": "Approved in the UK",
+				"title": "",
+				"body": "<ul><li>Afatinib</li><li>Alectinib</li><li>Ceritinib</li><li>Crizotinib</li><li>Erlotinib</li><li>Gefitinib</li><li>Nintedanib</li><li>Nivolumab</li><li>Osimertinib</li><li>Pembrolizumab &nbsp;<span data-title='NICE. Systemic anticancer treatment for previously treated advanced or metastatic non-small-cell lung cancer. pathways.nice.org.uk/pathways/lung-cancer#path=view%3A/pathways/lung-cancer/systemic-anticancer-treatment-for-previously-treated-advanced-or-metastatic-non-small-cell-lung-cancer.xml&content=view-index (accessed Sept 2018)' data-link='https://pathways.nice.org.uk/pathways/lung-cancer#path=view%3A/pathways/lung-cancer/systemic-anticancer-treatment-for-previously-treated-advanced-or-metastatic-non-small-cell-lung-cancer.xml&content=view-index' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 4 ]</sup></span>&nbsp;&nbsp;<span data-title='NICE. Managing Lung Cancer. pathways.nice.org.uk/pathways/lung-cancer/managing-lung-cancer#path=view%3A/pathways/lung-cancer/first-line-systemic-anticancer-treatment-for-advanced-or-metastatic-non-small-cell-lung-cancer.xml&content=view-index (accessed Sept 2018)' data-link='https://pathways.nice.org.uk/pathways/lung-cancer/managing-lung-cancer#path=view%3A/pathways/lung-cancer/first-line-systemic-anticancer-treatment-for-advanced-or-metastatic-non-small-cell-lung-cancer.xml&content=view-index' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 11 ]</sup></span></li></ul>",
+				"_graphic": {
+					"alt": "alt text",
+					"src": "course/en/images/UK_Map_green.png"
+				}
+			},
+			{
+				"tabTitle": "Unapproved in the UK",
+				"title": "",
+				"body": "<ul class='red-bullet'><li>Bevacizumab</li><li>Brigatinib (targeting ALK/EGFR)</li><li>Dacomitinib (targeting EGFR)</li><li>Loratinib (targeting ALK/ROS1)</li><li>Ramucirumab &nbsp;<span data-title='NICE. Systemic anticancer treatment for previously treated advanced or metastatic non-small-cell lung cancer. pathways.nice.org uk/pathways/lung-cancer#path=view%3A/pathways/lung-cancer/systemic-anticancer-treatment-for-previously-treated-advanced-or-metastatic-non-small-cell-lung-cancer.xml&content=view-index (accessed Sept 2018)' data-link='https://pathways.nice.org.uk/pathways/lung-cancer#path=view%3A/pathways/lung-cancer/systemic-anticancer-treatment-for-previously-treated-advanced-or-metastatic-non-small-cell-lung-cancer.xml&content=view-index' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 4 ]</sup></span>&nbsp;&nbsp;<span data-title='NICE. Managing Lung Cancer. pathways.nice.org.uk/pathways/lung-cancer/managing-lung-cancer#path=view%3A/pathways/lung-cancer/first-line-systemic-anticancer-treatment-for-advanced-or-metastatic-non-small-cell-lung-cancer.xml&content=view-index (accessed Sept 2018)' data-link='https://pathways.nice.org.uk/pathways/lung-cancer/managing-lung-cancer#path=view%3A/pathways/lung-cancer/first-line-systemic-anticancer-treatment-for-advanced-or-metastatic-non-small-cell-lung-cancer.xml&content=view-index' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 11 ]</sup></span></li></ul>",
+				"_graphic": {
+					"alt": "alt text",
+					"src": "course/en/images/UK_Map_Red.png"
+				}
+			}
+		],
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-160",
+		"_parentId": "b-155",
+		"_classes": "",
+		"_type": "component",
+		"_component": "hotgraphic",
+		"_layout": "full",
+		"title": "Hot graphic",
+		"displayTitle": "",
+		"body": "NICE has also created guidelines on which biomarker targeted agents should be used as first- or second-line treatment.<br><br>",
+		"mobileBody": "",
+		"instruction": "<p>Click or tap on each agent in the second line of treatment to learn more about when to use it.</p>",
+		"mobileInstruction": "",
+		"_setCompletionOn": "inview",
+		"_useGraphicsAsPins": false,
+		"_canCycleThroughPagination": true,
+		"_hidePagination": true,
+		"_graphic": {
+			"src": "course/en/images/hotgraphic-topic2.png",
+			"alt": "alt text",
+			"attribution": ""
+		},
+		"_items": [{
+				"title": "Erlotinib:",
+				"body": "Erlotinib is used as second line after progression on chemotherapy.",
+				"_graphic": {
+					"src": "",
+					"alt": "alt text",
+					"attribution": "",
+					"_classes": ""
+				},
+				"pinAlt": "alt text",
+				"strapline": "Erlotinib",
+				"_classes": "top-left",
+				"_top": 58,
+				"_left": 20
+			},
+			{
+				"title": "Osimertinib:",
+				"body": "Osimertinib is used as second line for patients who have developed EGFR T790M mutations.",
+				"_graphic": {
+					"src": "",
+					"alt": "alt text",
+					"attribution": "",
+					"_classes": ""
+				},
+				"pinAlt": "alt text",
+				"strapline": "Osimertinib",
+				"_classes": "center",
+				"_top": 74,
+				"_left": 20
+			},
+			{
+				"title": "Alectinib:",
+				"body": "Alectinib is used as second line after progression on crizotinib.",
+				"_graphic": {
+					"src": "",
+					"alt": "alt text",
+					"attribution": "",
+					"_classes": ""
+				},
+				"pinAlt": "alt text",
+				"strapline": "Alectinib",
+				"_classes": "center",
+				"_top": 58,
+				"_left": 47
+			},
+			{
+				"title": "Ceritinib:",
+				"body": "Ceritinib is used as second line after progression on crizotinib.",
+				"_graphic": {
+					"src": "",
+					"alt": "alt text",
+					"attribution": "",
+					"_classes": ""
+				},
+				"pinAlt": "alt text",
+				"strapline": "Ceritinib",
+				"_classes": "bottom-right",
+				"_top": 72,
+				"_left": 47
+			},
+			{
+				"title": "Crizotinib:",
+				"body": "Crizotinib is used as second line in previously treated ALK-positive advanced NSCLC.",
+				"_graphic": {
+					"src": "",
+					"alt": "alt text",
+					"attribution": "",
+					"_classes": ""
+				},
+				"pinAlt": "alt text",
+				"strapline": "Crizotinib",
+				"_classes": "bottom-right",
+				"_top": 86,
+				"_left": 47
+			},
+			{
+				"title": "Nintedanib:",
+				"body": "Nintedanib is used as second line after progression on chemotherapy. Biomarker testing is not required for Nintedanib.",
+				"_graphic": {
+					"src": "",
+					"alt": "alt text",
+					"attribution": "",
+					"_classes": ""
+				},
+				"pinAlt": "alt text",
+				"strapline": "Nintedanib",
+				"_classes": "bottom-right",
+				"_top": 58,
+				"_left": 74
+			}
+		],
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-161",
+		"_parentId": "b-155",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Text",
+		"displayTitle": "",
+		"body": "<br><span data-title='NICE. Systemic anticancer treatment for previously treated advanced or metastatic non-small-cell lung cancer. pathways.nice.org.uk/pathways/lung-cancer#path=view%3A/pathways/lung-cancer/systemic-anticancer-treatment-for-previously-treated-advanced-or-metastatic-non-small-cell-lung-cancer.xml&content=view-index (accessed Sept 2018)' data-link='https://pathways.nice.org.uk/pathways/lung-cancer#path=view%3A/pathways/lung-cancer/systemic-anticancer-treatment-for-previously-treated-advanced-or-metastatic-non-small-cell-lung-cancer.xml&content=view-index' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 4 ]</sup></span>&nbsp;&nbsp;&nbsp;<span data-title='NICE. Managing Lung Cancer. pathways.nice.org.uk/pathways/lung-cancer/managing-lung-cancer#path=view%3A/pathways/lung-cancer/first-line-systemic-anticancer-treatment-for-advanced-or-metastatic-non-small-cell-lung-cancer.xml&content=view-index (accessed Sept 2018)' data-link='https://pathways.nice.org.uk/pathways/lung-cancer/managing-lung-cancer#path=view%3A/pathways/lung-cancer/first-line-systemic-anticancer-treatment-for-advanced-or-metastatic-non-small-cell-lung-cancer.xml&content=view-index' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 11 ]</sup></span>",
+		"instruction": ""
+	},
+	{
+		"_id": "c-165",
+		"_parentId": "b-160",
+		"_type": "component",
+		"_component": "dragAndDrop",
+		"_classes": "transparent-background-block",
+		"_layout": "full",
+		"_attempts": 2,
+		"_questionWeight": 1,
+		"_isRandom": false,
+		"_canShowModelAnswer": true,
+		"_canShowFeedback": true,
+		"_canShowMarking": true,
+		"title": "",
+		"displayTitle": "",
+		"questionTitle": "Dummy testing display for SCORM",
+		"body": "<img src='course/en/images/check.png'><br><br> Match each drug with its target site.",
+		"instruction": "<p>Drag the correct drugs and drop them at their target sites on the graphic.</p>",
+		"_defaultWidth": 150,
+		"_defaultHeight": 40,
+		"_shouldScale": false,
+		"bgImage": "course/en/images/dnd_image_desktop.png",
+		"bgImageSamll": "course/en/images/dnd_image_desktop.png",
+		"bgImageHeight": "",
+		"bgImageWidth": "",
+		"_draggableItems": [{
+				"id": "drag-01",
+				"body": "Gefitinib"
+			}, {
+				"id": "drag-02",
+				"body": "Crizotinib"
+
+			}, {
+				"id": "drag-03",
+				"body": "Pemetrexed"
+			},
+			{
+				"id": "drag-04",
+				"body": "Nivolumab"
+			},
+			{
+				"id": "drag-05",
+				"body": "Bevacizumab"
+			}
+		],
+		"_droppableItems": [{
+			"id": "drop-01",
+			"top": "25%",
+			"left": "16%",
+			"correctItemId": "drag-01"
+		}, {
+			"id": "drop-02",
+			"top": "32%",
+			"left": "66%",
+			"correctItemId": "drag-02"
+		}, {
+			"id": "drop-03",
+			"top": "87%",
+			"left": "61%",
+			"correctItemId": "drag-05"
+		}],
+		"_feedback": {
+			"correct": "Congratulations. Gefitinib, erlotinib and afatinib inhibit the tyrosine kinase on the intracellular region of the EGFR receptor. Osimertinib also inhibits EGFR with sensitising mutations and T790M mutations. Crizotinib, ceritinib and alectinib inhibit the kinase activity of ALK. Bevacizumab binds and inactivates VEGF, inhibiting its ability to bind receptors and stimulate the growth of blood vessels to the tumour.",
+			"_incorrect": {
+				"notFinal": "Sorry. That’s not it. Why don’t you try again?",
+				"final": "Sorry. That’s not it. Gefitinib, erlotinib and afatinib inhibit the tyrosine kinase on the intracellular region of the EGFR receptor. Osimertinib also inhibits EGFR with sensitising mutations and T790M mutations. Crizotinib, ceritinib and alectinib inhibit the kinase activity of ALK. Bevacizumab binds and inactivates VEGF, inhibiting its ability to bind receptors and stimulate the growth of blood vessels to the tumour."
+			},
+			"_partlyCorrect": {
+				"notFinal": "You got some of them right. Why don’t you try again?",
+				"final": "You got some of them right. Gefitinib, erlotinib and afatinib inhibit the tyrosine kinase on the intracellular region of the EGFR receptor. Osimertinib also inhibits EGFR with sensitising mutations and T790M mutations. Crizotinib, ceritinib and alectinib inhibit the kinase activity of ALK. Bevacizumab binds and inactivates VEGF, inhibiting its ability to bind receptors and stimulate the growth of blood vessels to the tumour."
+			}
+		},
+		"_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-170",
+		"_parentId": "b-165",
+		"_classes": "",
+		"_layout": "full",
+		"_type": "component",
+		"_component": "matching",
+		"_attempts": 2,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": false,
+		"_canShowModelAnswer": true,
+		"_canShowFeedback": true,
+		"_canShowMarking": true,
+		"_recordInteraction": true,
+		"_questionWeight": 3,
+		"title": "Matching",
+		"displayTitle": "",
+		"questionTitle": "Dummy testing display for SCORM",
+		"body": "<p>Can you identify the correct biomarker targeted agent?</p>",
+		"instruction": "",
+		"placeholder": "select an option",
+		"_items": [{
+				"text": "This biomarker targeted agent inhibits blood vessel formation in tumours by blocking VEGFR, PDGFR, FGFR and intracellular messengers of the Src family.",
+				"_options": [{
+						"text": "Nintedanib",
+						"_isCorrect": true
+					},
+					{
+						"text": "Osimertinib",
+						"_isCorrect": false
+					},
+					{
+						"text": "Ramucirumab",
+						"_isCorrect": false
+					}
+				]
+			},
+			{
+				"text": "This biomarker targeted agent targets EGFR molecules that have developed T790M resistance mutations.",
+				"_options": [{
+						"text": "Nintedanib",
+						"_isCorrect": false
+					},
+					{
+						"text": "Osimertinib",
+						"_isCorrect": true
+					},
+					{
+						"text": "Ramucirumab",
+						"_isCorrect": false
+					}
+				]
+			},
+			{
+				"text": "This biomarker targeted agent binds to a VEGF receptor.",
+				"_options": [{
+						"text": "Nintedanib",
+						"_isCorrect": false
+					},
+					{
+						"text": "Osimertinib",
+						"_isCorrect": false
+					},
+					{
+						"text": "Ramucirumab",
+						"_isCorrect": true
+					}
+				]
+			}
+		],
+		"_feedback": {
+			"title": " ",
+			"correct": "Congratulations. Ramucirumab binds to a VEGF receptor while osimertinib targets EGFR sensitising and T790M mutations. Nintedanib inhibits blood vessel formation in tumours by blocking VEGFR, PDGFR, FGFR and intracellular messengers of the Src family.",
+			"_incorrect": {
+				"notFinal": "Sorry. Why don’t you try again?",
+				"final": "Sorry. Ramucirumab binds to a VEGF receptor while osimertinib targets EGFR sensitising and T790M mutations. Nintedanib inhibits blood vessel formation in tumours by blocking VEGFR, PDGFR, FGFR and intracellular messengers of the Src family."
+			},
+			"_partlyCorrect": {
+				"notFinal": "Sorry. Why don’t you try again?",
+				"final": "Sorry. Ramucirumab binds to a VEGF receptor while osimertinib targets EGFR sensitising and T790M mutations. Nintedanib inhibits blood vessel formation in tumours by blocking VEGFR, PDGFR, FGFR and intracellular messengers of the Src family."
+			}
+		},
+		"_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-171",
+		"_parentId": "b-166",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "transparent-background",
+		"_layout": "full",
+		"title": "",
+		"displayTitle": "References",
+		"body": "<ol class='reference-block'><li>Davies M. New modalities of cancer treatment for NSCLC: focus on immunotherapy. <em>Cancer Manag Res</em>. 2014;6:63–75</li><li>Rangachari D, Brahmer JR. Targeting the immune system in the treatment of non-small-cell lung cancer. <em>Curr Treat Options Oncol</em>. 2013;14(4):580-94.</li><li>NICE. First-line systemic anticancer treatment for advanced or metastatic non-small-cell lung cancer. <a href='https://pathways.nice.org.uk/pathways/lung-cancer#path=view%3A/pathways/lung-cancer/first-line-systemic-anticancer-treatment-for-advanced-or-metastatic-non-small-cell-lung-cancer.xml&content=view-index' target='_blank'> pathways.nice.org.uk/pathways/lung-cancer#path=view%3A/pathways/lung-cancer/first-line-systemic-anticancer-treatment-for-advanced-or-metastatic-non-small-cell-lung-cancer.xml&content=view-index</a> (accessed Sept 2018)</li><li>NICE. Systemic anticancer treatment for previously treated advanced or metastatic non-small-cell lung cancer. <a href='https://pathways.nice.org.uk/pathways/lung-cancer#path=view%3A/pathways/lung-cancer/systemic-anticancer-treatment-for-previously-treated-advanced-or-metastatic-non-small-cell-lung-cancer.xml&content=view-index' target='_blank'> pathways.nice.org.uk/pathways/lung-cancer#path=view%3A/pathways/lung-cancer/systemic-anticancer-treatment-for-previously-treated-advanced-or-metastatic-non-small-cell-lung-cancer.xml&content=view-index</a> (accessed Sept 2018)</li><li>Novello S, Barlesi F, Califano R, et al. Metastatic non-small-cell lung cancer: ESMO Clinical Practice Guidelines for diagnosis, treatment and follow-up. <em>Ann Oncol</em>. 2016 Sep;27(suppl 5):v1–v27.</li><li>Derman BA, Mileham KF, Bonomi PD, et al. Treatment of advanced squamous cell carcinoma of the lung: a review. <em>Transl Lung Cancer Res</em>. 2015;4(5):524–532.</li><li>Silva AP, Coelho PV, Anazetti M, et al. Targeted therapies for the treatment of non-small-cell lung cancer: Monoclonal antibodies and biological inhibitors. <em>Hum Vaccin Immunother</em>. 2017;3;13(4):843–853.</li><li>Teixidó C, Vilariño N, Reyes R, et al. PD-L1 expression testing in non-small cell lung cancer. <em>Ther Adv Med Oncol</em>. 2018;11;10:17.</li><li>Manzo A, Montanino A, Carillio G, et al. Angiogenesis Inhibitors in NSCLC. <em>Int J Mol Sci</em>. 2017;18(10):2021.</li><li>Singh M, Jadhav HR. Targeting non-small cell lung cancer with small-molecule EGFR tyrosine kinase inhibitors. <em>Drug Discov</em> Today. 2018;23(3):745–753.</li><li>NICE. Managing Lung Cancer. <a href='https://pathways.nice.org.uk/pathways/lung-cancer/managing-lung-cancer#path=view%3A/pathways/lung-cancer/first-line-systemic-anticancer-treatment-for-advanced-or-metastatic-non-small-cell-lung-cancer.xml&content=view-index' target='_blank'> pathways.nice.org.uk/pathways/lung-cancer/managing-lung-cancer#path=view%3A/pathways/lung-cancer/first-line-systemic-anticancer-treatment-for-advanced-or-metastatic-non-small-cell-lung-cancer.xml&content=view-index</a> (accessed Sept 2018)</li></ol> ",
+		"instruction": "",
+		"_triggered": {
+			"_isEnabled": false,
+			"showButton": {
+				"_top": "40%",
+				"_left": "15%",
+				"_right": "auto",
+				"_bottom": "auto",
+				"buttonText": "Click me to show"
+			},
+			"hideButton": {
+				"_top": "-2%",
+				"_left": "auto",
+				"_right": "0%",
+				"_bottom": "auto",
+				"buttonText": "Click me to hide"
+			}
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-175",
+		"_parentId": "b-170",
+		"_type": "component",
+		"_component": "navigate",
+		"_classes": "",
+		"_layout": "full",
+		"title": "",
+		"displayTitle": "",
+		"body": "&nbsp;",
+		"align": "right",
+		"instruction": "",
+		"_items": [{
+			"navigateTo": "co-20",
+			"_graphic": {
+				"alt": "",
+				"title": "",
+				"large": "",
+				"medium": "",
+				"small": ""
+			},
+			"NavigateTitle": "Next Topic",
+			"moduleTitle": "Clinical Skills"
+		}]
+	},
+
+
+
+
+	{
+		"_id": "c-185",
+		"_parentId": "b-180",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Clinical Skills",
+		"displayTitle": "",
+		"body": "",
+		"instruction": ""
+	},
+	{
+		"_id": "c-190",
+		"_parentId": "b-185",
+		"_type": "component",
+		"_component": "flippableCard",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Component title",
+		"displayTitle": "",
+		"body": "Here are the most common side effects of these inhibitors.<br><br>",
+		"instruction": "",
+		"_setCompletionOn": "inview",
+		"_columns": {
+			"_large": 3,
+			"_medium": 1,
+			"_small": 1
+		},
+		"_width": 500,
+		"_height": 350,
+		"_items": [{
+				"title": "Side effects: EGFR inhibitors ",
+				"body": "<ul align='left'><li>Cutaneous side effects <ul style='list-style: circle; margin-left: 20px;'><li>Rash</li><li>Dry skin</li><li>Paronychia</li></ul> <li>Low-grade diarrhoea</li><li>Nausea</li></ul> <p align='center'><span data-title='Califano R, Tariq N, Compton S, et al. Expert Consensus on the Management of Adverse Events from EGFR Tyrosine Kinase Inhibitors in the UK. Drugs 2015:75:1335–1348.' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 1 ]</sup></span></p>",
+				"moreButton": "show more",
+				"_graphic": {
+					"_src": "course/en/images/Topic4_Flip card1.png",
+					"alt": "alt"
+				}
+			},
+			{
+				"title": "Side effects: ALK inhibitors",
+				"body": "(common to crizotinib, ceritinib and alectinib)<ul align='left'><li>Gastrointestinal<ul style='list-style: circle; margin-left:20px;'><li>Nausea</li> <li>Vomiting</li><li>Diarrhoea</li><li>Constipation</li></ul><li>Rash</li></ul> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span data-title='Califano R, Tariq N, Compton S, et al. Expert Consensus on the Management of Adverse Events from EGFR Tyrosine Kinase Inhibitors in the UK. Drugs 2015:75:1335–1348.' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 1 ]</sup></span> &nbsp;&nbsp;<span data-title='Zykadia 150mg hard capsules. Summary of Product Characteristics. www.medicines.org.uk/emc/product/7109/smpc#POSOLOGY (accessed Sept 2018)' data-link='https://www.medicines.org.uk/emc/product/7109/smpc#POSOLOGY' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 2 ]</sup></span>&nbsp;&nbsp;<span data-title='Alecensa 150 mg hard capsules. Summary of Product Characteristics. www.medicines.org.uk/emc/product/2438/smpc (accessed Sept 2018)' data-link='https://www.medicines.org.uk/emc/product/2438/smpc' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 3 ]</sup></span>",
+				"moreButton": "show more",
+				"_graphic": {
+					"_src": "course/en/images/Topic4_Flip card2.png",
+					"alt": "alt"
+				}
+			},
+			{
+				"title": "Side effects: nintedanib",
+				"body": "<ul align='left'><li>Gastrointestinal<ul style='list-style: circle; margin-left: 20px;'><li>Nausea</li> <li>Vomiting</li><li>Diarrhoea</li><li>Abdominal pain</li></ul></ul> <p align='center'><span data-title='Ofev 100 mg soft capsules. Summary of Product Characteristics. www.medicines.org.uk/emc/product/1786/smpc (accessed Sept 2018)' data-link='https://www.medicines.org.uk/emc/product/1786/smpc' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 4 ]</sup></span></p>",
+				"moreButton": "show more",
+				"_graphic": {
+					"_src": "course/en/images/Topic4_Flip card3.png",
+					"alt": "alt"
+				}
+			}
+		]
+	},
+	{
+		"_id": "c-195",
+		"_parentId": "b-190",
+		"_type": "component",
+		"_component": "media",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Video",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_setCompletionOn": "inview",
+		"_useClosedCaptions": false,
+		"_startLanguage": "en",
+		"_allowFullScreen": true,
+		"_showVolumeControl": true,
+		"_startVolume": "80%",
+		"_playsinline": false,
+		"_media": {
+			"mp4": "course/en/video/Jackie-managing-side-effects.mp4",
+			"poster": "course/en/video/jackie-managing-side-effects.jpg",
+			"cc": [{
+				"srclang": "en",
+				"src": ""
+			}]
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-200",
+		"_parentId": "b-195",
+		"_type": "component",
+		"_component": "accordion",
+		"_classes": "transparent-background-block",
+		"_layout": "full",
+		"title": "Accordion",
+		"displayTitle": "",
+		"body": "<span>The side effects of these inhibitors will have to be looked out for and managed through the treatment.</span>",
+		"instruction": "<p>Click or tap on each type of inhibitor.</p>",
+		"_setCompletionOn": "inview",
+		"_shouldCollapseItems": false,
+		"_items": [{
+				"title": "Side-effects: EGFR inhibitors",
+				"body": "<p align='left'>The most common side effects of EGFR inhibitors are cutaneous side effects and low-grade diarrhoea.<br><br>The cutaneous side effects include rash, dry skin and paronychia – inflammation of the soft tissue around the nails. Rash has been reported to be directly related to efficacy of the inhibitor. These cutaneous side effects can be prevented with regular use of emollients.<br><br>If grade 2 toxicity is prolonged or intolerable, dose reduction or treatment interruption might be appropriate. Topical corticosteroids or antibiotics, and oral antibiotics are also indicated to manage these side effects.<br><br>Nurses should also be vigilant towards infections caused by stomatitis or mucositis. <span data-title='Califano R, Tariq N, Compton S, et al. Expert Consensus on the Management of Adverse Events from EGFR Tyrosine Kinase Inhibitors in the UK. Drugs 2015:75:1335–1348.' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 1 ]</sup></span></p>",
+				"_graphic": {
+					"src": "",
+					"alt": "accordion item 1 graphic alt text here.",
+					"attribution": ""
+				},
+				"_classes": "image-left"
+			},
+			{
+				"title": "Side-effects: ALK inhibitors",
+				"body": "<p align='left'>The most common side effects for <b>crizotinib</b> are visual disturbances – flashes of light or trailing lights in the peripheral vision, overlapping shadows or after-images. These are generally benign, but patients should be warned they might interfere with certain activities, e.g., driving after dark. Additionally, GI side effects such as nausea, vomiting, diarrhoea and constipation are common.  Oedema, fatigue, dizziness, neuropathy, pneumonitis, rash, syncope and taste disturbance are also common side effects of crizotinib. Crizotinib can also lead to increased serum liver enzymes, but this increase is responsive to dose reduction or treatment interruption.<br><br>Common side effects of <b>ceritinib</b> are gastrointestinal – nausea, vomiting, diarrhoea and constipation. Ceritinib can also lead to increased serum liver enzymes, but this increase is responsive to dose reduction or treatment interruption. Additional side effects seen with ceritinib include anaemia, rash and fatigue. <span data-title='Califano R, Tariq N, Compton S, et al. Expert Consensus on the Management of Adverse Events from EGFR Tyrosine Kinase Inhibitors in the UK. Drugs 2015:75:1335–1348.' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 1 ]</sup></span>&nbsp;&nbsp;&nbsp;<span data-title='Zykadia 150mg hard capsules. Summary of Product Characteristics. www.medicines.org.uk/emc/product/7109/smpc#POSOLOGY (accessed Sept 2018)' data-link='https://www.medicines.org.uk/emc/product/7109/smpc#POSOLOGY' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 2 ]</sup></span> <br><br> Common side effects of <b>alectinib</b> are gastrointestinal disorders, such as constipation and oedema (including peripheral oedema, generalised oedema, eyelid oedema, periorbital oedema, face oedema and localised oedema), and myalgia. Alectinib can also lead to increased serum liver enzymes and anaemia. <span data-title='Alecensa 150 mg hard capsules. Summary of Product Characteristics. www.medicines.org.uk/emc/product/2438/smpc (accessed Sept 2018)' data-link='https://www.medicines.org.uk/emc/product/2438/smpc' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 3 ]</sup></span></p>",
+				"_graphic": {
+					"src": "",
+					"alt": "accordion item 2 graphic alt text here.",
+					"attribution": ""
+				},
+				"_classes": ""
+			},
+			{
+				"title": "Side-effects: nintedanib",
+				"body": "<p align='left'>The most frequent side effects of nintedanib are gastrointestinal – nausea, vomiting, diarrhoea and abdominal pain. Increased serum liver enzymes (generally reversible upon dose reduction or interruption), reduction in weight and decreased appetite are also relatively common. <span data-title='Ofev 100 mg soft capsules. Summary of Product Characteristics. www.medicines.org.uk/emc/product/1786/smpc (accessed Sept 2018)' data-link='https://www.medicines.org.uk/emc/product/1786/smpc' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 4 ]</sup></span></p>",
+				"_graphic": {
+					"src": "",
+					"alt": "accordion item 3 graphic alt text here.",
+					"attribution": ""
+				},
+				"_classes": "image-right"
+			}
+		],
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-205",
+		"_parentId": "b-200",
+		"_type": "component",
+		"_component": "flippableCard",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Component title",
+		"displayTitle": "Administration",
+		"body": "",
+		"instruction": "",
+		"_setCompletionOn": "inview",
+		"_columns": {
+			"_large": 3,
+			"_medium": 1,
+			"_small": 1
+		},
+		"_width": 500,
+		"_height": 350,
+		"_items": [{
+				"title": "EGFR inhibitors",
+				"body": "Once daily by mouth <br><br> Erlotinib: 150 mg, on an empty stomach <br>  Afatinib: 40 mg <br> Gefitinib: 250 mg <br><span data-title='Giotrif 20 mg film-coated tablets. Summary of Product Characteristics. www.medicines.org.uk/emc/product/5147/smpc (accessed Sept 2018)' data-link='https://www.medicines.org.uk/emc/product/5147/smpc' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 5 ]</sup></span>&nbsp;&nbsp;&nbsp;<span data-title='Iressa 250mg film-coated tablets. Summary of Product Characteristics. www.medicines.org.uk/emc/product/6602/smpc (accessed Sept 2018)' data-link=' https://www.medicines.org.uk/emc/product/6602/smpc' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 6 ]</sup></span>&nbsp;&nbsp;&nbsp;<span data-title='Tarceva 100 mg film-coated tablets. Summary of Product Characteristics. www.medicines.org.uk/emc/product/8846/smpc (accessed Sept 2018)' data-link=' https://www.medicines.org.uk/emc/product/8846/smpc' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 7 ]</sup></span>",
+				"moreButton": "show more",
+				"_graphic": {
+					"_src": "course/en/images/Topic4_Flip card4.png",
+					"alt": "alt"
+				}
+			},
+			{
+				"title": "ALK inhibitors",
+				"body": "Crizotinib <br> 250 mg <br> Twice daily (500 mg daily) by mouth <br><br> Ceritinib <br> 450 mg <br> Once daily by mouth <br><br>Alectinib <br>600 mg Twice daily (1200 mg daily) by mouth<br> <span data-title='Zykadia 150mg hard capsules. Summary of Product Characteristics. www.medicines.org.uk/emc/product/7109/smpc#POSOLOGY (accessed Sept 2018)' data-link=' https://www.medicines.org.uk/emc/product/7109/smpc#POSOLOGY' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 2 ]</sup></span>&nbsp;&nbsp;&nbsp;<span data-title='Alecensa 150 mg hard capsules. Summary of Product Characteristics. www.medicines.org.uk/emc/product/2438/smpc (accessed Sept 2018)' data-link=' https://www.medicines.org.uk/emc/product/2438/smpc' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 3 ]</sup></span>&nbsp;&nbsp;&nbsp;<span data-title='Xalkori 200mg hard capsule. Summary of Product Characteristics. www.medicines.org.uk/emc/product/2857/smpc (accessed Sept 2018)' data-link='https://www.medicines.org.uk/emc/product/2857/smpc' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 8 ]</sup></span>",
+				"moreButton": "show more",
+				"_graphic": {
+					"_src": "course/en/images/Topic4_Flip card5.png",
+					"alt": "alt"
+				}
+			},
+			{
+				"title": "Nintedanib",
+				"body": "150 mg <br> Twice daily (300 mg daily) by mouth, approximately 12 hours apart <br> <span data-title='Ofev 100 mg soft capsules. Summary of Product Characteristics. www.medicines.org.uk/emc/product/1786/smpc (accessed Sept 2018)' data-link='https://www.medicines.org.uk/emc/product/1786/smpc' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 4 ]</sup></span>",
+				"moreButton": "show more",
+				"_graphic": {
+					"_src": "course/en/images/Topic4_Flip card6.png",
+					"alt": "alt"
+				}
+			}
+		]
+	},
+	{
+		"_id": "c-207",
+		"_parentId": "b-202",
+		"_type": "component",
+		"_component": "accordion",
+		"_classes": "transparent-background",
+		"_layout": "full",
+		"title": "Accordion",
+		"displayTitle": "Safety",
+		"body": "<span></span>",
+		"instruction": "<p>Click or tap on each type of inhibitor.</p>",
+		"_setCompletionOn": "inview",
+		"_shouldCollapseItems": false,
+		"_items": [{
+				"title": "Safety: EGFR inhibitors",
+				"body": "<p align='left'>Patients on EGFR inhibitors should be monitored for cough, fever and breathlessness, which may be symptoms of potentially fatal interstitial lung disease. If the disease is detected, the treatment should be stopped and the patient investigated. <br><br> Rare cases of liver failure have also been reported. Therefore, the liver function of patients at risk should be monitored. <br><br> Patients taking <b>erlotinib</b> should also be monitored for eye problems, skin disorders and gastrointestinal perforation. Patients taking <b>afatinib</b> should also be monitored for keratitis and left ventricular dysfunction. <br><br><span data-title='Giotrif 20 mg film-coated tablets. Summary of Product Characteristics. www.medicines.org.uk/emc/product/5147/smpc (accessed Sept 2018)' data-link='https://www.medicines.org.uk/emc/product/5147/smpc' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 5 ]</sup></span>&nbsp;&nbsp;&nbsp;<span data-title='Iressa 250mg film-coated tablets. Summary of Product Characteristics. www.medicines.org.uk/emc/product/6602/smpc (accessed Sept 2018)' data-link=' https://www.medicines.org.uk/emc/product/6602/smpc' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 6 ]</sup></span>&nbsp;&nbsp;&nbsp;<span data-title='Tarceva 100 mg film-coated tablets. Summary of Product Characteristics. www.medicines.org.uk/emc/product/8846/smpc (accessed Sept 2018)' data-link=' https://www.medicines.org.uk/emc/product/8846/smpc' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 7 ]</sup></span></p>",
+				"_graphic": {
+					"src": "",
+					"alt": "accordion item 1 graphic alt text here.",
+					"attribution": ""
+				},
+				"_classes": "image-left"
+			},
+			{
+				"title": "Safety: ALK inhibitors",
+				"body": "<p align='left'>Liver toxicity may occur with ALK inhibitors. Liver function should be monitored and, if necessary, the dose may be reduced or interrupted.<br><br>Patients should also be monitored for lung symptoms of interstitial lung disease or pneumonitis. If the treatment is found to have caused these, the treatment should be stopped.<br><br>QT prolongation and bradycardia have also been reported. Therefore, electrocardiogram (ECG), electrolytes, heart rate and blood pressure should be monitored regularly and at-risk patients should be treated with caution. The treatment should be interrupted or discontinued, if necessary.<br><br><span data-title='Zykadia 150mg hard capsules. Summary of Product Characteristics. www.medicines.org.uk/emc/product/7109/smpc#POSOLOGY (accessed Sept 2018)' data-link='https://www.medicines.org.uk/emc/product/7109/smpc#POSOLOGY' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 2 ]</sup></span>&nbsp;&nbsp;&nbsp;<span data-title='Xalkori 200mg hard capsule. Summary of Product Characteristics. www.medicines.org.uk/emc/product/2857/smpc (accessed Sept 2018)' data-link='https://www.medicines.org.uk/emc/product/2857/smpc' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 8 ]</sup></span></p>",
+				"_graphic": {
+					"src": "",
+					"alt": "accordion item 2 graphic alt text here.",
+					"attribution": ""
+				},
+				"_classes": ""
+			},
+			{
+				"title": "Safety: nintedanib",
+				"body": "<p align='left'>Diarrhoea, nausea and vomiting should be treated supportively, and, if necessary, by dose reduction or treatment interruption.<br><br>Blood pressure and liver function should also be monitored. Nurses should be vigilant for haemorrhage, wound healing complications and thromboembolism. Gastrointestinal perforation may also occur from nintedanib.<br><br><span data-title='Ofev 100 mg soft capsules. Summary of Product Characteristics. www.medicines.org.uk/emc/product/1786/smpc (accessed Sept 2018)' data-link='https://www.medicines.org.uk/emc/product/1786/smpc' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 4 ]</sup></span></p>",
+				"_graphic": {
+					"src": "",
+					"alt": "accordion item 3 graphic alt text here.",
+					"attribution": ""
+				},
+				"_classes": "image-right"
+			}
+		],
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-210",
+		"_parentId": "b-205",
+		"_type": "component",
+		"_component": "media",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Video",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_setCompletionOn": "inview",
+		"_useClosedCaptions": false,
+		"_startLanguage": "en",
+		"_allowFullScreen": true,
+		"_showVolumeControl": true,
+		"_startVolume": "80%",
+		"_playsinline": false,
+		"_media": {
+			"mp4": "course/en/video/sandra-side-effects.mp4",
+			"poster": "course/en/video/sandra-side-effects.jpg",
+			"cc": [{
+				"srclang": "en",
+				"src": ""
+			}]
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-220",
+		"_parentId": "b-215",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "left",
+		"title": "",
+		"displayTitle": "Skin adverse events",
+		"body": "You should educate your patients about the potential for rash and strategies to prevent and manage it before starting on EGFR TKI treatment. Prevention measures against rash include: <ul class='skin_event' style='padding-top: 10px;'><li>Moisturise</li><li>Protect against sunlight exposure (SPF 30)</li></ul>",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-225",
+		"_parentId": "b-215",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "right",
+		"title": "",
+		"displayTitle": "",
+		"body": "It is important your patients understand that the rash is not acne.",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-230",
+		"_parentId": "b-225",
+		"_type": "component",
+		"_component": "media",
+		"_classes": "transparent-background-block",
+		"_layout": "full",
+		"title": "Video",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_setCompletionOn": "inview",
+		"_useClosedCaptions": false,
+		"_startLanguage": "en",
+		"_allowFullScreen": true,
+		"_showVolumeControl": true,
+		"_startVolume": "80%",
+		"_playsinline": false,
+		"_media": {
+			"mp4": "course/en/video/Jackie-Discussing-side-effects-with-patients.mp4",
+			"poster": "course/en/video/Jackie-Discussing-side-effects-with-patients.jpg",
+			"cc": [{
+				"srclang": "en",
+				"src": ""
+			}]
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-235",
+		"_parentId": "b-230",
+		"_type": "component",
+		"_component": "stacklist",
+		"_classes": "",
+		"_layout": "full",
+		"_setCompletionOn": "inview",
+		"title": "Stacklist",
+		"displayTitle": "",
+		"instruction": "<p>Click or tap on the arrow to view the recommended response for each level of toxicity.</p>",
+		"body": "In spite of the prevention measures, the patient may experience rash. Your response will depend on the grade of toxicity.",
+		"_button": {
+			"startText": "<img src='assets/baseline-arrow_back.png'>",
+			"continueText": "Continue"
+		},
+		"_items": [{
+				"initial": "1",
+				"initial-bgcolor": "#57bb9e",
+				"header": "This is stack-list header 1",
+				"body": "<b>Grade 1 toxicity</b><br><br><ul><li>Continue EGFR TKI at current dose.</li><li>Continue to moisturise.</li><li>Consider topical antibiotics (alcohol-free formulation).</li><li>Use recommended appropriate soaps or shampoos.</li></ul>",
+				"next": "<img src='assets/baseline-arrow_back.png'>"
+			},
+			{
+				"initial": "2",
+				"initial-bgcolor": "#57bb9e",
+				"header": "This is stack-list header 1",
+				"body": "<b>Grade 2 toxicity</b><br><br><ul><li>Continue EGFR TKI at current dose unless rash is prolonged or intolerable, or there are other intolerable adverse events.</li><li>Continue to moisturise.</li><li>Intensify emollient use.</li><li>Apply short-term topical steroids.</li><li>Consider topical antibiotics (alcohol-free formulation) during and after oral antibiotic use.</li><li>Consider antihistamines.</li></ul>",
+				"next": "<img src='assets/baseline-arrow_back.png'>"
+			},
+			{
+				"initial": "3",
+				"initial-bgcolor": "#57bb9e",
+				"header": "This is stack-list header 1",
+				"body": "<b>Grade 3 toxicity</b><br><br><ul><li>Discontinue EGFR TKI and only reinstate (at reduced dose) after resolution (to grade 2 or less).</li><li>Apply short-term topical steroids.</li><li>Manage as for grade 2 otherwise. <span data-title='Califano R, Tariq N, Compton S, et al. Expert Consensus on the Management of Adverse Events from EGFR Tyrosine Kinase Inhibitors in the UK. Drugs 2015:75:1335–1348.' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 1 ]</sup></span></li></ul>",
+				"next": "<img src='assets/baseline-arrow_back.png'>"
+			}
+		]
+	},
+	{
+		"_id": "c-240",
+		"_parentId": "b-240",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "left",
+		"title": "",
+		"displayTitle": "",
+		"body": "Refer patient to dermatologist with expertise in drug-related cutaneous AE (adverse events).",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-245",
+		"_parentId": "b-240",
+		"_type": "component",
+		"_component": "media",
+		"_classes": "",
+		"_layout": "right",
+		"title": "Video",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_setCompletionOn": "inview",
+		"_useClosedCaptions": false,
+		"_startLanguage": "en",
+		"_allowFullScreen": true,
+		"_showVolumeControl": true,
+		"_startVolume": "80%",
+		"_playsinline": false,
+		"_media": {
+			"mp4": "course/en/video/sandra-managing-side-effects-take-2.mp4",
+			"poster": "course/en/video/sandra-managing-side-effects-take-2.jpg",
+			"cc": [{
+				"srclang": "en",
+				"src": ""
+			}]
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-250",
+		"_parentId": "b-245",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "",
+		"_layout": "full",
+		"_attempts": 2,
+		"_shouldDisplayAttempts": false,
+		"_questionWeight": 1,
+		"_isRandom": false,
+		"_selectable": 1,
+		"_canShowModelAnswer": true,
+		"_canShowFeedback": true,
+		"_canShowMarking": true,
+		"_recordInteraction": true,
+		"title": "MCQ",
+		"displayTitle": "",
+		"questionTitle": "Dummy testing display for SCORM",
+		"body": "<img src='course/en/images/check.png'><br><br> <p>Which statement is true?</p>",
+		"instruction": "<b></b>",
+		"_items": [{
+				"text": "Nintedanib may cause paronychia.",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Ceritinib does not affect the liver.",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Erlotinib may cause rash.",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Afatinib may cause eye problems.",
+				"_shouldBeSelected": false
+			}
+		],
+		"_feedback": {
+			"title": " ",
+			"correct": "Yes. EGFR inhibitors may cause paronychia while ceritinib can cause increased serum liver enzymes. Erlotinib may cause eye problems, skin disorders and gastrointestinal perforation while afatinib may cause keratitis and left ventricular dysfunction.",
+			"_incorrect": {
+				"notFinal": "Sorry. Would you like to try again?",
+				"final": "Sorry. EGFR inhibitors may cause paronychia while ceritinib can cause increased serum liver enzymes. Erlotinib may cause eye problems, skin disorders and gastrointestinal perforation while afatinib may cause keratitis and left ventricular dysfunction."
+			},
+			"_partlyCorrect": {
+				"notFinal": "Sorry. Would you like to try again?",
+				"final": "Sorry. EGFR inhibitors may cause paronychia while ceritinib can cause increased serum liver enzymes. Erlotinib may cause eye problems, skin disorders and gastrointestinal perforation while afatinib may cause keratitis and left ventricular dysfunction."
+			}
+		},
+		"_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-255",
+		"_parentId": "b-250",
+		"_classes": "",
+		"_layout": "full",
+		"_type": "component",
+		"_component": "matching",
+		"_attempts": 2,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": true,
+		"_canShowModelAnswer": true,
+		"_canShowFeedback": true,
+		"_canShowMarking": true,
+		"_recordInteraction": true,
+		"_questionWeight": 4,
+		"title": "Matching",
+		"displayTitle": "",
+		"questionTitle": "Dummy testing display for SCORM",
+		"body": "<p>What are the correct dosages of these inhibitors?</p>",
+		"instruction": "",
+		"placeholder": "select an option",
+		"_items": [{
+				"text": "EGFR inhibitors",
+				"_options": [{
+						"text": "once daily by mouth",
+						"_isCorrect": true
+					},
+					{
+						"text": "twice daily by mouth",
+						"_isCorrect": false
+					}
+				]
+			},
+			{
+				"text": "Crizotinib",
+				"_options": [{
+						"text": "once daily by mouth",
+						"_isCorrect": false
+					},
+					{
+						"text": "twice daily by mouth",
+						"_isCorrect": true
+					}
+				]
+			},
+			{
+				"text": "Ceritinib",
+				"_options": [{
+						"text": "once daily by mouth",
+						"_isCorrect": true
+					},
+					{
+						"text": "twice daily by mouth",
+						"_isCorrect": false
+					}
+				]
+			},
+			{
+				"text": "Nintedanib",
+				"_options": [{
+						"text": "once daily by mouth",
+						"_isCorrect": false
+					},
+					{
+						"text": "twice daily by mouth",
+						"_isCorrect": true
+					}
+				]
+			}
+		],
+		"_feedback": {
+			"title": " ",
+			"correct": "Congratulations. EGFR inhibitors and ceritinib are taken once daily by mouth. Crizotinib and nintedanib are taken twice daily by mouth.",
+			"_incorrect": {
+				"notFinal": "Sorry. Why don’t you try again?",
+				"final": "Sorry. EGFR inhibitors and ceritinib are taken once daily by mouth. Crizotinib and nintedanib are taken twice daily by mouth."
+			},
+			"_partlyCorrect": {
+				"notFinal": "Sorry. Why don't you try again?",
+				"final": "Sorry. EGFR inhibitors and ceritinib are taken once daily by mouth. Crizotinib and nintedanib are taken twice daily by mouth."
+			}
+		},
+		"_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-256",
+		"_parentId": "b-251",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "",
+		"displayTitle": "References",
+		"body": "<ol class='reference-block'><li>Califano R, Tariq N, Compton S, et al. Expert Consensus on the Management of Adverse Events from EGFR Tyrosine Kinase Inhibitors in the UK. <em>Drugs</em> 2015:75:1335–1348.</li><li>Zykadia 150mg hard capsules. Summary of Product Characteristics. <a href='https://www.medicines.org.uk/emc/product/7109/smpc#POSOLOGY' target='_blank'> www.medicines.org.uk/emc/product/7109/smpc#POSOLOGY</a> (accessed Sept 2018)</li><li>Alecensa 150 mg hard capsules. Summary of Product Characteristics.<a href='https://www.medicines.org.uk/emc/product/2438/smpc' target='_blank'> www.medicines.org.uk/emc/product/2438/smpc</a> (accessed Sept 2018)</li><li>Ofev 100 mg soft capsules. Summary of Product Characteristics. <a href='https://www.medicines.org.uk/emc/product/1786/smpc' target='_blank'> www.medicines.org.uk/emc/product/1786/smpc</a> (accessed Sept 2018)</li><li>Giotrif 20 mg film-coated tablets. Summary of Product Characteristics. <a href='https://www.medicines.org.uk/emc/product/5147/smpc' target='_blank'> www.medicines.org.uk/emc/product/5147/smpc</a> (accessed Sept 2018)</li><li>Iressa 250mg film-coated tablets. Summary of Product Characteristics. <a href='https://www.medicines.org.uk/emc/product/6602/smpc' target='_blank'> www.medicines.org.uk/emc/product/6602/smpc</a> (accessed Sept 2018)</li><li>Tarceva 100 mg film-coated tablets. Summary of Product Characteristics. <a href='https://www.medicines.org.uk/emc/product/8846/smpc' target='_blank'> www.medicines.org.uk/emc/product/8846/smpc</a> (accessed Sept 2018) </li><li>Xalkori 200mg hard capsule. Summary of Product Characteristics. <a href='https://www.medicines.org.uk/emc/product/2857/smpc' target='_blank'> www.medicines.org.uk/emc/product/2857/smpc</a> (accessed Sept 2018)</li></ol>",
+		"instruction": "",
+		"_triggered": {
+			"_isEnabled": false,
+			"showButton": {
+				"_top": "40%",
+				"_left": "15%",
+				"_right": "auto",
+				"_bottom": "auto",
+				"buttonText": "Click me to show"
+			},
+			"hideButton": {
+				"_top": "-2%",
+				"_left": "auto",
+				"_right": "0%",
+				"_bottom": "auto",
+				"buttonText": "Click me to hide"
+			}
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-260",
+		"_parentId": "b-255",
+		"_type": "component",
+		"_component": "navigate",
+		"_classes": "",
+		"_layout": "full",
+		"title": "",
+		"displayTitle": "",
+		"body": "&nbsp;",
+		"align": "right",
+		"instruction": "",
+		"_items": [{
+			"navigateTo": "co-25",
+			"_graphic": {
+				"alt": "",
+				"title": "",
+				"large": "",
+				"medium": "",
+				"small": ""
+			},
+			"NavigateTitle": "Next Topic",
+			"moduleTitle": "Patient Communication"
+		}]
+	},
+
+
+
+
+
+	{
+		"_id": "c-270",
+		"_parentId": "b-265",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Patient Communication",
+		"displayTitle": "",
+		"body": "",
+		"instruction": ""
+	},
+	{
+		"_id": "c-275",
+		"_parentId": "b-275",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "left",
+		"title": "",
+		"displayTitle": "",
+		"body": "Reported rates of adherence to oral anticancer agents in clinical studies have ranged from 14% to 100%. Non-adherence may:<br><br><ul><li>Increase the risk of toxicity</li><li>Decrease efficacy</li><li>Increase use of health care resources</li></ul>",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-280",
+		"_parentId": "b-275",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "right",
+		"title": "",
+		"displayTitle": "",
+		"body": "Adherence to oral anticancer treatment is very variable and can be extremely low.",
+		"instruction": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-285",
+		"_parentId": "b-280",
+		"_type": "component",
+		"_component": "tabs",
+		"_classes": "transparent-background",
+		"_layout": "full",
+		"title": "Tabs",
+		"displayTitle": "",
+		"body": "<p>Low adherence can arise because of factors related to the treatment or to the patient.</p>",
+		"instruction": "<p></p>",
+		"_setCompletionOn": "inview",
+		"_tabLayout": "top",
+		"_items": [{
+				"tabTitle": "Treatment-related factors",
+				"title": "",
+				"body": "<p>Treatment-related factors include: </p><ul><li>Complexity of treatment</li><li>Cost of treatment</li><li>Risk of side effects</li><li>Delay in treatment benefits</li></ul>",
+				"_graphic": {
+					"alt": "alt text",
+					"src": ""
+				}
+			},
+			{
+				"tabTitle": "Patient-related factors",
+				"title": "",
+				"body": "<p>Patient-related factors include: </p><ul><li>Lack of an adequate support system</li><li>Lack of an understanding of the need for the treatment</li></ul>",
+				"_graphic": {
+					"alt": "alt text",
+					"src": ""
+				}
+			}
+		],
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-290",
+		"_parentId": "b-285",
+		"_type": "component",
+		"_component": "media",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Video",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_setCompletionOn": "inview",
+		"_useClosedCaptions": false,
+		"_startLanguage": "en",
+		"_allowFullScreen": true,
+		"_showVolumeControl": true,
+		"_startVolume": "80%",
+		"_playsinline": false,
+		"_media": {
+			"mp4": "course/en/video/jackie-adherence-treatment.mp4",
+			"poster": "course/en/video/jackie-adherence-treatment.jpg",
+			"cc": [{
+				"srclang": "en",
+				"src": ""
+			}]
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-294",
+		"_parentId": "b-290",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "left",
+		"title": "",
+		"displayTitle": "",
+		"body": "It is important for healthcare providers to communicate the importance of adherence to therapy and the types of possible side effects. However, education alone is not enough to promote adherence to oral medication regimens. Tools, such as multiple reminder aids, may assist patients in adhering to an oral regimen.<br><br>Work with your patients to understand their schedules and their support systems so that together you can come up with an effective plan to enable them to take their medication on schedule. <span data-title='Barillet M, Prevost V, Joly F, et al. Oral antineoplastic agents: how do we care about adherence? Clin Pharmacol. 2015;80(6):1289–302.' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 1 ]</sup></span>&nbsp;&nbsp;&nbsp;<span data-title='Burhenn PS, Smudde J. Using tools and technology to promote education and adherence to oral agents for cancer. Clin J Oncol Nurs. 2015;19(3 Suppl):53–9.' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 2 ]</sup></span>&nbsp;&nbsp;&nbsp;<span data-title='Greer JA, Amoyal N, Nisotel L, et al. A Systematic Review of Adherence to Oral Antineoplastic Therapies. Oncologist. 2016;21(3):354–76.' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 3 ]</sup></span>&nbsp;&nbsp;&nbsp;<span data-title='McCue DA, Lohr LK, Pick AM. Improving adherence to oral cancer therapy in clinical practice. Pharmacotherapy. 2014;34(5):481–94.' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 4 ]</sup></span>",
+		"instruction": ""
+	},
+	{
+		"_id": "c-295",
+		"_parentId": "b-290",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "",
+		"_layout": "right",
+		"title": "Graphic",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_graphic": {
+			"large": "course/en/images/topic_05_collage01.png",
+			"small": "course/en/images/topic_05_collage01.png",
+			"alt": "Placeholder graphic.",
+			"attribution": ""
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-300",
+		"_parentId": "b-295",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Graphic",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_graphic": {
+			"large": "course/en/images/oncology-nurse.jpg",
+			"small": "course/en/images/oncology-nurse.jpg",
+			"alt": "Placeholder graphic.",
+			"attribution": ""
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-309",
+		"_parentId": "b-305",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "transparent-background-text",
+		"_layout": "left",
+		"title": "",
+		"displayTitle": "",
+		"body": "An important role of the nurse is to provide information to patients about types of tests and treatments. When you do this, remember to discuss the rationale behind the treatments and tests. <span data-title='Koutsopoulou S, Papathanassoglou ED, Katapodi MC, et al. A critical review of the evidence for nurses as information providers to cancer patients. J Clin Nurs. 2010;19(5-6):749–65.' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 5 ]</sup></span>&nbsp;&nbsp;<span data-title='Tariman JD, Szubski KL. The evolving role of the nurse during the cancer treatment decision-making process: a literature review. Clin J Oncol Nurs. 2015;19(5):548–56.' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 6 ]</sup></span>",
+		"instruction": ""
+	},
+	{
+		"_id": "c-310",
+		"_parentId": "b-305",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "right",
+		"title": "",
+		"displayTitle": "",
+		"body": "Nurses are effective, trusted and, often, preferred providers of patient information.",
+		"instruction": ""
+	},
+	{
+		"_id": "c-315",
+		"_parentId": "b-310",
+		"_type": "component",
+		"_component": "stacklist",
+		"_classes": "",
+		"_layout": "full",
+		"_setCompletionOn": "inview",
+		"title": "Stacklist",
+		"displayTitle": "",
+		"body": "Nurses also play a central role in assessing symptoms, ensuring adherence and ensuring patients understand potential outcomes of the treatment. Nurses are also very well positioned to support a patient’s right to autonomy and informed decision making.<br><br>As trusted experts, nurses are essential in informing patients and carers about the prognosis. At times, you may have to deliver bad news. You could use the SPIKES framework for delivering bad news.<br>",
+		"instruction": "<p>Click or tap through the flow chart to view the framework.</p>",
+		"_button": {
+			"startText": "<img src='assets/baseline-arrow_back.png'>",
+			"continueText": "Continue"
+		},
+		"_items": [{
+				"initial": "S",
+				"initial-bgcolor": "#996DAC",
+				"header": "Setting",
+				"body": "<h1>Setting</h1>Invite participants to meet in a private, quiet environment. Sit at eye level.",
+				"next": "<img src='assets/baseline-arrow_back.png'>"
+			},
+			{
+				"initial": "P",
+				"initial-bgcolor": "#4F89C8",
+				"header": "Perception",
+				"body": "<h1>Perception</h1> Ask the patient and carers about their understanding of the medical situation. Use open-ended questions.",
+				"next": "<img src='assets/baseline-arrow_back.png'>"
+			},
+			{
+				"initial": "I",
+				"initial-bgcolor": "#F5BB67",
+				"header": "Invitation or Information",
+				"body": "<h1>Invitation or Information</h1> Assess how much information the patient wants, e.g., “Is it OK if I review your prognosis?”",
+				"next": "<img src='assets/baseline-arrow_back.png'>"
+			},
+			{
+				"initial": "K",
+				"initial-bgcolor": "#E92E95",
+				"header": "Knowledge",
+				"body": "<h1>Knowledge</h1> Inform the patient in simple terms. Repeat information to assess understanding. Pause to allow the patient to digest the news.",
+				"next": "<img src='assets/baseline-arrow_back.png'>"
+			},
+			{
+				"initial": "E",
+				"initial-bgcolor": "#65BFA6",
+				"header": "Empathy",
+				"body": "<h1>Empathy</h1> Respond and reflect on emotions. Avoid apologising. Include ‘I wish’ statements, e.g., “I wish you didn’t have to hear this.”",
+				"next": "<img src='assets/baseline-arrow_back.png'>"
+			},
+			{
+				"initial": "S",
+				"initial-bgcolor": "#5c5c5b",
+				"header": "Summary or Strategy",
+				"body": "<h1>Summary or Strategy</h1> Plan a follow-up, review the next steps and establish the goals of care. <span data-title='Tariman JD, Szubski KL. The evolving role of the nurse during the cancer treatment decision-making process: a literature review. Clin J Oncol Nurs. 2015;19(5):548–56.' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 6 ]</sup></span>&nbsp;&nbsp;&nbsp;<span data-title='Swarmi M, Case AA. Effective Palliative Care: What Is Involved? Oncology 2018;32(4):180–184.' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 7 ]</sup></span>",
+				"next": "<img src='assets/baseline-arrow_back.png'>"
+			}
+		],
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-320",
+		"_parentId": "b-315",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "transparent-background-block",
+		"_layout": "full",
+		"title": "",
+		"displayTitle": "Palliative care",
+		"body": "Palliative care is misunderstood to be only applicable to hospice or end-of-life care, but should instead be integrated into the entire treatment.",
+		"instruction": ""
+	},
+	{
+		"_id": "c-324",
+		"_parentId": "b-320",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "transparent-background-text",
+		"_layout": "left",
+		"title": "",
+		"displayTitle": "",
+		"body": "The National Consensus Project Clinical Practice Guidelines identifies several aspects of palliative care.",
+		"instruction": ""
+	},
+	{
+		"_id": "c-325",
+		"_parentId": "b-320",
+		"_type": "component",
+		"_component": "graphic",
+		"_classes": "",
+		"_layout": "right",
+		"title": "Graphic",
+		"displayTitle": "",
+		"body": "<p></p>",
+		"instruction": "",
+		"_graphic": {
+			"large": "course/en/images/topic05_asset02a.jpg",
+			"small": "course/en/images/topic05_asset02a.jpg",
+			"alt": "Placeholder graphic.",
+			"attribution": ""
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-330",
+		"_parentId": "b-325",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "transparent-background-block",
+		"_layout": "full",
+		"title": "",
+		"displayTitle": "",
+		"body": "Nurses are ideally placed to provide palliative care, e.g., psychological support, information and guidance. Relatives of patients anyway want more involvement from nurses, especially during end-of-life care. <span data-title='Tariman JD, Szubski KL. The evolving role of the nurse during the cancer treatment decision-making process: a literature review. Clin J Oncol Nurs. 2015;19(5):548–56.' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 6 ]</sup></span>&nbsp;&nbsp;&nbsp;<span data-title='Del Ferraro C, Ferrell B, Van Zyl C, et al. Improving Palliative Cancer Care. J Adv Pract Oncol. 2014;5(5):331-8.' data-rel='tooltip' onmouseenter='tooltip.call(this)'><sup>[ 8 ]</sup></span>",
+		"instruction": ""
+	},
+	{
+		"_id": "c-335",
+		"_parentId": "b-330",
+		"_classes": "",
+		"_layout": "full",
+		"_type": "component",
+		"_component": "matching",
+		"_attempts": 2,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": false,
+		"_canShowModelAnswer": true,
+		"_canShowFeedback": true,
+		"_canShowMarking": true,
+		"_recordInteraction": true,
+		"_questionWeight": 6,
+		"title": "Matching",
+		"displayTitle": "",
+		"questionTitle": "Dummy testing display for SCORM",
+		"body": "<img src='course/en/images/check.png'><br><br> <p>Identify the words that form the acronym SPIKES (framework for delivering bad news).</p>",
+		"instruction": "",
+		"placeholder": "select an option",
+		"_items": [{
+				"text": "S:",
+				"_options": [{
+						"text": "Setting",
+						"_isCorrect": true
+					},
+					{
+						"text": "Soundout",
+						"_isCorrect": false
+					},
+					{
+						"text": "Succour",
+						"_isCorrect": false
+					},
+					{
+						"text": "Summarise",
+						"_isCorrect": false
+					}
+				]
+			},
+			{
+				"text": "P:",
+				"_options": [{
+						"text": "Perception",
+						"_isCorrect": true
+					},
+					{
+						"text": "Private",
+						"_isCorrect": false
+					},
+					{
+						"text": "Process",
+						"_isCorrect": false
+					},
+					{
+						"text": "Push",
+						"_isCorrect": false
+					}
+				]
+			},
+			{
+				"text": "I:",
+				"_options": [{
+						"text": "Inclusive",
+						"_isCorrect": false
+					},
+					{
+						"text": "Increase",
+						"_isCorrect": false
+					},
+					{
+						"text": "Incremental",
+						"_isCorrect": false
+					},
+					{
+						"text": "Invitation",
+						"_isCorrect": true
+					}
+				]
+			},
+			{
+				"text": "K:",
+				"_options": [{
+						"text": "Keystone",
+						"_isCorrect": false
+					},
+					{
+						"text": "Kernel",
+						"_isCorrect": false
+					},
+					{
+						"text": "Kiss",
+						"_isCorrect": false
+					},
+					{
+						"text": "Knowledge",
+						"_isCorrect": true
+					}
+				]
+			},
+			{
+				"text": "E:",
+				"_options": [{
+						"text": "Empathy",
+						"_isCorrect": true
+					},
+					{
+						"text": "Encircle",
+						"_isCorrect": false
+					},
+					{
+						"text": "End",
+						"_isCorrect": false
+					},
+					{
+						"text": "Envelop",
+						"_isCorrect": false
+					}
+				]
+			},
+			{
+				"text": "S:",
+				"_options": [{
+						"text": "Soothe",
+						"_isCorrect": false
+					},
+					{
+						"text": "Statement",
+						"_isCorrect": false
+					},
+					{
+						"text": "Strategy",
+						"_isCorrect": true
+					},
+					{
+						"text": "Sympathy",
+						"_isCorrect": false
+					}
+				]
+			}
+		],
+		"_feedback": {
+			"title": " ",
+			"correct": "Congratulations. The SPIKES framework for delivering bad news is:<br><br>S: Setting <br>P: Perception<br>I: Invitation or Information<br>K: Knowledge<br>E: Empathy<br>S: Summary or Strategy",
+			"_incorrect": {
+				"notFinal": "Sorry. Why don’t you try again?",
+				"final": "Sorry. The SPIKES framework for delivering bad news is:<br><br>S: Setting <br>P: Perception <br>I: Invitation or Information<br>K: Knowledge<br>E: Empathy<br>S: Summary or Strategy"
+			},
+			"_partlyCorrect": {
+				"notFinal": "Sorry. Why don’t you try again?",
+				"final": "Sorry. The SPIKES framework for delivering bad news is:<br><br>S: Setting <br>P: Perception <br>I: Invitation or Information<br>K: Knowledge<br>E: Empathy<br>S: Summary or Strategy"
+			}
+		},
+		"_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-340",
+		"_parentId": "b-335",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "",
+		"displayTitle": "References",
+		"body": "<ol class='reference-block'><li>Barillet M, Prevost V, Joly F, et al. Oral antineoplastic agents: how do we care about adherence? <em>Clin Pharmacol</em>. 2015;80(6):1289–302.</li><li>Burhenn PS, Smudde J. Using tools and technology to promote education and adherence to oral agents for cancer. <em>Clin J Oncol Nurs</em>. 2015;19(3 Suppl):53–9.</li><li>Greer JA, Amoyal N, Nisotel L, et al. A Systematic Review of Adherence to Oral Antineoplastic Therapies. <em>Oncologist</em>. 2016;21(3):354–76.</li><li>McCue DA, Lohr LK, Pick AM. Improving adherence to oral cancer therapy in clinical practice. <em>Pharmacotherapy</em>. 2014;34(5):481–94.</li><li>Koutsopoulou S, Papathanassoglou ED, Katapodi MC, et al. A critical review of the evidence for nurses as information providers to cancer patients. <em>J Clin Nurs</em>. 2010;19(5-6):749–65.</li><li>Tariman JD, Szubski KL. The evolving role of the nurse during the cancer treatment decision-making process: a literature review. <em>Clin J Oncol Nurs</em>. 2015;19(5):548–56.</li><li>Swarmi M, Case AA. Effective Palliative Care: What Is Involved? <em>Oncology</em> 2018;32(4):180–184.</li><li>Del Ferraro C, Ferrell B, Van Zyl C, et al. Improving Palliative Cancer Care. <em>J Adv Pract Oncol</em>. 2014;5(5):331-8.</li><ol>",
+		"instruction": "",
+		"_triggered": {
+			"_isEnabled": false,
+			"showButton": {
+				"_top": "40%",
+				"_left": "15%",
+				"_right": "auto",
+				"_bottom": "auto",
+				"buttonText": "Click me to show"
+			},
+			"hideButton": {
+				"_top": "-2%",
+				"_left": "auto",
+				"_right": "0%",
+				"_bottom": "auto",
+				"buttonText": "Click me to hide"
+			}
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-345",
+		"_parentId": "b-340",
+		"_type": "component",
+		"_component": "navigate",
+		"_classes": "",
+		"_layout": "full",
+		"title": "",
+		"displayTitle": "",
+		"body": "&nbsp;",
+		"align": "right",
+		"instruction": "",
+		"_items": [{
+			"navigateTo": "co-30",
+			"_graphic": {
+				"alt": "",
+				"title": "",
+				"large": "",
+				"medium": "",
+				"small": ""
+			},
+			"NavigateTitle": "Next Topic",
+			"moduleTitle": "Test Your Knowledge"
+		}],
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+
+
+
+
+
+	{
+		"_id": "c-355",
+		"_parentId": "b-350",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"_setCompletionOn": "inview",
+		"title": "Test Your Knowledge",
+		"displayTitle": "",
+		"body": "This is a good time for you to test your knowledge of Biomarkers and their Emerging Role in Lung Cancer. This quiz has eight questions. Wish you all the best.",
+		"instruction": ""
+	},
+	{
+		"_id": "c-360",
+		"_parentId": "b-355",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "",
+		"_layout": "full",
+		"_attempts": 1,
+		"_shouldDisplayAttempts": false,
+		"_questionWeight": 1,
+		"_isRandom": false,
+		"_selectable": 1,
+		"_canShowModelAnswer": true,
+		"_canShowFeedback": true,
+		"_canShowMarking": true,
+		"_recordInteraction": true,
+		"title": "MCQ",
+		"displayTitle": "",
+		"questionTitle": "Dummy testing display for SCORM",
+		"body": "<p>What is the most common form of lung cancer?</p>",
+		"instruction": "<b></b>",
+
+		"_items": [{
+				"text": "Small cell lung cancer",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Squamous cell carcinoma",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Non-small cell lung cancer",
+				"_shouldBeSelected": true
+			}
+		],
+		"_feedback": {
+			"title": " ",
+			"correct": "Yes. Non-small cell lung cancer is the most common type of lung cancer and makes up about 75 to 80% of lung cancer diagnoses.",
+			"_incorrect": {
+				"notFinal": "Sorry. Non-small cell lung cancer is the most common type of lung cancer and makes up about 75 to 80% of lung cancer diagnoses.",
+				"final": "Sorry. Non-small cell lung cancer is the most common type of lung cancer and makes up about 75 to 80% of lung cancer diagnoses."
+			},
+			"_partlyCorrect": {
+				"notFinal": "Sorry. Non-small cell lung cancer is the most common type of lung cancer and makes up about 75 to 80% of lung cancer diagnoses.",
+				"final": "Sorry. Non-small cell lung cancer is the most common type of lung cancer and makes up about 75 to 80% of lung cancer diagnoses."
+			}
+		},
+		"_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+		"_buttons": {
+			"_submit": {
+				"buttonText": "Submit",
+				"ariaLabel": "Select here to submit your answer."
+			},
+			"_reset": {
+				"buttonText": "Reset",
+				"ariaLabel": ""
+			},
+			"_showCorrectAnswer": {
+				"buttonText": "Show Correct Answer",
+				"ariaLabel": ""
+			},
+			"_hideCorrectAnswer": {
+				"buttonText": "Show My Answer",
+				"ariaLabel": ""
+			},
+			"_showFeedback": {
+				"buttonText": "Show feedback",
+				"ariaLabel": ""
+			},
+			"remainingAttemptsText": "attempts remaining",
+			"remainingAttemptText": "final attempt"
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-370",
+		"_parentId": "b-360",
+		"_classes": "transparent-background",
+		"_layout": "full",
+		"_type": "component",
+		"_component": "matching",
+		"_attempts": 1,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": false,
+		"_canShowModelAnswer": true,
+		"_canShowFeedback": true,
+		"_canShowMarking": true,
+		"_recordInteraction": true,
+		"_questionWeight": 1,
+		"title": "Matching",
+		"displayTitle": "",
+		"questionTitle": "Dummy testing display for SCORM",
+		"body": "<p>Indicate whether the following risk factors of NSCLC are external or internal.</p>",
+		"instruction": "",
+		"placeholder": "select an option",
+		"_items": [{
+				"text": "Family history",
+				"_options": [{
+						"text": "External",
+						"_isCorrect": false
+					},
+					{
+						"text": "Internal",
+						"_isCorrect": true
+					}
+				]
+			},
+			{
+				"text": "Old age",
+				"_options": [{
+						"text": "External",
+						"_isCorrect": false
+					},
+					{
+						"text": "Internal",
+						"_isCorrect": true
+					}
+				]
+			},
+			{
+				"text": "Smoking",
+				"_options": [{
+						"text": "External",
+						"_isCorrect": true
+					},
+					{
+						"text": "Internal",
+						"_isCorrect": false
+					}
+				]
+			},
+			{
+				"text": "Air pollution",
+				"_options": [{
+						"text": "External",
+						"_isCorrect": true
+					},
+					{
+						"text": "Internal",
+						"_isCorrect": false
+					}
+				]
+			},
+			{
+				"text": "Respiratory disease",
+				"_options": [{
+						"text": "External",
+						"_isCorrect": false
+					},
+					{
+						"text": "Internal",
+						"_isCorrect": true
+					}
+				]
+			},
+			{
+				"text": "Occupation",
+				"_options": [{
+						"text": "External",
+						"_isCorrect": true
+					},
+					{
+						"text": "Internal",
+						"_isCorrect": false
+					}
+				]
+			},
+			{
+				"text": "Sex",
+				"_options": [{
+						"text": "External",
+						"_isCorrect": false
+					},
+					{
+						"text": "Internal",
+						"_isCorrect": true
+					}
+				]
+			},
+			{
+				"text": "Radiation",
+				"_options": [{
+						"text": "External",
+						"_isCorrect": true
+					},
+					{
+						"text": "Internal",
+						"_isCorrect": false
+					}
+				]
+			}
+		],
+		"_feedback": {
+			"title": " ",
+			"correct": "Yes. External risk factors for NSCLC include smoking, air pollution, radiation (e.g., X-rays or radon) and occupational exposure (e.g., asbestos). Internal risk factors for NSCLC include family history, old age, sex and respiratory disease (e.g., chronic obstructive respiratory disease, pneumonia). ",
+			"_incorrect": {
+				"notFinal": "Sorry. External risk factors for NSCLC include smoking, air pollution, radiation (e.g., X-rays or radon) and occupational exposure (e.g., asbestos). Internal risk factors for NSCLC include family history, old age, sex and respiratory disease (e.g., chronic obstructive respiratory disease, pneumonia).",
+				"final": "Sorry. External risk factors for NSCLC include smoking, air pollution, radiation (e.g., X-rays or radon) and occupational exposure (e.g., asbestos). Internal risk factors for NSCLC include family history, old age, sex and respiratory disease (e.g., chronic obstructive respiratory disease, pneumonia)."
+			},
+			"_partlyCorrect": {
+				"notFinal": "You got some of it correct. External risk factors for NSCLC include smoking, air pollution, radiation (e.g., X-rays or radon) and occupational exposure (e.g., asbestos). Internal risk factors for NSCLC include family history, old age, sex and respiratory disease (e.g., chronic obstructive respiratory disease, pneumonia).",
+				"final": "You got some of it correct. External risk factors for NSCLC include smoking, air pollution, radiation (e.g., X-rays or radon) and occupational exposure (e.g., asbestos). Internal risk factors for NSCLC include family history, old age, sex and respiratory disease (e.g., chronic obstructive respiratory disease, pneumonia)."
+			}
+		},
+		"_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+		"_buttons": {
+			"_submit": {
+				"buttonText": "Submit",
+				"ariaLabel": "Select here to submit your answer."
+			},
+			"_reset": {
+				"buttonText": "Reset",
+				"ariaLabel": ""
+			},
+			"_showCorrectAnswer": {
+				"buttonText": "Show Correct Answer",
+				"ariaLabel": ""
+			},
+			"_hideCorrectAnswer": {
+				"buttonText": "Show My Answerr",
+				"ariaLabel": ""
+			},
+			"_showFeedback": {
+				"buttonText": "Show feedback",
+				"ariaLabel": ""
+			},
+			"remainingAttemptsText": "attempts remaining",
+			"remainingAttemptText": "final attempt"
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-375",
+		"_parentId": "b-365",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "",
+		"_layout": "full",
+		"_attempts": 1,
+		"_shouldDisplayAttempts": false,
+		"_questionWeight": 1,
+		"_isRandom": false,
+		"_selectable": 1,
+		"_canShowModelAnswer": true,
+		"_canShowFeedback": true,
+		"_canShowMarking": true,
+		"_recordInteraction": true,
+		"title": "MCQ",
+		"displayTitle": "",
+		"questionTitle": "Dummy testing display for SCORM",
+		"body": "<p>What constitutes a biomarker?</p>",
+		"instruction": "<b></b>",
+
+		"_items": [{
+				"text": "An objective measurable indicator of a normal or pathologic biological state",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "A molecular phenotype of an organism",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Any symptom that is indicative of a disease",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Any subjective indicator of a normal or pathologic state",
+				"_shouldBeSelected": false
+			}
+		],
+		"_feedback": {
+			"title": " ",
+			"correct": "Yes. A biomarker is simply an objective measurable indicator of a normal or pathologic biological state.",
+			"_incorrect": {
+				"notFinal": "Sorry. A biomarker is simply an objective measurable indicator of a normal or pathologic biological state.",
+				"final": "Sorry. A biomarker is simply an objective measurable indicator of a normal or pathologic biological state."
+			},
+			"_partlyCorrect": {
+				"notFinal": "Sorry. A biomarker is simply an objective measurable indicator of a normal or pathologic biological state.",
+				"final": "Sorry. A biomarker is simply an objective measurable indicator of a normal or pathologic biological state."
+			}
+		},
+		"_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+		"_buttons": {
+			"_submit": {
+				"buttonText": "Submit",
+				"ariaLabel": "Select here to submit your answer."
+			},
+			"_reset": {
+				"buttonText": "Reset",
+				"ariaLabel": ""
+			},
+			"_showCorrectAnswer": {
+				"buttonText": "Show Correct Answer",
+				"ariaLabel": ""
+			},
+			"_hideCorrectAnswer": {
+				"buttonText": "Show My Answer",
+				"ariaLabel": ""
+			},
+			"_showFeedback": {
+				"buttonText": "Show feedback",
+				"ariaLabel": ""
+			},
+			"remainingAttemptsText": "attempts remaining",
+			"remainingAttemptText": "final attempt"
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-385",
+		"_parentId": "b-370",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "",
+		"_layout": "full",
+		"_attempts": 1,
+		"_shouldDisplayAttempts": false,
+		"_questionWeight": 1,
+		"_isRandom": false,
+		"_selectable": 8,
+		"_canShowModelAnswer": true,
+		"_canShowFeedback": true,
+		"_canShowMarking": true,
+		"_recordInteraction": true,
+		"title": "MCQ",
+		"displayTitle": "",
+		"questionTitle": "Dummy testing display for SCORM",
+		"body": "<p>Identify the biomarkers associated with NSCLC.</p>",
+		"instruction": "<b>Select all that apply.</b>",
+
+		"_items": [{
+				"text": "ROS1",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "ER",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "BCRA",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "MET",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "ALK",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "CA125",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "BCR-ABL",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "EGFR T790M",
+				"_shouldBeSelected": true
+			}
+		],
+		"_feedback": {
+			"title": " ",
+			"correct": "Yes. ROS1, MET, ALK and EGFR T790M are all biomarkers associated with NSCLC.",
+			"_incorrect": {
+				"notFinal": "Sorry. ROS1, MET, ALK and EGFR T790M are all biomarkers associated with NSCLC.",
+				"final": "Sorry. ROS1, MET, ALK and EGFR T790M are all biomarkers associated with NSCLC."
+			},
+			"_partlyCorrect": {
+				"notFinal": "Sorry. ROS1, MET, ALK and EGFR T790M are all biomarkers associated with NSCLC.",
+				"final": "Sorry. ROS1, MET, ALK and EGFR T790M are all biomarkers associated with NSCLC."
+			}
+		},
+		"_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+		"_buttons": {
+			"_submit": {
+				"buttonText": "Submit",
+				"ariaLabel": "Select here to submit your answer."
+			},
+			"_reset": {
+				"buttonText": "Reset",
+				"ariaLabel": ""
+			},
+			"_showCorrectAnswer": {
+				"buttonText": "Show Correct Answer",
+				"ariaLabel": ""
+			},
+			"_hideCorrectAnswer": {
+				"buttonText": "Show My Answer",
+				"ariaLabel": ""
+			},
+			"_showFeedback": {
+				"buttonText": "Show feedback",
+				"ariaLabel": ""
+			},
+			"remainingAttemptsText": "attempts remaining",
+			"remainingAttemptText": "final attempt"
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-390",
+		"_parentId": "b-375",
+		"_classes": "",
+		"_layout": "full",
+		"_type": "component",
+		"_component": "matching",
+		"_attempts": 1,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": false,
+		"_canShowModelAnswer": true,
+		"_canShowFeedback": true,
+		"_canShowMarking": true,
+		"_recordInteraction": true,
+		"_questionWeight": 1,
+		"title": "Matching",
+		"displayTitle": "",
+		"questionTitle": "Dummy testing display for SCORM",
+		"body": "<p>Match the biomarkers with the therapies that target them.</p>",
+		"instruction": "",
+
+		"placeholder": "select an option",
+		"_items": [{
+				"text": "EGFR",
+				"_options": [{
+						"text": "Crizotinib, ceritinib, alectinib",
+						"_isCorrect": false
+					},
+					{
+						"text": "Gefitinib, erlotinib, afatinib",
+						"_isCorrect": true
+					},
+					{
+						"text": "Nintedanib",
+						"_isCorrect": false
+					},
+					{
+						"text": "Osimertinib",
+						"_isCorrect": false
+					}
+				]
+			},
+			{
+				"text": "ALK",
+				"_options": [{
+						"text": "Crizotinib, ceritinib, alectinib",
+						"_isCorrect": true
+					},
+					{
+						"text": "Gefitinib, erlotinib, afatinib",
+						"_isCorrect": false
+					},
+					{
+						"text": "Nintedanib",
+						"_isCorrect": false
+					},
+					{
+						"text": "Osimertinib",
+						"_isCorrect": false
+					}
+				]
+			},
+			{
+				"text": "VEGF, PDGFR, FGFR",
+				"_options": [{
+						"text": "Crizotinib, ceritinib, alectinib",
+						"_isCorrect": false
+					},
+					{
+						"text": "Gefitinib, erlotinib, afatinib",
+						"_isCorrect": false
+					},
+					{
+						"text": "Nintedanib",
+						"_isCorrect": true
+					},
+					{
+						"text": "Osimertinib",
+						"_isCorrect": false
+					}
+				]
+			},
+			{
+				"text": "EGFR T790M",
+				"_options": [{
+						"text": "Crizotinib, ceritinib, alectinib",
+						"_isCorrect": false
+					},
+					{
+						"text": "Gefitinib, erlotinib, afatinib",
+						"_isCorrect": false
+					},
+					{
+						"text": "Nintedanib",
+						"_isCorrect": false
+					},
+					{
+						"text": "Osimertinib",
+						"_isCorrect": true
+					}
+				]
+			}
+		],
+		"_feedback": {
+			"title": " ",
+			"correct": "Yes. Gefitinib, erlotinib and afatinib inhibit the tyrosine kinase on the intracellular region of the EGFR receptor. Crizotinib, ceritinib and alectinib inhibit the kinase activity of ALK. Nintedanib inhibits blood vessel formation in tumours. Osimertinib, an irreversible EGFR inhibitor, targets EGFR molecules that have EGFR sensitising mutations as well as T790M resistance mutations.",
+			"_incorrect": {
+				"notFinal": "Sorry. Gefitinib, erlotinib and afatinib inhibit the tyrosine kinase on the intracellular region of the EGFR receptor. Crizotinib, ceritinib and alectinib inhibit the kinase activity of ALK. Nintedanib inhibits blood vessel formation in tumours. Osimertinib, an irreversible EGFR inhibitor, targets EGFR molecules that have EGFR sensitising mutations as well as T790M resistance mutations.",
+				"final": "Sorry. Gefitinib, erlotinib and afatinib inhibit the tyrosine kinase on the intracellular region of the EGFR receptor. Crizotinib, ceritinib and alectinib inhibit the kinase activity of ALK. Nintedanib inhibits blood vessel formation in tumours. Osimertinib, an irreversible EGFR inhibitor, targets EGFR molecules that have EGFR sensitising mutations as well as T790M resistance mutations."
+			},
+			"_partlyCorrect": {
+				"notFinal": "You got some of it correct. Gefitinib, erlotinib and afatinib inhibit the tyrosine kinase on the intracellular region of the EGFR receptor. Crizotinib, ceritinib and alectinib inhibit the kinase activity of ALK. Nintedanib inhibits blood vessel formation in tumours. Osimertinib, an irreversible EGFR inhibitor, targets EGFR molecules that have EGFR sensitising mutations as well as T790M resistance mutations.",
+				"final": "You got some of it correct. Gefitinib, erlotinib and afatinib inhibit the tyrosine kinase on the intracellular region of the EGFR receptor. Crizotinib, ceritinib and alectinib inhibit the kinase activity of ALK. Nintedanib inhibits blood vessel formation in tumours. Osimertinib, an irreversible EGFR inhibitor, targets EGFR molecules that have EGFR sensitising mutations as well as T790M resistance mutations."
+			}
+		},
+		"_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+		"_buttons": {
+			"_submit": {
+				"buttonText": "Submit",
+				"ariaLabel": "Select here to submit your answer."
+			},
+			"_reset": {
+				"buttonText": "Reset",
+				"ariaLabel": ""
+			},
+			"_showCorrectAnswer": {
+				"buttonText": "Show Correct Answer",
+				"ariaLabel": ""
+			},
+			"_hideCorrectAnswer": {
+				"buttonText": "Show My Answer",
+				"ariaLabel": ""
+			},
+			"_showFeedback": {
+				"buttonText": "Show feedback",
+				"ariaLabel": ""
+			},
+			"remainingAttemptsText": "attempts remaining",
+			"remainingAttemptText": "final attempt"
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-400",
+		"_parentId": "b-380",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "",
+		"_layout": "full",
+		"_attempts": 1,
+		"_shouldDisplayAttempts": false,
+		"_questionWeight": 1,
+		"_isRandom": false,
+		"_selectable": 7,
+		"_canShowModelAnswer": true,
+		"_canShowFeedback": true,
+		"_canShowMarking": true,
+		"_recordInteraction": true,
+		"title": "MCQ",
+		"displayTitle": "",
+		"questionTitle": "Dummy testing display for SCORM",
+		"body": "<p>Identify the common side effects from targeted therapies in NSCLC.</p>",
+		"instruction": "<b>Select all that apply.</b>",
+
+		"_items": [{
+				"text": "Rash",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Hand-foot syndrome",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Peripheral neuropathy",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Nausea",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Diarrhoea",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Paronychia",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Alopecia",
+				"_shouldBeSelected": false
+			}
+		],
+		"_feedback": {
+			"title": " ",
+			"correct": "Yes. Rash, nausea, diarrhoea and paronychia are common side effects from targeted therapies in NSCLC.",
+			"_incorrect": {
+				"notFinal": "Sorry. Rash, nausea, diarrhoea and paronychia are common side effects from targeted therapies in NSCLC.",
+				"final": "Sorry. Rash, nausea, diarrhoea and paronychia are common side effects from targeted therapies in NSCLC."
+			},
+			"_partlyCorrect": {
+				"notFinal": "Sorry. Rash, nausea, diarrhoea and paronychia are common side effects from targeted therapies in NSCLC.",
+				"final": "Sorry. Rash, nausea, diarrhoea and paronychia are common side effects from targeted therapies in NSCLC."
+			}
+		},
+		"_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+		"_buttons": {
+			"_submit": {
+				"buttonText": "Submit",
+				"ariaLabel": "Select here to submit your answer."
+			},
+			"_reset": {
+				"buttonText": "Reset",
+				"ariaLabel": ""
+			},
+			"_showCorrectAnswer": {
+				"buttonText": "Show Correct Answer",
+				"ariaLabel": ""
+			},
+			"_hideCorrectAnswer": {
+				"buttonText": "Show My Answer",
+				"ariaLabel": ""
+			},
+			"_showFeedback": {
+				"buttonText": "Show feedback",
+				"ariaLabel": ""
+			},
+			"remainingAttemptsText": "attempts remaining",
+			"remainingAttemptText": "final attempt"
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-405",
+		"_parentId": "b-385",
+		"_classes": "",
+		"_layout": "full",
+		"_type": "component",
+		"_component": "matching",
+		"_attempts": 1,
+		"_shouldDisplayAttempts": false,
+		"_isRandom": false,
+		"_canShowModelAnswer": true,
+		"_canShowFeedback": true,
+		"_canShowMarking": true,
+		"_recordInteraction": true,
+		"_questionWeight": 1,
+		"title": "Matching",
+		"displayTitle": "",
+		"questionTitle": "Dummy testing display for SCORM",
+		"body": "<p>Can you correctly match the side effect described with its therapy?</p>",
+		"instruction": "",
+		"placeholder": "select an option",
+		"_items": [{
+				"text": "The rash caused by this therapy should be managed preventatively with moisturisers.",
+				"_options": [{
+						"text": "ALK inhibitors",
+						"_isCorrect": false
+					},
+					{
+						"text": "EGFR targeted therapies",
+						"_isCorrect": true
+					},
+					{
+						"text": "VEGF inhibitors",
+						"_isCorrect": false
+					}
+				]
+			},
+			{
+				"text": "QTc prolongation has been reported with this therapy.",
+				"_options": [{
+						"text": "ALK inhibitors",
+						"_isCorrect": true
+					},
+					{
+						"text": "EGFR targeted therapies",
+						"_isCorrect": false
+					},
+					{
+						"text": "VEGF inhibitors",
+						"_isCorrect": false
+					}
+				]
+			},
+			{
+				"text": "Liver function should be monitored with this therapy.",
+				"_options": [{
+						"text": "ALK inhibitors",
+						"_isCorrect": false
+					},
+					{
+						"text": "EGFR targeted therapies",
+						"_isCorrect": true
+					},
+					{
+						"text": "VEGF inhibitors",
+						"_isCorrect": false
+					}
+				]
+			},
+			{
+				"text": "What should be done when a patient experiences grade 3 rash?",
+				"_options": [{
+						"text": "Continue treatment with reduced dose",
+						"_isCorrect": false
+					},
+					{
+						"text": "Permanently discontinue the treatment",
+						"_isCorrect": false
+					},
+					{
+						"text": "Temporarily discontinue the treatment",
+						"_isCorrect": true
+					}
+				]
+			}
+		],
+		"_feedback": {
+			"title": " ",
+			"correct": "Yes. The rash caused by EGFR targeted therapies should be managed preventatively with moisturisers and by ensuring protection against sunlight exposure (SPF 30). Rare cases of liver failure have also been reported in EGFR targeted therapies. Therefore, the liver function of patients at risk should be monitored. QT prolongation and bradycardia have been reported with ALK inhibitors.",
+			"_incorrect": {
+				"notFinal": "Sorry. The rash caused by EGFR targeted therapies should be managed preventatively with moisturisers and by ensuring protection against sunlight exposure (SPF 30). Rare cases of liver failure have also been reported in EGFR targeted therapies. Therefore, the liver function of patients at risk should be monitored. QT prolongation and bradycardia have been reported with ALK inhibitors.",
+				"final": "Sorry. The rash caused by EGFR targeted therapies should be managed preventatively with moisturisers and by ensuring protection against sunlight exposure (SPF 30). Rare cases of liver failure have also been reported in EGFR targeted therapies. Therefore, the liver function of patients at risk should be monitored. QT prolongation and bradycardia have been reported with ALK inhibitors."
+			},
+			"_partlyCorrect": {
+				"notFinal": "You got some of it correct. The rash caused by EGFR targeted therapies should be managed preventatively with moisturisers and by protecting against sunlight exposure (SPF 30). If patients experience grade 3 rash, the treatment should be discontinued and only reinstated at reduced dose after resolution to grade 2 or lower. Rare cases of liver failure have also been reported in EGFR targeted therapies. Therefore, the liver function of patients at risk should be monitored. QT prolongation and bradycardia have been reported with ALK inhibitors.",
+				"final": "You got some of it correct. The rash caused by EGFR targeted therapies should be managed preventatively with moisturisers and by protecting against sunlight exposure (SPF 30). If patients experience grade 3 rash, the treatment should be discontinued and only reinstated at reduced dose after resolution to grade 2 or lower. Rare cases of liver failure have also been reported in EGFR targeted therapies. Therefore, the liver function of patients at risk should be monitored. QT prolongation and bradycardia have been reported with ALK inhibitors."
+			}
+		},
+		"_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+		"_buttons": {
+			"_submit": {
+				"buttonText": "Submit",
+				"ariaLabel": "Select here to submit your answer."
+			},
+			"_reset": {
+				"buttonText": "Reset",
+				"ariaLabel": ""
+			},
+			"_showCorrectAnswer": {
+				"buttonText": "Show Correct Answer",
+				"ariaLabel": ""
+			},
+			"_hideCorrectAnswer": {
+				"buttonText": "Show My Answer",
+				"ariaLabel": ""
+			},
+			"_showFeedback": {
+				"buttonText": "Show feedback",
+				"ariaLabel": ""
+			},
+			"remainingAttemptsText": "attempts remaining",
+			"remainingAttemptText": "final attempt"
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-410",
+		"_parentId": "b-390",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "",
+		"_layout": "full",
+		"_attempts": 1,
+		"_shouldDisplayAttempts": false,
+		"_questionWeight": 1,
+		"_isRandom": false,
+		"_selectable": 5,
+		"_canShowModelAnswer": true,
+		"_canShowFeedback": true,
+		"_canShowMarking": true,
+		"_recordInteraction": true,
+		"title": "MCQ",
+		"displayTitle": "",
+		"questionTitle": "Dummy testing display for SCORM",
+		"body": "<p>Identify the statements that are true.</p>",
+		"instruction": "<b>Select all that apply.</b>",
+
+		"_items": [{
+				"text": "Patients are generally adherent to cancer therapy.",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Non-adherence to therapy can increase the use of health care resources.",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Adherence to therapy is higher with complex treatments.",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Patients with adequate support systems tend to be more adherent to therapy.",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Side effects can impact patient adherence to therapy.",
+				"_shouldBeSelected": true
+			}
+		],
+		"_feedback": {
+			"title": " ",
+			"correct": "Yes. Adherence to oral anticancer treatment is very variable and can be extremely low. Non-adherence may increase the risk of toxicity, decrease efficacy and increase use of health care resources. Treatment-related factors for non-adherence include complexity of treatment, cost of treatment, risk of side effects and delay in treatment benefits. Patient-related factors include lack of an adequate support system and lack of an understanding of the need for the treatment.",
+			"_incorrect": {
+				"notFinal": "Sorry. Adherence to oral anticancer treatment is very variable and can be extremely low. Non-adherence may increase the risk of toxicity, decrease efficacy and increase use of health care resources. Treatment-related factors for non-adherence include complexity of treatment, cost of treatment, risk of side effects and delay in treatment benefits. Patient-related factors include lack of an adequate support system and lack of an understanding of the need for the treatment.",
+				"final": "Sorry. Adherence to oral anticancer treatment is very variable and can be extremely low. Non-adherence may increase the risk of toxicity, decrease efficacy and increase use of health care resources. Treatment-related factors for non-adherence include complexity of treatment, cost of treatment, risk of side effects and delay in treatment benefits. Patient-related factors include lack of an adequate support system and lack of an understanding of the need for the treatment."
+			},
+			"_partlyCorrect": {
+				"notFinal": "Sorry. Adherence to oral anticancer treatment is very variable and can be extremely low. Non-adherence may increase the risk of toxicity, decrease efficacy and increase use of health care resources. Treatment-related factors for non-adherence include complexity of treatment, cost of treatment, risk of side effects and delay in treatment benefits. Patient-related factors include lack of an adequate support system and lack of an understanding of the need for the treatment.",
+				"final": "Sorry. Adherence to oral anticancer treatment is very variable and can be extremely low. Non-adherence may increase the risk of toxicity, decrease efficacy and increase use of health care resources. Treatment-related factors for non-adherence include complexity of treatment, cost of treatment, risk of side effects and delay in treatment benefits. Patient-related factors include lack of an adequate support system and lack of an understanding of the need for the treatment."
+			}
+		},
+		"_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+		"_buttons": {
+			"_submit": {
+				"buttonText": "Submit",
+				"ariaLabel": "Select here to submit your answer."
+			},
+			"_reset": {
+				"buttonText": "Reset",
+				"ariaLabel": ""
+			},
+			"_showCorrectAnswer": {
+				"buttonText": "Show Correct Answer",
+				"ariaLabel": ""
+			},
+			"_hideCorrectAnswer": {
+				"buttonText": "Show My Answer",
+				"ariaLabel": ""
+			},
+			"_showFeedback": {
+				"buttonText": "Show feedback",
+				"ariaLabel": ""
+			},
+			"remainingAttemptsText": "attempts remaining",
+			"remainingAttemptText": "final attempt"
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-415",
+		"_parentId": "b-395",
+		"_type": "component",
+		"_component": "assessmentResults",
+		"_classes": "",
+		"_layout": "full",
+		"_isVisibleBeforeCompletion": false,
+		"_assessmentId": "a-30",
+		"title": "",
+		"displayTitle": "Quiz Result",
+		"body": "",
+		"instruction": "",
+		"_home": {
+			"button": "Review Module"
+		},
+		"_retry": {
+			"button": "Retry Quiz",
+			"_comment": "use {{attempts}}, {{attemptsSpent}} and {{attemptsLeft}} to display attempts",
+			"feedback": ""
+		},
+		"_comment": "use {{score}}, {{maxScore}} and {{scoreAsPercent}} to display score and percentage",
+		"_completionBody": "",
+		"_bands": [{
+				"_score": 0,
+				"feedback": "You correctly answered {{{score}}} out of {{{maxScore}}} questions. Your score was {{scoreAsPercent}}%. <br><br>If you want to improve your score, you could review the module once again and then have another go at the Test Your Knowledge",
+				"_allowRetry": true
+			},
+			{
+				"_score": 50,
+				"feedback": "You correctly answered {{{score}}} out of {{{maxScore}}} questions. Your score was {{scoreAsPercent}}%. <br><br>If you want to improve your score, you could review the module once again and then have another go at the Test Your Knowledge",
+				"_allowRetry": true
+			},
+			{
+				"_score": 75,
+				"feedback": "Congratulations! You correctly answered {{{score}}} out of {{{maxScore}}} questions. Your score was {{scoreAsPercent}}%. Good job.",
+				"_allowRetry": true
+			},
+			{
+				"_score": 100,
+				"feedback": "Congratulations! You were simply fabulous. You got all eight questions correct. Well done!",
+				"_allowRetry": true
+			}
+		]
+	},
+	{
+		"_id": "c-416",
+		"_parentId": "b-396",
+		"_type": "component",
+		"_component": "navigate",
+		"_classes": "",
+		"_layout": "full",
+		"title": "",
+		"displayTitle": "",
+		"body": "&nbsp;",
+		"align": "right",
+		"instruction": "",
+		"_items": [{
+			"navigateTo": "co-35",
+			"_graphic": {
+				"alt": "",
+				"title": "",
+				"large": "",
+				"medium": "",
+				"small": ""
+			},
+			"NavigateTitle": "Next Topic",
+			"moduleTitle": "Improved Your Knowledge?<br> – Post-Assessment"
+		}],
+		"_pageLevelProgress": {
+			"_isEnabled": false
+		}
+	},
+
+
+
+
+	{
+		"_id": "c-420",
+		"_parentId": "b-400",
+		"_type": "component",
+		"_component": "text",
+		"_classes": "",
+		"_layout": "full",
+		"title": "Improved Your Knowledge? – Post-Assessment",
+		"displayTitle": "",
+		"body": "When you get back to the lung cancer patients at your clinic, what will you do differently? Let’s take another look at the questions you faced at the beginning of the module.",
+		"instruction": ""
+	},
+	{
+		"_id": "c-425",
+		"_parentId": "b-405",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "",
+		"_layout": "full",
+		"_attempts": 1,
+		"_shouldDisplayAttempts": false,
+		"_questionWeight": 1,
+		"_isRandom": false,
+		"_selectable": 7,
+		"_canShowModelAnswer": true,
+		"_canShowFeedback": false,
+		"_canShowMarking": true,
+		"_recordInteraction": true,
+		"title": "MCQ",
+		"displayTitle": "",
+		"questionTitle": "Dummy testing display for SCORM",
+		"body": "Treatment with targeted therapies is associated with specific side effects. Which <strong>specific</strong> side effects will you monitor closely in patients being treated with EGFR inhibitors?",
+		"instruction": "<b></b>",
+		"_items": [{
+				"text": "Liver function",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Heart Rate",
+				"_shouldBeSelected": false,
+				"feedback": "Option two incorrect feedback"
+			},
+			{
+				"text": "Blood pressure",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Cough",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Fever",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Eye problems",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Breathlessness",
+				"_shouldBeSelected": true
+			}
+		],
+		"_feedback": {
+			"title": " ",
+			"correct": "Yes, you are monitoring the correct side effects. Patients being treated with EGFR inhibitors have to be specifically monitored for cough, fever and breathlessness, which may be symptoms of potentially fatal interstitial lung disease. Patients taking erlotinib should be monitored for eye problems while patients taking afatinib should also be monitored for keratitis.",
+			"_incorrect": {
+				"final": "Sorry, that’s not it. Patients being treated with EGFR inhibitors have to be specifically monitored for cough, fever and breathlessness, which may be symptoms of potentially fatal interstitial lung disease. Patients taking erlotinib should be monitored for eye problems while patients taking afatinib should also be monitored for keratitis."
+			},
+			"_partlyCorrect": {
+				"final": "You got some of them right. Patients being treated with EGFR inhibitors have to be specifically monitored for cough, fever and breathlessness, which may be symptoms of potentially fatal interstitial lung disease. Patients taking erlotinib should be monitored for eye problems while patients taking afatinib should also be monitored for keratitis."
+			}
+		},
+		"_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+
+	},
+	{
+		"_id": "c-430",
+		"_parentId": "b-410",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "transparent-background-block",
+		"_layout": "full",
+		"_attempts": 1,
+		"_shouldDisplayAttempts": false,
+		"_questionWeight": 1,
+		"_isRandom": false,
+		"_selectable": 8,
+		"_canShowModelAnswer": true,
+		"_canShowFeedback": false,
+		"_canShowMarking": true,
+		"_recordInteraction": true,
+		"title": "MCQ",
+		"displayTitle": "",
+		"questionTitle": "Dummy testing display for SCORM",
+		"body": "Which <strong>common</strong> side effects do you currently advise your patients to look out for when they are being treated with EGFR inhibitors?",
+		"instruction": "<b></b>",
+		"_items": [{
+				"text": "Dry skin",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Constipation",
+				"_shouldBeSelected": false,
+				"feedback": "Option two incorrect feedback"
+			},
+			{
+				"text": "Abdominal pain",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Paronychia",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Low-grade diarrhoea",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Vomiting",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Rash",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Nausea",
+				"_shouldBeSelected": true
+			}
+		],
+		"_feedback": {
+			"title": " ",
+			"correct": "Yes, the most common side effects of EGFR inhibitors are dry skin, paronychia and rash, and also low-grade diarrhoea and nausea.",
+			"_incorrect": {
+				"final": "Sorry, that’s not it. The most common side effects of EGFR inhibitors are dry skin, paronychia and rash, and also low-grade diarrhoea and nausea."
+			},
+			"_partlyCorrect": {
+				"final": "You got some of them right. The most common side effects of EGFR inhibitors are dry skin, paronychia and rash, and also low-grade diarrhoea and nausea."
+			}
+		},
+		"_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+
+	},
+	{
+		"_id": "c-435",
+		"_parentId": "b-415",
+		"_type": "component",
+		"_component": "mcq",
+		"_classes": "",
+		"_layout": "full",
+		"_attempts": 1,
+		"_shouldDisplayAttempts": false,
+		"_questionWeight": 1,
+		"_isRandom": false,
+		"_selectable": 5,
+		"_canShowModelAnswer": true,
+		"_canShowFeedback": false,
+		"_canShowMarking": true,
+		"_recordInteraction": true,
+		"title": "MCQ",
+		"displayTitle": "",
+		"questionTitle": "Dummy testing display for SCORM",
+		"body": "<p>What management or prevention advice do you give to your patients who develop cutaneous side effects following treatment with a targeted therapy?</p>",
+		"instruction": "<b></b>",
+		"_items": [{
+				"text": "Moisturise the skin intensely with regular use of an emollient",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Moisturise the skin intensely with regular use of moisturising oils",
+				"_shouldBeSelected": false,
+				"feedback": "Option two incorrect feedback"
+			},
+			{
+				"text": "Take oral antibiotics",
+				"_shouldBeSelected": false
+			},
+			{
+				"text": "Protect the skin against excessive exposure to sunlight",
+				"_shouldBeSelected": true
+			},
+			{
+				"text": "Use an SPF 30 UVA and UVB",
+				"_shouldBeSelected": true
+			}
+		],
+		"_feedback": {
+			"title": " ",
+			"correct": "Yes, patients who develop cutaneous side effects after treatment with a targeted therapy should moisturise their skin intensely with regular use of an emollient, protect the skin against excessive exposure to sunlight and use SPF 30 UVA and UVB.",
+			"_incorrect": {
+				"final": "Sorry, that’s not it. Patients who develop cutaneous side effects after treatment with a targeted therapy should moisturise their skin intensely with regular use of an emollient, protect the skin against excessive exposure to sunlight and use SPF 30 UVA and UVB."
+			},
+			"_partlyCorrect": {
+				"final": "You got some of them right. Patients who develop cutaneous side effects after treatment with a targeted therapy should moisturise their skin intensely with regular use of an emollient, protect the skin against excessive exposure to sunlight and use SPF 30 UVA and UVB."
+			}
+		},
+		"_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+
+	},
+	{
+		"_id": "c-440",
+		"_parentId": "b-420",
+		"_type": "component",
+		"_component": "slider",
+		"_classes": "transparent-background-block",
+		"_layout": "full",
+		"title": "Slider type component",
+		"displayTitle": "",
+		"questionTitle": "Dummy testing display for SCORM",
+		"body": "On a scale of 1–10, with 1 being not very confident and 10 being very confident, how confident do you feel recognising and distinguishing the different side effects associated with different targeted therapies?",
+		"instruction": "",
+		"_attempts": 1,
+		"_shouldDisplayAttempts": false,
+		"_questionWeight": 1,
+		"_canShowModelAnswer": false,
+		"_canShowFeedback": false,
+		"_canShowMarking": true,
+		"_recordInteraction": true,
+		"_showNumber": true,
+		"_showScaleIndicator": true,
+		"_showScale": true,
+		"_showScaleNumbers": true,
+		"labelStart": "not very confident",
+		"labelEnd": "very confident",
+		"_scaleStart": 1,
+		"_scaleEnd": 10,
+		"_scaleStep": 1,
+		"_correctAnswer": "",
+		"_correctRange": {
+			"_bottom": 7,
+			"_top": 10
+		},
+		"_feedback": {
+			"title": "Feedback",
+			"correct": "",
+			"_incorrect": {
+				"notFinal": "",
+				"final": ""
+			},
+			"_partlyCorrect": {
+				"notFinal": "",
+				"final": ""
+			}
+		},
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "c-445",
+		"_parentId": "b-425",
+		"_type": "component",
+		"_component": "assessmentResults",
+		"_classes": "",
+		"_layout": "full",
+		"_isVisibleBeforeCompletion": false,
+		"_assessmentId": "a-35",
+		"title": "",
+		"displayTitle": "",
+		"body": "",
+		"instruction": "",
+		"_home": {
+			"button": "Review Module"
+		},
+		"_retry": {
+			"button": "Retry Quiz",
+			"_comment": "use {{attempts}}, {{attemptsSpent}} and {{attemptsLeft}} to display attempts",
+			"feedback": ""
+		},
+		"_comment": "use {{score}}, {{maxScore}} and {{scoreAsPercent}} to display score and percentage",
+		"_completionBody": "",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		},
+		"_bands": [{
+				"_score": 0,
+				"feedback": "Sorry, but you did not answer any of those questions correctly. You may want to review this module once again.",
+				"_allowRetry": true
+			},
+			{
+				"_score": 25,
+				"feedback": "You correctly answered 1 out of the 3 questions. You may want to review this module once again.",
+				"_allowRetry": true
+			},
+			{
+				"_score": 50,
+				"feedback": "Good job! You correctly answered 2 out of 3 questions.",
+				"_allowRetry": true
+			},
+			{
+				"_score": 75,
+				"feedback": "Excellent! You answered all three questions correctly.",
+				"_allowRetry": true
+			}
+		]
+	},
+	{
+		"_id": "c-450",
+		"_parentId": "b-430",
+		"_type": "component",
+		"_component": "responsiveIframe",
+		"_classes": "",
+		"_layout": "full",
+		"title": "",
+		"displayTitle": "<p style='color: #ffffff; text-align:center;'>Commitment to change</p>",
+		"body": "",
+		"instruction": "",
+		"_source": "course/en/embed/test.html",
+		"_scrolling": "no",
+		"_width": {
+			"_small": 300,
+			"_medium": 660,
+			"_large": 660
+		},
+		"_height": {
+			"_small": 450,
+			"_medium": 285,
+			"_large": 320
+		}
+	}
+]

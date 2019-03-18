@@ -1,0 +1,128 @@
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <script src="external_javascript.js"></script>
+        
+    </head>
+    <body>
+        <style>
+            * {
+                font-family: 'Raleway', sans-serif;
+                font-size: 14px;
+                color: #fff;
+                font-weight: 500;
+                line-height: 1.6;
+            }    
+            #reavel{
+                background-color: #57ba9e;
+                color:#ffffff;
+                margin-top: 20px;
+                /* overflow:hidden; */
+                
+            }
+            #reavel p{
+                color:#ffffff;
+                text-align:center;
+            }
+            form pre{
+                background-color: #57ba9e;
+                color: white;
+                margin: 20px -30px;
+                /* border: 1px solid #F9BE75; */
+            }
+            /* form:hover{
+                background-color: #57ba9e;
+            } */
+            #check{
+                background: transparent;
+                position: absolute;
+                left: 18px;
+                width: 24px;
+                height: 24px;
+                top: 14%;
+                z-index: 0;
+                border: 3px solid #ffffff;
+                font-size: 18px;
+                font-weight: bold;
+                border-radius: 2px;
+            }
+            #check:checked {
+                color: white;
+            }  
+            img{
+                display:block;
+                margin-left:auto;
+                margin-right: auto;
+                /* margin-top:30px; */
+            }  
+            .animated {
+                 -webkit-animation-duration: 1s;
+                 animation-duration: 1s;
+                 -webkit-animation-fill-mode: both;
+                 animation-fill-mode: both;
+            }
+            /*animation of fadeInDown*/
+            @-webkit-keyframes fadeInDown {
+            0% {
+               opacity: 0;
+               -webkit-transform: translateY(-20px);
+            }
+            100% {
+               opacity: 1;
+               -webkit-transform: translateY(0);
+            }
+         }
+         
+         @keyframes fadeInDown {
+            0% {
+               opacity: 0;
+               transform: translateY(-20px);
+            }
+            100% {
+               opacity: 1;
+               transform: translateY(0);
+            }
+         } 
+         .fadeInDown {
+            -webkit-animation-name: fadeInDown;
+            animation-name: fadeInDown;
+         } /*fadeindown animation end*/
+
+         /*bounce animation starts*/
+         .animated { 
+            -webkit-animation-duration: 1s;
+            animation-duration: 1s; 
+            -webkit-animation-fill-mode: both; 
+            animation-fill-mode: both; 
+         }
+          @-webkit-keyframes bounce { 
+            0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);} 
+            40% {-webkit-transform: translateY(-30px);} 
+            60% {-webkit-transform: translateY(-15px);} 
+         } 
+         
+         @keyframes bounce { 
+            0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+            40% {transform: translateY(-30px);} 
+            60% {transform: translateY(-15px);} 
+         }
+         
+         .bounce { 
+            -webkit-animation-name: bounce; 
+            animation-name: bounce; 
+         } /*bounce animation ends*/            
+        </style>
+
+        <p>After completing this module, I can confidently educate my patients and their caregivers on how to manage or prevent treatment-related side effects associated with targeted therapies in NSCLC.</p>
+
+        <form>
+            <pre>
+                <input id="check1" name="check" type="radio" onclick="myfunction()"/> I commit.
+                <input id="check2" name="check" type="radio" onclick="myfunction()"/> I do not commit.
+                <input id="check3" name="check" type="radio" onclick="myfunction()"/> I require further guidance before committing.
+            </pre>
+        </form>
+
+        <div id="reavel" style="display: none"><span><img src="success.png" class='animated bounce' alt="success"/></span><p class = "animated fadeInDown">Congratulations! You have completed the foundation module of Biomarkers and their Emerging Role in Lung Cancer. If you are up for another challenge, you could try the advanced module.</p></div>
+    </body>
+</html>
