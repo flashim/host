@@ -1,98 +1,196 @@
 @font-face {
-  font-family: "TISSub";
-  src: url("../fonts/TISSub.eot"); /* IE9 Compat Modes */
-  src: url("../fonts/TISSub.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("../fonts/TISSub.otf") format("opentype"), /* Open Type Font */
-    url("../fonts/TISSub.svg") format("svg"), /* Legacy iOS */
-    url("../fonts/TISSub.ttf") format("truetype"), /* Safari, Android, iOS */
-    url("../fonts/TISSub.woff") format("woff"), /* Modern Browsers */
-    url("../fonts/TISSub.woff2") format("woff2"); /* Modern Browsers */
+  font-family: "Shusha";
+  src: url("../fonts/shusha.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
-@font-face{
+@font-face {
+  font-family: "TISClassEdge_Regular";
+  src: url("../fonts/TISClassEdge_Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TISClassEdge_Bold";
+  src: url("../fonts/TISClassEdge_Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TISClassEdge_BoldItalics";
+  src: url("../fonts/TISClassEdge_BoldItalics.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TISClassEdge_Italics";
+  src: url("../fonts/TISClassEdge_Italics.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: "TISSub";
+  src: url("../fonts/TISSub.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/TISSub.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */
+    url("../fonts/TISSub.otf") format("opentype"),
+    /* Open Type Font */
+    url("../fonts/TISSub.svg") format("svg"),
+    /* Legacy iOS */
+    url("../fonts/TISSub.ttf") format("truetype"),
+    /* Safari, Android, iOS */
+    url("../fonts/TISSub.woff") format("woff"),
+    /* Modern Browsers */
+    url("../fonts/TISSub.woff2") format("woff2");
+  /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "TISSub-Bold";
-  src: url("../fonts/TISSubBold.eot"); /* IE9 Compat Modes */
-  src: url("../fonts/TISSubBold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("../fonts/TISSubBold.otf") format("opentype"), /* Open Type Font */
-    url("../fonts/TISSubBold.svg") format("svg"), /* Legacy iOS */
-    url("../fonts/TISSubBold.ttf") format("truetype"), /* Safari, Android, iOS */
-    url("../fonts/TISSubBold.woff") format("woff"), /* Modern Browsers */
-    url("../fonts/TISSubBold.woff2") format("woff2"); /* Modern Browsers */
+  src: url("../fonts/TISSubBold.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/TISSubBold.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */
+    url("../fonts/TISSubBold.otf") format("opentype"),
+    /* Open Type Font */
+    url("../fonts/TISSubBold.svg") format("svg"),
+    /* Legacy iOS */
+    url("../fonts/TISSubBold.ttf") format("truetype"),
+    /* Safari, Android, iOS */
+    url("../fonts/TISSubBold.woff") format("woff"),
+    /* Modern Browsers */
+    url("../fonts/TISSubBold.woff2") format("woff2");
+  /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "TISSub-BoldItalic";
-  src: url("../fonts/TISSubBoldItalic.eot"); /* IE9 Compat Modes */
-  src: url("../fonts/TISSubBoldItalic.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("../fonts/TISSubBoldItalic.otf") format("opentype"), /* Open Type Font */
-    url("../fonts/TISSubBoldItalic.svg") format("svg"), /* Legacy iOS */
-    url("../fonts/TISSubBoldItalic.ttf") format("truetype"), /* Safari, Android, iOS */
-    url("../fonts/TISSubBoldItalic.woff") format("woff"), /* Modern Browsers */
-    url("../fonts/TISSubBoldItalic.woff2") format("woff2"); /* Modern Browsers */
+  src: url("../fonts/TISSubBoldItalic.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/TISSubBoldItalic.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */
+    url("../fonts/TISSubBoldItalic.otf") format("opentype"),
+    /* Open Type Font */
+    url("../fonts/TISSubBoldItalic.svg") format("svg"),
+    /* Legacy iOS */
+    url("../fonts/TISSubBoldItalic.ttf") format("truetype"),
+    /* Safari, Android, iOS */
+    url("../fonts/TISSubBoldItalic.woff") format("woff"),
+    /* Modern Browsers */
+    url("../fonts/TISSubBoldItalic.woff2") format("woff2");
+  /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: "TISSub-Italic";
-  src: url("../fonts/TISSubItalic.eot"); /* IE9 Compat Modes */
-  src: url("../fonts/TISSubItalic.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("../fonts/TISSubItalic.otf") format("opentype"), /* Open Type Font */
-    url("../fonts/TISSubItalic.svg") format("svg"), /* Legacy iOS */
-    url("../fonts/TISSubItalic.ttf") format("truetype"), /* Safari, Android, iOS */
-    url("../fonts/TISSubItalic.woff") format("woff"), /* Modern Browsers */
-    url("../fonts/TISSubItalic.woff2") format("woff2"); /* Modern Browsers */
+  src: url("../fonts/TISSubItalic.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/TISSubItalic.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */
+    url("../fonts/TISSubItalic.otf") format("opentype"),
+    /* Open Type Font */
+    url("../fonts/TISSubItalic.svg") format("svg"),
+    /* Legacy iOS */
+    url("../fonts/TISSubItalic.ttf") format("truetype"),
+    /* Safari, Android, iOS */
+    url("../fonts/TISSubItalic.woff") format("woff"),
+    /* Modern Browsers */
+    url("../fonts/TISSubItalic.woff2") format("woff2");
+  /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: "TISSup";
-  src: url("../fonts/TISSup.eot"); /* IE9 Compat Modes */
-  src: url("../fonts/TISSup.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("../fonts/TISSup.otf") format("opentype"), /* Open Type Font */
-    url("../fonts/TISSup.svg") format("svg"), /* Legacy iOS */
-    url("../fonts/TISSup.ttf") format("truetype"), /* Safari, Android, iOS */
-    url("../fonts/TISSup.woff") format("woff"), /* Modern Browsers */
-    url("../fonts/TISSup.woff2") format("woff2"); /* Modern Browsers */
+  src: url("../fonts/TISSup.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/TISSup.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */
+    url("../fonts/TISSup.otf") format("opentype"),
+    /* Open Type Font */
+    url("../fonts/TISSup.svg") format("svg"),
+    /* Legacy iOS */
+    url("../fonts/TISSup.ttf") format("truetype"),
+    /* Safari, Android, iOS */
+    url("../fonts/TISSup.woff") format("woff"),
+    /* Modern Browsers */
+    url("../fonts/TISSup.woff2") format("woff2");
+  /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: "TISSup-Bold";
-  src: url("../fonts/TISSupBold.eot"); /* IE9 Compat Modes */
-  src: url("../fonts/TISSupBold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("../fonts/TISSupBold.otf") format("opentype"), /* Open Type Font */
-    url("../fonts/TISSupBold.svg") format("svg"), /* Legacy iOS */
-    url("../fonts/TISSupBold.ttf") format("truetype"), /* Safari, Android, iOS */
-    url("../fonts/TISSupBold.woff") format("woff"), /* Modern Browsers */
-    url("../fonts/TISSupBold.woff2") format("woff2"); /* Modern Browsers */
+  src: url("../fonts/TISSupBold.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/TISSupBold.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */
+    url("../fonts/TISSupBold.otf") format("opentype"),
+    /* Open Type Font */
+    url("../fonts/TISSupBold.svg") format("svg"),
+    /* Legacy iOS */
+    url("../fonts/TISSupBold.ttf") format("truetype"),
+    /* Safari, Android, iOS */
+    url("../fonts/TISSupBold.woff") format("woff"),
+    /* Modern Browsers */
+    url("../fonts/TISSupBold.woff2") format("woff2");
+  /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: "TISSup-BoldItalic";
-  src: url("../fonts/TISSupBoldItalic.eot"); /* IE9 Compat Modes */
-  src: url("../fonts/TISSupBoldItalic.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("../fonts/TISSupBoldItalic.otf") format("opentype"), /* Open Type Font */
-    url("../fonts/TISSupBoldItalic.svg") format("svg"), /* Legacy iOS */
-    url("../fonts/TISSupBoldItalic.ttf") format("truetype"), /* Safari, Android, iOS */
-    url("../fonts/TISSupBoldItalic.woff") format("woff"), /* Modern Browsers */
-    url("../fonts/TISSupBoldItalic.woff2") format("woff2"); /* Modern Browsers */
+  src: url("../fonts/TISSupBoldItalic.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/TISSupBoldItalic.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */
+    url("../fonts/TISSupBoldItalic.otf") format("opentype"),
+    /* Open Type Font */
+    url("../fonts/TISSupBoldItalic.svg") format("svg"),
+    /* Legacy iOS */
+    url("../fonts/TISSupBoldItalic.ttf") format("truetype"),
+    /* Safari, Android, iOS */
+    url("../fonts/TISSupBoldItalic.woff") format("woff"),
+    /* Modern Browsers */
+    url("../fonts/TISSupBoldItalic.woff2") format("woff2");
+  /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: "TISSup-Italic";
-  src: url("../fonts/TISSupItalic.eot"); /* IE9 Compat Modes */
-  src: url("../fonts/TISSupItalic.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("../fonts/TISSupItalic.otf") format("opentype"), /* Open Type Font */
-    url("../fonts/TISSupItalic.svg") format("svg"), /* Legacy iOS */
-    url("../fonts/TISSupItalic.ttf") format("truetype"), /* Safari, Android, iOS */
-    url("../fonts/TISSupItalic.woff") format("woff"), /* Modern Browsers */
-    url("../fonts/TISSupItalic.woff2") format("woff2"); /* Modern Browsers */
+  src: url("../fonts/TISSupItalic.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/TISSupItalic.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */
+    url("../fonts/TISSupItalic.otf") format("opentype"),
+    /* Open Type Font */
+    url("../fonts/TISSupItalic.svg") format("svg"),
+    /* Legacy iOS */
+    url("../fonts/TISSupItalic.ttf") format("truetype"),
+    /* Safari, Android, iOS */
+    url("../fonts/TISSupItalic.woff") format("woff"),
+    /* Modern Browsers */
+    url("../fonts/TISSupItalic.woff2") format("woff2");
+  /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
 }

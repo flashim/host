@@ -4,14 +4,25 @@
 		<title>Figures of Speech - Level 5</title>
 		<description>Completing sentences</description>
 		<language>English</language>	
-		<gameRules teamMode="true" timerMode="true" passMode="false" randamizeQmode="false"/>
+		<gameRules teamMode="true" timerMode="true" passMode="false" randomizeQmode="false"/>
 		<dependent>
 		<file src=""/>
 		</dependent>
 	</metadata>		
 	<Gamedata>	
 		<GameEdge>
-		
+			<GameSettings>
+				<position>
+					<options>
+						<x>10</x>
+						<y>0</y>
+					</options>
+					<question>
+						<x>100</x>
+						<y>180</y>
+					</question>
+				</position>
+			</GameSettings>
 			<descriptionTxt><![CDATA[Score the maximum number of runs as quickly as you can to win the cricket championship!
 			
 You need to play two innings. Simply choose the correct option from the ones given and click Strike.

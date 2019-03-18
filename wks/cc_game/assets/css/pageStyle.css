@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'TISClassEdge_Regular', Fallback, sans-serif;
     overflow: hidden;
     width: 100%;
     height: 100%;
@@ -14,12 +14,12 @@ body {
 }
 
 .progress {
-    background: rgba(114, 186, 94, 0.3);
+    background: rgba(0, 0, 0, 0);
     position: fixed;
     width: 0%;
-    height: 30px;
+    height: 20px;
     z-index: 3;
-    padding-top: 15px;
+    padding-top: -20px;
     text-align: center;
 }
 
@@ -69,7 +69,7 @@ body {
     z-index: 1;
     /* Sit on top */
     left: 0;
-    top: 0;
+    top: 14px;
     width: 100%;
     /* Full width */
     height: 100%;
@@ -78,6 +78,8 @@ body {
     /* Fallback color */
     background-color: rgba(0, 0, 0, 0.4);
     /* Black w/ opacity */
+
+    font-size: 16px;
 }
 
 /* Modal Content/Box */
@@ -141,7 +143,7 @@ table {
 }
 
 table td {
-    width: 70%;
+    width: 60%;
     padding: 4% 4% 5% 4%;
     color: #555555;
 
@@ -191,3 +193,20 @@ screen and (max-height: 480px) {
         max-width: 280px;
     }
 } */
+select#timer, select#timer option{
+    font-family: 'TISClassEdge_Regular', Fallback, sans-serif;
+    color: #555555;
+    font-size: 14px;
+    font-weight: 700;
+}
+input#randomizeCheckbox{
+    margin-left: 0;
+}
+#progress{
+    position: absolute;
+    top: 45%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+}
