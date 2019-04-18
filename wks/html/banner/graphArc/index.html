@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Arc Animation 2</title>
+
+<script src="./createjsLib/easeljs/easeljs-0.7.1.min.js"></script>
+<script src="./createjsLib/tweenjs/tweenjs-0.5.1.min.js"></script>
+<script src="./createjsLib/easeljs/movieclip-0.7.1.min.js"></script>
+<script src="assets.js"></script>
+
+<script type="text/javascript">
+	function imageOpen(a)
+	{
+		//alert(a);
+		//$('#flashContent').css({'opacity':'0'});
+		//open_forgot_popup();
+		//console.log(a+ " >>>> clicked");
+		window.open('http://www.google.com', '_self');
+		//window.open('webpage/index.html?pagename=pageA', '_self');
+		//$('.image1').show();
+	}
+	window.onunload = function(){};
+</script>
+
+</head>
+
+<body onload="init();" style="background-color:#D4D4D4">
+	<canvas id="canvas" width="1920" height="1080" style="background-color:#ffffff"></canvas>
+	<script src="arcScript.js"></script>
+</body>
+</html>
+
