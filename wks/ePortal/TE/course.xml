@@ -1,0 +1,254 @@
+<Lessons>
+	<Topics>
+		<Help>Yes</Help>
+		<Menu>Yes</Menu>
+		<Resource>No</Resource>
+		<Exit>Yes</Exit>
+		<Transcript>Yes</Transcript>
+		<Glossary>Yes</Glossary>
+		<Home>No</Home>
+
+		<Version>Beta</Version>
+		<DebugMode>true</DebugMode>
+
+		<CourseName>CourseName</CourseName>
+		<MLesson>
+			<LessonName>Product Introduction</LessonName>
+			<Topic>
+				<TopicName>Product Introduction</TopicName>
+				<Pages>
+					<Page>
+						<PageName>media/Lesson_01/lesson01_slide01.swf</PageName>
+						<PageType>Animation</PageType>
+						<Slider>Yes</Slider>
+						<Audio>Yes</Audio>
+						<NextButton>Yes</NextButton>
+						<TranscriptText>
+							<![CDATA[Transcript will come here...]]>
+						</TranscriptText>
+					</Page>
+				</Pages>
+			</Topic>
+		</MLesson>
+		<MLesson>
+			<LessonName>Learning Objectives</LessonName>
+			<Topic>
+				<TopicName>Learning Objectives</TopicName>
+				<Pages>
+					<Page Name="Overview"
+						  SubName="Overview"
+						  PageLevelTabs="1"
+						  PageLevelSubTabs="1">
+						<PageName>media/Lesson_01/lesson01_slide02.swf</PageName>
+						<PageType>SelfCheck</PageType>
+						<Slider>Yes</Slider>
+						<Audio>Yes</Audio>
+						<NextButton>Yes</NextButton>
+						<TranscriptText>
+							<![CDATA[Transcript will come here...]]>
+						</TranscriptText>
+						<Tabs>
+							<Tab>
+								<TranscriptText>
+									<![CDATA[Transcript will come here...]]>
+								</TranscriptText>
+							</Tab>
+						</Tabs>
+					</Page>
+				</Pages>
+			</Topic>
+		</MLesson>
+		<MLesson>
+			<LessonName>Accordion</LessonName>
+			<Topic>
+				<TopicName>Accordion</TopicName>
+				<Pages>
+					<Page Name="Overview"
+						  SubName="Overview"
+						  PageLevelTabs="7"
+						  PageLevelSubTabs="7">
+						<PageName>media/Lesson_01/accordion.swf</PageName>
+						<PageType>SelfCheck</PageType>
+						<Slider>Yes</Slider>
+						<Audio>Yes</Audio>
+						<NextButton>Yes</NextButton>
+						<TranscriptText>
+							<![CDATA[Transcript will come here...]]>
+						</TranscriptText>
+					</Page>
+				</Pages>
+			</Topic>
+		</MLesson>
+		<MLesson>
+			<LessonName>Learning Check</LessonName>
+			<Topic>
+				<TopicName>Learning Check</TopicName>
+				<Pages>
+					<Page>
+						<PageName>media/Lesson_01/learningCheck.swf</PageName>
+						<PageType>SelfCheck</PageType>
+						<Slider>Yes</Slider>
+						<Audio>Yes</Audio>
+						<NextButton>Yes</NextButton>
+						<TranscriptText>
+							<![CDATA[Transcript will come here...]]>
+						</TranscriptText>
+						
+					</Page>
+				</Pages>
+			</Topic>
+		</MLesson>
+		<MLesson>
+			<LessonName>Learning Check&#8211;1</LessonName>
+			<Topic>
+				<TopicName>Learning Check&#8211;1</TopicName>
+				<Pages>
+					<Page>
+						<PageName>media/Lesson_01/learningCheck_dnd.swf</PageName>
+						<PageType>SelfCheck</PageType>
+						<Slider>No</Slider>
+						<Audio>Yes</Audio>
+						<NextButton>Yes</NextButton>
+						<TranscriptText>
+							<![CDATA[Transcript will come here...]]>
+						</TranscriptText>
+					</Page>
+				</Pages>
+			</Topic>
+		</MLesson>
+		<!--
+		<MLesson>
+			<LessonName>Learning Check&#8211;2</LessonName>
+			<Topic>
+				<TopicName>Learning Check&#8211;2</TopicName>
+				<Pages>
+					<Page Name="tab"
+						  SubName="tab"
+						  PageLevelTabs="17"
+						  PageLevelSubTabs="17">
+						<PageName>media/Lesson_01/tab.swf</PageName>
+						<PageType>Selfcheck</PageType>
+						<Slider>No</Slider>
+						<Audio>Yes</Audio>
+						<NextButton>Yes</NextButton>
+						<TranscriptText>
+							<![CDATA[Transcript will come here...]]>
+						</TranscriptText>
+					</Page>
+				</Pages>
+			</Topic>
+		</MLesson>
+		-->
+		
+		<MLesson>
+			<LessonName>Call to Action</LessonName>
+			<Topic>
+				<TopicName>Call to Action</TopicName>
+				<Pages>
+					<Page Name="tab"
+						  SubName="tab"
+						  PageLevelTabs="14"
+						  PageLevelSubTabs="14">
+						<PageName>media/Lesson_01/rollover2.swf</PageName>
+						<PageType>SelfCheck</PageType>
+						<Slider>Yes</Slider>
+						<Audio>Yes</Audio>
+						<NextButton>Yes</NextButton>
+						<TranscriptText>
+							<![CDATA[Transcript will come here...]]>
+						</TranscriptText>
+					</Page>
+				</Pages>
+			</Topic>
+		</MLesson>
+		
+		<MLesson>
+			<LessonName>Outside the Box Connectors</LessonName>
+			<Topic>
+				<TopicName>Outside the Box Connectors</TopicName>
+				<Pages>
+					<Page Name="Box"
+						  SubName="Box"
+						  PageLevelTabs="9"
+						  PageLevelSubTabs="9">
+						<PageName>media/Lesson_01/lesson01_slide07.swf</PageName>
+						<PageType>SelfCheck</PageType>
+						<Slider>Yes</Slider>
+						<Audio>Yes</Audio>
+						<NextButton>Yes</NextButton>
+						<TranscriptText>
+							<![CDATA[Transcript will come here...]]>
+						</TranscriptText>
+					</Page>
+				</Pages>
+			</Topic>
+		</MLesson>
+		<MLesson>
+			<LessonName>High Bandwidth Solutions</LessonName>
+			<Topic>
+				<TopicName>High Bandwidth Solutions</TopicName>
+				<Pages>
+					<Page>
+						<PageName>media/Lesson_01/lesson01_slide11.swf</PageName>
+						<PageType>Animation</PageType>
+						<Slider>Yes</Slider>
+						<Audio>Yes</Audio>
+						<NextButton>Yes</NextButton>
+						<TranscriptText>
+							<![CDATA[Transcript will come here...]]>
+						</TranscriptText>
+					</Page>
+				</Pages>
+			</Topic>
+		</MLesson>
+		<!--
+		<MLesson>
+			<LessonName>Resources</LessonName>
+			<Topic>
+				<TopicName>Resources</TopicName>
+				<Pages>
+					<Page>
+						<PageName>media/Lesson_01/resource.swf</PageName>
+						<PageType>Animation</PageType>
+						<Slider>Yes</Slider>
+						<Audio>Yes</Audio>
+						<NextButton>Yes</NextButton>
+						<TranscriptText>
+							<![CDATA[Transcript will come here...]]>
+						</TranscriptText>
+					</Page>
+				</Pages>
+			</Topic>
+
+		</MLesson>
+		-->
+		
+		<!-- Assessment -->
+		<MLesson>
+			<LessonName>Assessment</LessonName>
+			<Topic>
+				<TopicName>Assessment</TopicName>
+				<Pages>
+					<Page>
+						<PageName>media/Assessments/Assessment_Intro.swf</PageName>
+						<PageType>Animation</PageType>
+						<Slider>Yes</Slider>
+						<Audio>Yes</Audio>
+						<TranscriptText>
+							<![CDATA[Transcript will come here...]]>
+						</TranscriptText>
+					</Page>
+					<Page>
+						<PageName>media/Assessments/Assessment_Shell.swf</PageName>
+						<PageType>Assessment</PageType>
+						<Slider>No</Slider>
+						<Audio>No</Audio>
+						<TranscriptText>
+							<![CDATA[Transcript will come here...]]>
+						</TranscriptText>
+					</Page>
+				</Pages>
+			</Topic>
+		</MLesson>
+	</Topics>
+</Lessons>
