@@ -1,0 +1,80 @@
+<Assessments>
+	<!-- Whether randomization is required in Assessments or Not, Possible values are Yes,yes,No,no-->
+	<IsRandomize><![CDATA[No]]></IsRandomize>
+			<!-- Correct Feedback -->
+	<CorrectFeedback><![CDATA[<b>That's correct.</b><BR>Click <B>Next</B> to continue.]]></CorrectFeedback>
+			<!-- Incorrect Feedback -->
+	<IncorrectFeedback><![CDATA[<b>That's incorrect.</b><BR>Click <B>Next</B> to continue.]]></IncorrectFeedback>
+			<!-- Assessment Questions -->
+
+	<Questions>
+		<!-- Question 1 -->				
+			<Question>
+				<QuestionText><![CDATA[Economy Power II Connector Systems are ideal for which of the following industries?]]></QuestionText>
+				<Options>
+					<Option><![CDATA[Appliance]]></Option>
+					<Option><![CDATA[Industrial machinery]]></Option>					
+					<Option><![CDATA[Commercial building equipment]]></Option>
+					<Option><![CDATA[Data communications]]></Option>
+					<Option><![CDATA[Lighting]]></Option>
+					<Option><![CDATA[Vending]]></Option>
+			</Options>
+				<CorrectAnswer><![CDATA[1,2,3,4,5,6]]></CorrectAnswer>	
+				<IsOptionRandomize><![CDATA[No]]></IsOptionRandomize>								
+			</Question>	
+	
+
+			<!-- Question 2 -->				
+			<Question>
+				<QuestionText><![CDATA[Terminal Position Assurance (TPA) is optional and not required to be used with either connector system.]]></QuestionText>
+				<Options>
+					<Option><![CDATA[True]]></Option>
+					<Option><![CDATA[False]]></Option>
+			</Options>
+				<CorrectAnswer><![CDATA[1]]></CorrectAnswer>	
+				<IsOptionRandomize><![CDATA[No]]></IsOptionRandomize>								
+			</Question>	
+
+		<!-- Question 3 -->				
+		<Question>
+			<QuestionText><![CDATA[Which of the following are the benefits of Economy Power 2.5 Connector System? ]]></QuestionText>
+			<Options>
+				<Option><![CDATA[Positive external locking latch]]></Option>
+				<Option><![CDATA[Anti-snag feature]]></Option>
+				<Option><![CDATA[Polarization tabs]]></Option>
+				<Option><![CDATA[Has a centerline pitch or 3.96mm (0.156")]]></Option>
+				<Option><![CDATA[Intermateable with JST XA offering]]></Option>
+			</Options>
+			<CorrectAnswer><![CDATA[1,2,3,5]]></CorrectAnswer>	
+			<IsOptionRandomize><![CDATA[No]]></IsOptionRandomize>
+		</Question>
+		
+	<!-- Question 4 -->				
+		<Question>
+			<QuestionText><![CDATA[Which of the following are the features of the EP II terminal contact?]]></QuestionText>
+			<Options>
+				<Option><![CDATA[Lance-less contact design ]]></Option>
+				<Option><![CDATA[Rated at 4.5 Amps and 250 Volts]]></Option>
+				<Option><![CDATA[Positive audible latch ]]></Option>
+				<Option><![CDATA[Asymmetrical terminals ]]></Option>
+			</Options>
+			<CorrectAnswer><![CDATA[1,3,4]]></CorrectAnswer>	
+			<IsOptionRandomize><![CDATA[No]]></IsOptionRandomize>
+		</Question>	
+		
+		<!-- Question 5 -->				
+			<Question>
+				<QuestionText><![CDATA[What is the function of the Polarization tabs in EP-II Connector System?]]></QuestionText>
+				<Options>
+					<Option><![CDATA[Help prevent the mismating with corresponding header]]></Option>
+					<Option><![CDATA[Ensures complete system mating]]></Option>					
+					<Option><![CDATA[Allows for continuity testing and visual terminal inspection]]></Option>
+					<Option><![CDATA[Prevents wire from snagging on the connector latch]]></Option>
+			</Options>
+				<CorrectAnswer><![CDATA[1]]></CorrectAnswer>	
+				<IsOptionRandomize><![CDATA[No]]></IsOptionRandomize>								
+			</Question>	
+		
+			
+	</Questions>
+</Assessments>

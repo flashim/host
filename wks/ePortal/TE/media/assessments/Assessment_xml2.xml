@@ -1,0 +1,78 @@
+<Assessments>
+	<!-- Whether randomization is required in Assessments or Not, Possible values are Yes,yes,No,no-->
+	<IsRandomize><![CDATA[No]]></IsRandomize>
+			<!-- Correct Feedback -->
+	<CorrectFeedback><![CDATA[<b>That's correct.</b><BR>Click <B>Next</B> to continue.]]></CorrectFeedback>
+			<!-- Incorrect Feedback -->
+	<IncorrectFeedback><![CDATA[<b>That's incorrect.</b><BR>Click <B>Next</B> to continue.]]></IncorrectFeedback>
+			<!-- Assessment Questions -->
+
+	<Questions>
+		<!-- Question 1 -->				
+			<Question>
+				<QuestionText><![CDATA[Contacts in double-sided compressive contact connectors are not soldered.]]></QuestionText>
+				<Options>
+					<Option><![CDATA[True]]></Option>
+					<Option><![CDATA[False]]></Option>
+		         </Options>
+				<CorrectAnswer><![CDATA[1]]></CorrectAnswer>	
+				<IsOptionRandomize><![CDATA[No]]></IsOptionRandomize>
+				
+			</Question>	
+	
+
+			<!-- Question 2 -->				
+			<Question>
+				<QuestionText><![CDATA[Which of these factors should be considered when determining connector stack height?]]></QuestionText>
+				<Options>
+					<Option><![CDATA[Clearance]]></Option>
+					<Option><![CDATA[Connector centerline]]></Option>
+					<Option><![CDATA[Airflow]]></Option>
+					<Option><![CDATA[Durability cycles]]></Option>
+			</Options>
+				<CorrectAnswer><![CDATA[1,3]]></CorrectAnswer>	
+				<IsOptionRandomize><![CDATA[No]]></IsOptionRandomize>								
+			</Question>	
+
+		<!-- Question 3 -->				
+		<Question>
+			<QuestionText><![CDATA[]]></QuestionText>
+			<Options>
+				<Option><![CDATA[]]></Option>
+				<Option><![CDATA[]]></Option>
+				<Option><![CDATA[]]></Option>
+				<Option><![CDATA[]]></Option>
+			</Options>
+			<CorrectAnswer><![CDATA[]]></CorrectAnswer>	
+			<IsOptionRandomize><![CDATA[No]]></IsOptionRandomize>
+			<PageToLoad><![CDATA[Drag_drop_01]]></PageToLoad>
+		</Question>
+		
+	<!-- Question 4 -->				
+		<Question>
+			<QuestionText><![CDATA[]]></QuestionText>
+			<Options>
+				<Option><![CDATA[True]]></Option>
+				<Option><![CDATA[False]]></Option>
+				</Options>
+			<CorrectAnswer><![CDATA[2]]></CorrectAnswer>	
+			<IsOptionRandomize><![CDATA[No]]></IsOptionRandomize>
+		</Question>	
+		
+		<!-- Question 5 -->				
+			<Question>
+				<QuestionText><![CDATA[]]></QuestionText>
+				<Options>
+					<Option><![CDATA[]]></Option>
+					<Option><![CDATA[]]></Option>					
+					<Option><![CDATA[]]></Option>
+					<Option><![CDATA[]]></Option>
+			</Options>
+				<CorrectAnswer><![CDATA[]]></CorrectAnswer>	
+				<IsOptionRandomize><![CDATA[No]]></IsOptionRandomize>
+				<PageToLoad><![CDATA[Drag_drop_02]]></PageToLoad>
+			</Question>	
+		
+			
+	</Questions>
+</Assessments>
