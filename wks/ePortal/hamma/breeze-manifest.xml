@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<breeze-manifest version="1.0" xmlns="http://breeze.macromedia.com/ns/breeze-manifest" generator="Adobe Captivate 5">
+	<document type="captivate" icon="captivate" section-count="119"/>
+	<assets>
+		<asset type="document-view">
+			
+			<entry href="Nutrition.swf" width="910" height="672" />
+			<file href="Nutrition.swf"/>
+			<entry href="Nutrition_skin.swf" width="910" height="672"/><file href="Nutrition_skin.swf"/>
+			
+			
+		</asset>
+		
+		<asset type="document-metadata" location="file"><file href="Nutrition_BDMetadata.xml"/></asset>
+		
+	</assets>
+</breeze-manifest>
